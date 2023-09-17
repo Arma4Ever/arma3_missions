@@ -1,0 +1,1 @@
+[[[["vn\objects_f_vietnam\usarmy\furniture\vn_us_common_table_01.p3d",[6784.31,4549.81,4.60665],[[0,1,0],[0,0,1]]],["vn\objects_f_vietnam\civ\furniture\bar\vn_bar_01_table_01.p3d",[6784.22,4550.84,4.6079],[[0.999498,0.031677,0],[0,0,1]]],["vn\objects_f_vietnam\usarmy\furniture\vn_b_prop_fan_desk_01.p3d",[6783.79,4549.8,5.361],[[-0.283443,-0.958989,0],[0,0,1]]]],""]]
