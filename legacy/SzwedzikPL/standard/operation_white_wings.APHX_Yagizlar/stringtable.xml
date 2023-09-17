@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3C">
+  <Package name="Mission">
+    <Key ID="STR_Mission_CfgDebriefing_MissonEnd">
+      <Polish>MISJA ZAKOŃCZONA</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndSuccess">
+      <Polish>Misja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndExfilDesc">
+      <Polish>Misja zakończona</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndExfilSubTitle">
+      <Polish>Ewakuacja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndFailed">
+      <Polish>Misja zakończona niepowodzeniem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllTasksAccomplished">
+      <Polish>Wszystkie zadania zostały wykonane</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissionFailed">
+      <Polish>Misja nie powiodła się</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllUnitsDead">
+      <Polish>Wszystkie jednostki poległy</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgLeaflets_Example">
+      <Polish>Przykładowy tekst ulotki</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgUnitInsignia_111thID">
+      <Polish>111 Dywizja Piechoty</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_CreatingObjects">
+      <Polish>Tworzenie obiektów...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_Gen">
+      <Polish>GENERAŁ</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_1">
+      <Polish>Kapitan Johnson, słucham.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_2">
+      <Polish>Kapitanie, mówi Generał Wilson, CENTCOM.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_3">
+      <Polish>Tak generale.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_4">
+      <Polish>Mamy awaryjną sytuację.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_5">
+      <Polish>20 minut temu w prowincji Yagizlar uprowadzono dwóch agentów CIA.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_6">
+      <Polish>Kryptonim: Whitney i Yellowstone.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_7">
+      <Polish>Pracowali nad sprawą skradzionych Javelinów.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_8">
+      <Polish>Najprawdopodobniej znaleźli te wyrzutnie, ale zostali zdemaskowani.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_9">
+      <Polish>Nie zdążyli przekazać nam intelu.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_10">
+      <Polish>Żyją?</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_11">
+      <Polish>Ich nadajniki są aktywne, uruchomiliśmy protokół DUSTY.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_12">
+      <Polish>Wiemy dokładnie gdzie ich zabrali.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_13">
+      <Polish>Całe szczęscie... Jaki jest plan?</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_14">
+      <Polish>Zadaniem jest odbić naszych agentów, zdobyć intel gdzie są javeliny, znaleźć je i zniszczyć.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_15">
+      <Polish>Dostaniecie się tam przez HALO, EVAC zapewnią Marines z bazy TRICCO.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_16">
+      <Polish>Jasne. Mam 2 teamy na standby'u w Takmyrze, ile mamy czasu?</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_17">
+      <Polish>Dwie godziny.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_18">
+      <Polish>C-17'tka jest niedostępna, dostaniecie dwie C-130'tki.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_19">
+      <Polish>Operacja ma najwyższy priorytet.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_20">
+      <Polish>Za 10 minut dostaniecie pełen brief.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_21">
+      <Polish>Kryptonim - White Wings.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_22">
+      <Polish>Zrozumiałem, będziemy gotowi.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_23">
+      <Polish>Liczę na was kapitanie.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_24">
+      <Polish>Sprawa jest poważna.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_25">
+      <Polish>Prezydent został poinformowany o całym zajściu, będzie obserwował operację.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub_26">
+      <Polish>Wszystko jasne, nie zawiedziemy.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line1">
+      <Polish>Lotnisko międzynarodowe Takmyr</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line2">
+      <Polish>Południowy Takistan</Polish>
+    </Key>
+    <Key ID="STR_Mission_Info_2hLater">
+      <Polish>2 godziny później...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Check">
+      <Polish>Sprawdź</Polish>
+    </Key>
+    <Key ID="STR_Mission_HQMsg_LaptopT1_Checked">
+      <Polish>Zadanie dodatkowe zostało dodane - lewy panel.</Polish>
+    </Key>
+    <Key ID="STR_Mission_HQMsg_LaptopT2_Checked">
+      <Polish>Zadanie dodatkowe zostało dodane - prawy panel.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Msg_LaptopT1_Title">
+      <Polish>Laptop</Polish>
+    </Key>
+    <Key ID="STR_Mission_Msg_LaptopT1_Text">
+      <Polish>Laptop został uszkodzony, nie reaguje. Wygląda na to, że Whitney nie pękł i zniszczył wszystkie wartościowe informacje... salut!</Polish>
+    </Key>
+    <Key ID="STR_Mission_Msg_ExpPlaceCave">
+      <Polish>Detonator w jaskini ma dużo mniejszy zasięg. Nie odchodź za daleko aby zdetonować ładunek.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Talk_Password">
+      <Polish>Hasło...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_CheckGear">
+      <Polish>Sprawdź wyposażenie</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_CheckGear_ListHeader">
+      <Polish>Wyposażenie %1</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_CheckGear_Notification">
+      <Polish>%1 sprawdza Twoje wyposażenie...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_CheckID">
+      <Polish>Sprawdź tożsamość</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_CheckID_Title">
+      <Polish>Tożsamość</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_TypePassword">
+      <Polish>Podaj hasło do dysku sda3_crypt</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_TypePasswordInfo">
+      <Polish>Podaj hasło do dysku sda3_crypt</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PasswordLabel">
+      <Polish>Hasło:</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PasswordLabel2">
+      <Polish>Wielkość liter nie ma znaczenia</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_IncorrectPassword">
+      <Polish>&lt;t size='2'&gt;Hasło niepoprawne&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_LaptopUnlocked">
+      <Polish>&lt;t size='2'&gt;Dysk odszyfrowany&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_OpNotes">
+      <Polish>Notatki operacyjne</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_OpNote_315_Title">
+      <Polish>Notatka operacyjna #315</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_OpNote_315_Text">
+      <Polish>Data: 21 czerwca, 2014 r.&lt;br/&gt;
+Temat: Aktywność powstańców w prowincji Yagizlar&lt;br/&gt;
+Autor: Yellowstone&lt;br/&gt;
+&lt;br/&gt;
+W okresie od 3 do 21 czerwca obserwujemy wzmożoną aktywność powstańców w rejonie prowincji Yagizlar. Wedle naszej aktualnej wiedzy operacyjnej, przeciwnik gromadzi spore ilości zapasów wszelkiego rodzaju, amunicji, medykamentów oraz żywności.
+&lt;br/&gt;&lt;br/&gt;
+W rejonie prowincji obecnych jest co najmniej 6 hubów używanych przez powstańców jako magazyny. Przybliżone lokalizacje hubów można nakreślić poprzez analizę ruchu jednostek oraz transportów. Ustalenie dokładnej lokalizacji któregokolwiek z tych hubów do tej pory nie przyniosło pożądanych rezultatów.
+&lt;br/&gt;&lt;br/&gt;
+Wedle naszej analizy operacyjnej, bazując na zebranych danych, szacujemy, iż przeciwnik może przygotowywać się do działań ofensywnych na większą skalę w którejś z ościennych prowincji lub kilku z nich. Sugerujemy wzmożenie aktywności wywiadowczej w rejonie oraz zwiększenia budżetu w celu zasilenia naszej siatki dodatkowym personelem.
+</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_OpNote_316_Title">
+      <Polish>Notatka operacyjna #316</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_OpNote_316_Text">
+      <Polish>Data: 27 czerwca, 2014 r.&lt;br/&gt;
+Temat: Obecność gwardii rewolucji w prowincji Yagizlar&lt;br/&gt;
+Autor: Yellowstone&lt;br/&gt;
+&lt;br/&gt;
+W przeciągu ostatnich 6 dni aktywność powstańców w prowincji pozostaje na podwyższonym poziomie. Działania przeciwnika polegające na gromadzeniu zapasów nie ustają. Zaobserwowaliśmy również bardzo przychylne nastawienie lokalnej ludności do sił powstańców, która wspiera ich w ich działaniach.
+&lt;br/&gt;&lt;br/&gt;
+W ramach aktywności operacyjnej w rejonie, udało nam się potwierdzić obecność oddziałów gwardii rewolucji na terenie prowincji. Ich zaangażowanie w operacje na tym terenie może sugerować, iż działania przeciwnika w rejonie są niezwykle istotne dla kierownictwa ruchu powstańców. W obliczu ostatnich wydarzeń, nie można wykluczyć, iż ich aktywność ma związek ze sprawą wyrzutni FGM-148 Javelin.
+&lt;br/&gt;&lt;br/&gt;
+Jako, że obecność gwardii jest wydarzeniem nietypowym jak na ten rejon kraju, przez kilka najbliższych dni nasza siatka operująca na terenie prowincji skupiać się będzie przede wszystkim na ich aktywności, w nadziei, że śledzenie ich poczynań doprowadzi nas do wartościowych informacji.
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_OpNote_317_Title">
+      <Polish>Notatka operacyjna #317</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_OpNote_317_Text">
+      <Polish>Data: 02 lipca, 2014 r.&lt;br/&gt;
+Temat: Wyrzutnie FGM-148 Javelin&lt;br/&gt;
+Autor: Yellowstone&lt;br/&gt;
+&lt;br/&gt;
+Ostatnia decyzja o skupieniu operacji siatki wywiadowczej na działaniach członków gwardii okazała się słuszna. W ramach ostatnich działań operacyjnych udało nam się ustalić dwie prawdopodobne lokalizacje skradzionych wyrzutni FGM-148 Javelin.
+&lt;br/&gt;&lt;br/&gt;
+Pierwsza lokalizacja to podłużny budynek znajdujący się w kompleksie w kwadracie 075E 790N. Wedle naszych obserwacji, ten obiekt cieszy się zainteresowaniem członków gwardii, lecz sam w sobie nie jest silnie broniony. Cel nadaje się do infiltracji przez standardowy, 6-osobowy oddział sił specjalnych.
+&lt;br/&gt;&lt;br/&gt;
+Druga lokalizacja to budynek biurowy znajdujący się w kwadracie 063E 782N. Biorąc pod uwagę ogromny ruch jaki generuje tak placówka oraz względnie niewielki rozmiar samej struktury, szacujemy, iż jest to jedynie wejście do większego kompleksu znajdującego się pod ziemią. Ten rejon kraju słynie z kopalń oraz ogromnych sieci jaskiń, bardzo możliwe, że któraś z nich jest używana przez powstańców jako magazyn lub punkt dowodzenia. Nie mamy wiedzy na temat skali kompleksu oraz jego załodze. Na podstawie zaobserwowanego ruchu, zalecamy, iż wszelkie próby infiltracji podjąć w co najmniej dwa 6-osobowe oddziały sił specjalnych.
+&lt;br/&gt;&lt;br/&gt;
+Niestety, w ramach działań operacyjnych, kilku naszych ludzi (w tym my) mogliśmy zostać narażeni na zdemaskowanie. W uwagi na charakter działań, nie możemy być tego pewni. Zaraz po sporządzeniu tej notatki, zamierzamy przekazać informacje za pośrednictwem wideokonferencji, a następnie tymczasowo ewakuować narażone osoby (w tym nas samych) z terenu prowincji.
+</Polish>
+    </Key>
+    <Key ID="STR_Mission_PlaneTimeHint_120">
+      <Polish>&lt;t size='1.3'&gt;
+Jako dowódca plutonu będziesz otrzymywał informacje od pilota, widzisz je tylko Ty, przekazuj info ludziom w Twoim samolocie.
+&lt;br/&gt;&lt;br/&gt;
+Funkconujesz jako "jump master", kontrolujesz desant i skaczesz jako ostatni. Pilot sam otworzy rampę.
+&lt;br/&gt;&lt;br/&gt;
+Przypomnij swoim ludziom:&lt;br/&gt;
+- Skaczemy na zielone, pojedyńczo, w odstępach.&lt;br/&gt;&lt;br/&gt;
+- Nokto ogranicza widoczność, skaczemy bez, włączamy po otworzeniu spadochronu.&lt;br/&gt;&lt;br/&gt;
+- Odpalamy wysokościomierze i microdagry, otwieramy spadochrony na 700-900m n.p.m. (na wysokościomierzu!!!).&lt;br/&gt;&lt;br/&gt;
+- Zaraz po wylądowaniu idziemy na punkt zbiórki (RP).&lt;br/&gt;&lt;br/&gt;
+- Meldować na radiu o postępach.
+&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_PlaneTimeHint_60">
+      <Polish>&lt;t size='1.3'&gt;
+Pilot: 60 sekund!
+&lt;br/&gt;&lt;br/&gt;
+Przekaż ludziom w Twoim samolocie.
+&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_PlaneTimeHint_15">
+      <Polish>&lt;t size='1.3'&gt;
+Pilot: 15 sekund!
+&lt;br/&gt;&lt;br/&gt;
+Przekaż ludziom w Twoim samolocie.
+&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Enter">
+      <Polish>Wejdź</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Exit">
+      <Polish>Wyjdź</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_StartOp">
+      <Polish>Rozpocznij operację</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_StartOp_Text">
+      <Polish>Upewnij się, że wszyscy są gotowi do rozpoczęcia operacji!!! Ta akcja nie może być cofnięta!&lt;br/&gt;&lt;br/&gt;Po rozpoczęciu operacji czas przeskoczy o 2 godziny, zostaniesz przeniesiony do pokoju dowodzenia a operatorzy zostaną przeniesieni do samolotów aby wykonać desant.&lt;br/&gt;&lt;br/&gt;Jeśli jesteś pewien, że chcesz rozpocząć, kliknij "Rozpocznij".</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_StartOp_Confirm">
+      <Polish>Rozpocznij</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_StartExfil">
+      <Polish>Wezwij ewakuację</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_StartExfil_Text">
+      <Polish>Upewnij się, że jednostki są już na LZ. Tej akcji nie można cofnąć! Operatorzy muszą być na LZ przed wezwaniem ewakuacji (wymóg techniczny).&lt;br/&gt;&lt;br/&gt;Śmigłowce wylądują na LZ ~3 minuty od momentu wezwania - 2 blackhawki + 2 apache.&lt;br/&gt;&lt;br/&gt;Jeśli jesteś pewien, że chcesz wezwać ewakuację, kliknij "Wezwij".</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_StartExfil_Confirm">
+      <Polish>Wezwij</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Title">
+      <Polish>Wstęp</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Wstęp jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Minęły już prawie 2 lata od inwazji USA na Takistan (1 czerwca 2012). Rząd powstały z ramienia USA nieustannie toczy wojnę z Powstańcami Takistanu o kontrolę nad krajem. Ciężkie walki toczą się na terenie praktycznie całego kraju, od zamachów bombowych, po walki regularnych oddziałów w bitwach trwających od kilku godzin do nawet kilku dni.
+&lt;br/&gt;&lt;br/&gt;
+10 czerwca 2014 roku, siatka agentów CIA operująca na terenie Takistanu zdobywa informacje, iż siłom powstańczym udało się zdobyć 6 wyrzutni FGM-148 Javelin wraz z 20 pociskami, które zostały skradzione podczas ataku na jeden z konwojów zaopatrzeniowych w prowincji Anizay. Kilkudniowe śledztwo potwierdza autentyczność tej informacji.
+&lt;br/&gt;&lt;br/&gt;
+Dowództwo generalne sił koalicji w Takistanie, zdając sobie sprawę jakie zagrożenie niesie ze sobą posiadanie przez siły powstańcze tak zaawansowanej broni, nadaje operacji odnalezienia wyrzutni najwyższy priorytet spośród prowadzonych aktualnie misji wywiadowczych.
+&lt;br/&gt;&lt;br/&gt;
+21 czerwca 2014 roku, dwóch agentów CIA pracujących nad odnalezieniem wyrzutni, pseudonimy Whitney i Yellowstone, trafia na trop kilku członków elitarnej gwardii powstańców którzy mogą stać za kradzieżą wyrzutni. Trop ten prowadzi ich do prowincji Yagizlar, na północy Takistanu.
+&lt;br/&gt;&lt;br/&gt;
+2 lipca 2014 roku, po ponad tygodniu wytężonych działań na terenie prowincji, agentom Whitney i Yellowstone udaje się zdobyć kluczowe informacje które mogą prowadzić do prawdopodobnej lokalizacji przechowywania skradzionych wyrzutni. Podczas zdobywania tych informacji, narażają się oni jednak na zdemaskowanie. Nie będąc pewni czy ich obecność została wykryta, postanawiają niezwłocznie przekazać zdobyte informacje do swojego dowódcy.
+&lt;br/&gt;&lt;br/&gt;
+Około godziny 19:30 ma miejsce wideokonferencja pomiędzy agentami a majorem Jamesem Greensem, nadzorującym ich prace nad sprawą wyrzutni. Podczas zdawania raportu nad postępami w śledztwie ma miejsce rajd na kryjówkę agentów, w którym obaj agenci zostają uprowadzeni. Major Greens, obserwując całe zajście na ekranie swojego komputera, przekazuje informacje o zdarzeniu do dowództwa koalicji, które kilka minut później ogłasza nagłą mobilizację sił TIER-1 znajdujących się w głównej bazie sił koalicji, na lotnisku międzynarodowym w stolicy Takistanu - Takmyrze.
+&lt;br/&gt;&lt;br/&gt;
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief_Text">
+      <Polish>
+&lt;img image='data\brief_photo_1.jpg'/&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='14'&gt;
+Briefing jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Znajdujecie się w hangarze na lotnisku międzynarodowym w stolicy Takistanu - Takmyrze. Dowództwo DEVGRU ogłosiło pełną mobilizację i wyznaczyło was, jedynych wolnych na tą chwilę operatorów TIER 1 którzy są w stanie zareagować wystarczająco szybko, do wykonania operacji White Whings.
+&lt;br/&gt;&lt;br/&gt;
+Waszym zadaniem będzie znaleźć i ewakuować dwóch porwanych agentów CIA, pseudonimy Whitney oraz Yellowstone. Ich ostatnią znaną pozycję oznaczono na waszych mapach na podstawie sygnału z podskórnych nadajników GPS aktywowanych przez Majora Jamesa Greensa który był świadkiem uprowadzenia agentów.
+&lt;br/&gt;&lt;br/&gt;
+&lt;img image='data\brief_photo_2.jpg'/&gt;
+&lt;br/&gt;&lt;br/&gt;
+Po ich odnalezieniu, jeśli będzie to możliwe, należy uzyskać od nich informację o lokalizacji 6 skradzionych wyrzutni FGM-148 Javelin oraz 20 pocisków do nich, a następnie znaleźć je i zniszczyć. Przed zniszczeniem, wymagamy potwierdzenia obecności całego skradzionego sprzętu - musimy być absolutnie pewni jego pełnej eliminacji - dlatego konieczne jest znalezienie go przez oddział naziemny.
+&lt;br/&gt;&lt;br/&gt;
+W hangarze na lotnisku otrzymacie dokładny briefing z planu przebiegu operacji. Po briefingu uzbrajacie się zgodnie z wyznaczonymi zadaniami, następnie zostaniecie przetransportowani do dwóch samolotów C-130 (jeden dla ALPHA, drugi dla BRAVO). Po około 2 godzinach lotu powinniście być nad terenem operacji - prowincją Yagizlar, na północy Takistanu. Gdy samolot znajdzie się nad strefą zrzutu, wykonujecie skok HALO z wysokości około 9km. Po wylądowaniu drużyny zbierają się w swoich punktach zbornych (RP ALPHA i RP BRAVO), a następnie przystępują do realizacji wyznaczonych zadań. Na podstawie wstępnej analizy terenu działań oznaczono 8 sugerowanych punktów obserwacyjnych (OP-1 -> OP-8) które mogą pomóc w realizacji misji - nadają się na miejsca do przeprowadzenia zwiadu lub stałej obserwacji przez strzelców wyborowych.
+&lt;br/&gt;&lt;br/&gt;
+Gdy wszystkie zadania zostaną wykonane lub dowódca operacji podejmie decyzję o jej przerwaniu, wszystkie jednostki powinny zebrać się w LZ Dragon w celu ewakuacji. Śmigłowce ewakuacyjne może wezwać tylko dowódca operacji. Ewakuacja zostanie przeprowadzona przez 2 śmigłowce UH-60M Black Hawk w osłonie dwóch AH-64 Apache, które oczekiwać będą na holdzie kilka kilometrów od terenu działań (ETA 3 min od momentu wezwania). W śmigłowcach jest przewidziane miejsce dla każdego operatora oraz 2 naszych agentów.
+&lt;br/&gt;&lt;br/&gt;
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tech_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Wszyscy operatorzy, jako członkowie sił specjalnych, mają podstawowe przeszkolenie medyczne oraz EOD.
+&lt;br/&gt;&lt;br/&gt;
+- Cała misja odbywa się w nocy, czas płynie normalnie.
+&lt;br/&gt;&lt;br/&gt;
+- W trakcie misji mogą (mogą =/= muszą - zależy od postępowania graczy) pojawiać się dodatkowe zadania (widoczne tylko dla dowódcy operacji - do przekazania oddziałom przez radio).
+&lt;br/&gt;&lt;br/&gt;
+- W misji nie ma ukrytego wspomagania widzenia AI. Jeśli jednostka ma noktowizje, gogle będą widoczne na postaci.
+&lt;br/&gt;&lt;br/&gt;
+&lt;/font&gt;&lt;font size='18'&gt;Organizacja&lt;/font&gt;&lt;font size='16'&gt;
+&lt;br/&gt;&lt;br/&gt;
+- Dowódcy oddziałów ALPHA-1 oraz BRAVO-1 dowodzą równocześnie całym plutonem (tj. Dowódca ALPHA-1 dowodzi również oddziałami ALPHA-2 i ALPHA-3, dowódca BRAVO-1 dowodzi również oddziałami BRAVO-2 i BRAVO-3.). Hierarchia ta jest odzwierciedlona w stopniach postaci.
+&lt;br/&gt;&lt;br/&gt;
+- Po briefingu i przezbrojeniu, gdy wszyscy operatorzy będą gotowi (tj. mają na sobie całe wyposażenie, plecaki na brzuchu oraz spadochrony na plecach), HQ daje sygnał do wylotu. Operatorzy zostaną przeniesieni na pokład samolotu automatycznie a czas misji przeskoczy o 2 godziny (czas lotu). Dowódca operacji zostaje przeniesiony do specjalnego pomieszczenia z którego dowodzić będzie operacją (znajdzie tam m.in. terminal UAV do drona krążącego nad terenem operacji).
+&lt;br/&gt;&lt;br/&gt;
+&lt;/font&gt;&lt;font size='18'&gt;Skok&lt;/font&gt;&lt;font size='16'&gt;
+&lt;br/&gt;&lt;br/&gt;
+- Wszystkie akcje na samolotach (np. otwórz rampę) z których będziecie skakać zostały zablokowane. Rampa samolotu otworzy się automatycznie w odpowiednim momencie, sygnałem do skoku będzie zielone światło.
+&lt;br/&gt;&lt;br/&gt;
+- Dowódcy plutonów zostaną umieszczeni najbliżej rampy w swoich samolotach, powinni kontrolować przebieg desantu i wyskoczyć jako ostatni. Będą oni (i tylko oni) dostawać również bezpośrednie info od pilotów o czasie do strefy zrzutu tak aby mogli przekazać to w najwygodniejszy sposób swoim ludziom.
+&lt;br/&gt;&lt;br/&gt;
+&lt;/font&gt;&lt;font size='18'&gt;Agenci&lt;/font&gt;&lt;font size='16'&gt;
+&lt;br/&gt;&lt;br/&gt;
+- Tożsamość agentów należy potwierdzić akcją w menu interakcji "Sprawdź tożsamość".
+&lt;br/&gt;&lt;br/&gt;
+&lt;/font&gt;&lt;font size='18'&gt;Evac&lt;/font&gt;&lt;font size='16'&gt;
+&lt;br/&gt;&lt;br/&gt;
+- Ewakuację z LZ Dragon wzywa HQ z pokoju dowodzenia. Przed wezwaniem śmigieł wszyscy operatorzy powinni być na LZ, LZ powinno być sprawdzone i zabezpieczone.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Support_Text">
+      <Polish>
+&lt;font size='16'&gt;
+Przez cały okres trwania operacji nad terenem działań krążyć będzie dron MQ-9 Reaper uzbrojony w 8 rakiet AGM-114K Hellfire. Dostęp do drona ma tylko dowódca operacji. Za jego pomocą dowódca operacji może obserwować sytuację, kontrolować postępy oddziałów, a w sytuacji krytycznej wspierać nasze siły ogniem. Terminal UAV znajduje się w pokoju dowodzenia do którego dowódca operacji zostanie przeniesiony gdy operatorzy będą już w samolocie.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_OpArea_Text">
+      <Polish>
+&lt;font size='16'&gt;
+Cały teren operacji znajduje się pod pełną kontrolą lądową sił powstańczych, natomiast ich liczba nie jest nam znana. Szacowana liczba ludności cywilnej zamieszkującej teren operacji to około 1 do 2 tysięcy, skupieni głównie w większych miejscowościach - Yagizlari, Binekli oraz Atakent. Poparcie dla sił koalicji w rejonie jest znikome, należy założyć negatywne nastawienie ludności cywilnej do naszej obecności w przypadku gdyby została wykryta. Zaleca się podjęcie wszelkich możliwych kroków w celu uniknięcia wykrycia do czasu odnalezienia agentów.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Rules_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Macie autoryzacje do użycia ostrej amunicji i eliminacji każdego uzbrojonego osobnika.
+&lt;br/&gt;&lt;br/&gt;
+- W przypadku ryzyka wykrycia przez osobę nieuzbrojoną, macie autoryzację do użycia siły w postaci zatrzymania (zakucia) oraz pozostawienia takiej osoby w miejscu w którym nie będzie zagrażać powodzeniu operacji.
+&lt;br/&gt;&lt;br/&gt;
+- Macie autoryzację do eliminacji osób nieuzbrojonych tylko w sytuacjach uzasadnionego ryzyka narażenia życia naszych operatorów przez zachowanie danej osoby (np. próby zaalarmowania sił przeciwnika, agresywnego zachowania w kierunku sił sojuszniczych itp.). Jest to absolutna ostateczność - należy przedsięwziąć wszystkie możliwe kroki w celu uniknięcia wystąpienia takiej sytuacji.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Enemy_Text">
+      <Polish>
+&lt;font size='16'&gt;
+Siły powstańców w rejonie to głównie milicja złożona z lokalnych mieszkańców, posiadającej skąpe przeszkolenie i bardzo lekkie wyposażenie. Spodziewamy się również obecności członków elitarnej gwardii którzy, jak zakładamy, stoją za porwaniem naszych agentów. Gwardziści są postrzegani jako specjalne siły ruchu powstańczego, słyną z zagorzałej wiary oraz dobrego wyszkolenia. Mogą być oni lepiej uzbrojeni, lecz nie odnotowaliśmy obecności ciężkiego sprzętu w rejonie.
+&lt;br/&gt;&lt;br/&gt;
+Spodziewane uzbrojenie przeciwnika to karabiny AK-47/74, Lee Enfield, FN Fal, karabiny maszynowe RPK i PKM, granatniki RPG, lekkie pojazdy typu pickup, możliwie uzbrojone w broń większego kalibru typu DShKM/.50 cal.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Stealth_Text">
+      <Polish>
+&lt;font size='16'&gt;
+Operacja powinna być wykonana w reżimie stealth. Cele powinny być eliminowane synchronicznie, nie alarmując przeciwnika.
+&lt;br/&gt;&lt;br/&gt;
+Identyfikujemy cele, cywili należy neutralizować poprzez zakucie (patrz zasady).
+&lt;br/&gt;&lt;br/&gt;
+Martwe ciała należy ukrywać (akcja ukryj ciało).
+&lt;br/&gt;&lt;br/&gt;
+W budynkach oraz w bliskości do przeciwnika poruszamy się skradając (CTRL+C domyślnie) - aktywację skradania potwierdza ikonka w prawym górnym rogu ekranu.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_BackpackPara_Text">
+      <Polish>
+&lt;font size='16'&gt;
+Spadochrony znajdują się w pomarańczowej skrzynce na środku hangaru. Każdy operator powinien przezbroić się do końca (włącznie z normalnym plecakiem).
+&lt;br/&gt;&lt;br/&gt;
+Gdy operator jest gotowy, poprzez self-interakcje, zakładamy plecak na brzuch, następnie pobieramy spadochron i zakładamy na plecy.
+&lt;br/&gt;&lt;br/&gt;
+Warto zwrócić uwagę, że EQ z plecaka będzie niedostepne podczas skoku, dobrze mieć wszystkie przydatne itemy (np. microdagra) w kamizelce lub mundurze.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+  </Package>
+</Project>

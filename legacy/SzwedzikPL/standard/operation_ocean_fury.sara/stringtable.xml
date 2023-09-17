@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Mission">
+  <Package name="OperationOceanFury">
+    <Key ID="STR_Mission_Intro_Quote">
+      <Original>&lt;t size='2' font='PuristaSemiBold'&gt;Prawdziwy żołnierz walczy nie dlatego, że nienawidzi tego co stoi naprzeciwko niego, ale dlatego, że kocha to co jest za nim&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t size='1.4' font='PuristaMedium'&gt;G.K. Chesterton&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_LoadingQuote">
+      <Original>Wczytywanie inspirującego cytatu...</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Location">
+      <Original>USS Freedom, 9km na południowy wschód od Sahrani</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_UnstuckPlayer">
+      <Original>[USS] Odblokuj postać</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_GetOnUSSTitan">
+      <Original>Wejdź na pokład USS Titan</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_GetOnUSSNewton">
+      <Original>Wejdź na pokład USS Newton</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_Door">
+      <Original>Przejdź do...</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel0">
+      <Original>[0] Płyta</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel0Desc">
+      <Original>&lt;t size='1.5'&gt;Poziom 0&lt;/t&gt;&lt;br/&gt;&lt;t size='3'&gt;Płyta lotniskowca&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel2">
+      <Original>[2] Pokład obserw.</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel2Desc">
+      <Original>&lt;t size='1.5'&gt;Poziom 2&lt;/t&gt;&lt;br/&gt;&lt;t size='3'&gt;Pokład obserwacyjny&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel4">
+      <Original>[4] Pokład obserw.</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel4Desc">
+      <Original>&lt;t size='1.5'&gt;Poziom 4&lt;/t&gt;&lt;br/&gt;&lt;t size='3'&gt;Pokład obserwacyjny&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel5">
+      <Original>[5] Pokład obserw.</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_DoorLevel5Desc">
+      <Original>&lt;t size='1.5'&gt;Poziom 5&lt;/t&gt;&lt;br/&gt;&lt;t size='3'&gt;Pokład obserwacyjny&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_CarrierRamp_ToManyVehicles">
+      <Original>Zablokowana - na rampie może być tylko jeden pojazd</Original>
+    </Key>
+    <Key ID="STR_Mission_CarrierRamp_WrongVehicle">
+      <Original>Zablokowana - niewłaściwy typ pojazdu</Original>
+    </Key>
+    <Key ID="STR_Mission_CarrierRamp_CrewInVehicle">
+      <Original>Zablokowana - załoga musi opuścić pojazd</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_VehicleUnfold">
+      <Original>Rozłóż łopaty</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_VehicleFold">
+      <Original>Złóż łopaty</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_SaveInQuarters">
+      <Original>Wyślij do kwatery</Original>
+    </Key>
+    <Key ID="STR_Mission_Info_ShipReloaded">
+      <Original>Okręt został przeładowany, zatankowany i naprawiony</Original>
+    </Key>
+    <Key ID="STR_Mission_Dialog_SoundPanel_Title">
+      <Original>[USS] Panel dźwiękowy</Original>
+    </Key>
+    <Key ID="STR_Mission_Dialog_SoundPanel_CallOnDeck">
+      <Original>Wezwij na płytę...</Original>
+    </Key>
+    <Key ID="STR_Mission_openBriefingSlidesPanel_Action">
+      <Original>[USS] Panel kontrolny slajdów</Original>
+    </Key>
+    <Key ID="STR_Mission_StudioDirectorDubbing_1">
+      <Original>Nie nie nie... nie strzelajcie, proszę...</Original>
+    </Key>
+    <Key ID="STR_Mission_StudioDirectorDubbing_2">
+      <Original>Trzymają waszego ambasadora w studiu pod budynkiem. Otworzę wam drzwi...</Original>
+    </Key>
+    <Key ID="STR_Mission_StudioDirectorDubbing_3">
+      <Original>już... już... tylko chwilę...</Original>
+    </Key>
+    <Key ID="STR_Mission_StudioDirectorDubbing_4">
+      <Original>Okej, dobra... idźcie na parter.</Original>
+    </Key>
+    <Key ID="STR_Mission_AmbasadorDubbing_1">
+      <Original>Dzięki Bogu... zabierzcie mnie stąd... błagam.</Original>
+    </Key>
+    <Key ID="STR_Mission_EnterStudio_Action">
+      <Original>Wejdź do studia</Original>
+    </Key>
+    <Key ID="STR_Mission_ExitStudio_Action">
+      <Original>Wyjdź ze studia</Original>
+    </Key>
+    <Key ID="STR_Mission_Hint_DoorLocked">
+      <Original>Drzwi są zablokowane</Original>
+    </Key>
+    <Key ID="STR_Mission_MoveAmbasadorToLevel0_Action">
+      <Original>Przenieś ambasadora na parter</Original>
+    </Key>
+    <Key ID="STR_Mission_ArcadiaCivDubbing_1">
+      <Original>Dzięki Bogu, że jesteście... nie myślałem, że się czyiś widok tak ucieszę...</Original>
+    </Key>
+    <Key ID="STR_Mission_ArcadiaCivDubbing_2">
+      <Original>Szpital! Szpital! Do szpitala... yyy... </Original>
+    </Key>
+    <Key ID="STR_Mission_ArcadiaCivDubbing_3">
+      <Original>Część ludzi zabrali do szpitala, źle znosili warunki, zabrali ich tam do szpitala...</Original>
+    </Key>
+    <Key ID="STR_Mission_ArcadiaCivDubbing_4">
+      <Original>szpitala obok...</Original>
+    </Key>
+    <Key ID="STR_Mission_ChanticoCivDubbing_1">
+      <Original>O tak... jak dobrze was widzieć</Original>
+    </Key>
+    <Key ID="STR_Mission_ChanticoCivDubbing_2">
+      <Original>Kilka godzin temu zabrali kilku z nas...</Original>
+    </Key>
+    <Key ID="STR_Mission_ChanticoCivDubbing_3">
+      <Original>Mówili coś o zapłacie za jakieś krzywdy z 2006 roku...</Original>
+    </Key>
+    <Key ID="STR_Mission_ChanticoCivDubbing_4">
+      <Original>Zabrali ich bodajże do jakiegoś garażu... w Balmopan</Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro">
+      <Original>
+&lt;font size='16'&gt;
+Sahrani, wyspa północnego atlantyku, od lat jest centrum konfliktów. W trakcie wojen Napoleońskich w 19 wieku, wyspa służyła jako posterunek dla Brytyjskiej marynarki. W 1898 roku, Brytyjczycy przekazali pieczę nad wyspą nowo-powstałej monarchii, tym samym uznając niepodległość wyspy jako Królestwo Sahrani.
+&lt;br /&gt;&lt;br /&gt;
+W latach 60 tych XX wieku, północna część wyspy, przy wsparciu Związku Radzieckiego, zorganizowała rewolucję przeciwko Królestwu, domagając się m.in. obalenia monarchii, uspołecznienia gospodarki oraz samorządności pracowniczej. Wskutek rewolucji, północnej części wyspy udało się oddzielić od Królestwa i ustanowić, wspierane przez Związek Radziecki, niepodległe państwo Demokratyczna Republika Sahrani (DRS). Pro-zachodnie Królestwo Sahrani wciąż kontrolowało południową część wyspy, wraz ze starą stolicą Paraiso. DRS wspierane było przez ZSRR aż do swojego rozpadu, w 1991 roku.
+&lt;br /&gt;&lt;br /&gt;
+Po 1991 roku, mimo upadku ZSRR, DRS wciąż zagrażało Królestwu, konsekwentnie dążąc do eskalacji. DRS nieustannie ogłaszała coraz to nowe roszczenia terytorialne wobec Królestwa, generując napięcia na granicach, co od czasu do czasu kończyło się krótkimi wymianami ognia między armiami, głównie w okolicach przejścia granicznego w Corazol. Chcąc zmienić układ sił na wyspie, wiosną 2002, ówczesny Król Sahrani, Joseph III, organizuje powstanie bazy szkoleniowej US Army na terenie Królestwa. Decyzja Króla została bardzo źle odebrana przez DRS, prowokując kolejne konflikty na granicach. Mimo napięć, baza została uruchomiona, a następnie intensywnie wykorzystywana zarówno jako obiekt szkoleniowy dla Armii Sahrani prowadzony przez Amerykanów, jak i jako siła odstraszająca ewentualną agresję z północy.
+&lt;br /&gt;&lt;br /&gt;
+W styczniu 2006, misja szkoleniowa USA dobiegała końca, a co za tym idzie, rozpoczęto wycofywanie wojsk US z Sahrani. W czerwcu 2006, 85% sił US pierwotnie stacjonujących na wyspie, została wycofana. Koniec amerykańskiej misji był postrzegany przez DRS jako niepowtarzalna okazja do ostatecznego rozwiązania sporów. Na początku lipca 2006 roku, północ zorganizowała masową inwazję na południe, miażdżąc wszelki napotkany opór. W ręce północy wpadły prawie wszystkie miasta południa, w tym stolica Królestwa, Paraiso. Dowództwo wojsk US, dostrzegając beznadziejność sytuacji Królestwa, zdecydowała się przybyć z pomocą. Przewaga ogniowa przybyłych amerykańskich wojsk nad armią północną była porażająca, co poskutkowało sprawnym odepchnięciem wojsk DRS na północ. Po około tygodniu walk, cała południowa część wyspy była ponownie pod kontrolą Królestwa.
+&lt;br /&gt;&lt;br /&gt;
+Widząc przewagę jaką z amerykańską pomocą ma teraz armia Królestwa, Król postanowił o nie zatrzymywaniu się na granicy i zajęciu reszty wyspy. Mimo sporych strat, po 2 miesiącach krwawych walk, Królestwu udało się przejąć całkowitą kontrolę nad wyspą, doprowadzając tym samym do zjednoczenia obu części Sahrani.
+&lt;br /&gt;&lt;br /&gt;
+W grudniu 2017 roku, w katastrofie śmigłowca ginie Król Joseph III wraz ze swoim synem, Księciem Orlando. Po kilku dniach zaprzysiężony zostaje jedyny pozostały potomek króla, jego córka Isabella. Nowa Królowa, jako swój pierwszy dekret, ogłasza nakazanie wycofania wszelkich wojsk amerykańskich z wyspy. Decyzja ta niemal natychmiast skutkuje powstaniem grup partyzanckich na północy wyspy, dążących do przywrócenia DRS oraz ponownego podziału Sahrani. Nie mogąc poradzić z partyzantami oraz naciskami zewnętrznych mocarstw, Królowa Isabella postanawia zgodzić się na podział wyspy i ponowne powstanie Demokratycznej Republiki Sahrani zgodnie z zarysem granic sprzed połączenia.
+&lt;br /&gt;&lt;br /&gt;
+Na początku 2018 roku na wyspie zakończono wszelkie działania militarne, panował względny pokój między obiema stronami, a nawet otwarta wymiana gospodarcza i handlowa. Na południu zaczął kwitnąć przemysł turystyczny. Na przełomie 2018 i 2019 roku, południe Sahrani stało się jednym z najbardziej popularnych kierunków amerykańskich turystów, których skutecznie zachęcały Sahrańskie plaże, niskie ceny oraz bliska lokalizacja.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief">
+      <Original>
+&lt;font size='16'&gt;
+12 stycznia 2020 roku, miała miejsce ogromna eksplozja w Corasol, 200m na zachód od granicy Demokratycznej Republiki Sahrani a Królestwem Sahrani. W wybuchu zginęło 62 obywateli DRS, a około 300 zostało rannych. DRS winą za wybuch obarczyła Królestwo, mimo zapewnień Królowej Isabeli, iż nie mieli oni z tym nic wspólnego. Na chwilę obecną intel wskazuje, iż była to fałszywa flaga zorganizowana przez siły specjalne DRS. Używając tej tragedii jako pretekst, 14 stycznia, o północy lokalnego czasu, wojska DRS przekroczyły granice w zmasowanej inwazji. Niezdolna do zorganizowania jakiejkolwiek skutecznej obrony, wieczorem 16 stycznia, armia Królestwa Sahrani złożyła broń. Tego samego dnia Królowa Isabella popełniła samobójstwo. Rankiem 17 stycznia, z bazy marynarki wojennej w Norfolk wypływa część 2 floty US Navy zorganizowanej jako “Joint Task Force 121“ która, z rozkazu Prezydenta Jordana, jako część 2 floty US Navy, zostaje wysłana w rejon Sahrani.
+&lt;br /&gt;&lt;br /&gt;
+O świcie 23 stycznia JTF 121 dociera do celu, do wieczora kończąc pełne opłynięcie wyspy i orientację w sytuacji. Około 20:00 lokalnego czasu, dociera do nas informacja, iż w rękach DRS znajduje się ambasador USA w Królestwie Sahrani, John Morris, wraz ze swoją żoną. Zgodnie z naszymi ostatnimi informacjami, władze republiki mają zamiar rozstrzelać Morrisa jutro (poniedziałek, 24 stycznia) około południa, transmitując egzekucje za pośrednictwem telewizji na cały świat jako akt zemsty za pomoc Królestwu Sahrani w wojnie w 2006 roku.
+&lt;br /&gt;&lt;br /&gt;
+O 21:00 w państwowej telewizji DRS, nadawanej od kilku dni (dla przypieczętowania tryumfu) z budynku byłej telewizji Królestwa Sahrani, zostaje odtworzona egzekucja żony Ambasadora Morrisa, 15 minut później rozpoczyna się rozpatrywanie wszystkich opcji militarnych. Po briefingu Prezydenta Jordana, Kolegium Połączonych Szefów Sztabów, głównych generałów wszystkich rodzajów sił zbrojnych oraz liderów wszystkich partii politycznych, o 22:45, Prezydent Jordan wydaje rozkaz rozpoczęcia operacji “Ocean Fury” mającej na celu odbicie Ambasadora Morrisa, ewakuację wszystkich obywateli USA z wyspy oraz zmasowane bombardowania wszystkich ośrodków militarnych DRS znajdujących się na wyspie.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_PrioTasks">
+      <Original>
+&lt;font size='16'&gt;
+Zadania podstawowe
+&lt;br /&gt;&lt;br /&gt;
+- Odbić i ewakuować Ambasadora Morrisa ze studia telewizyjnego w Dolores.&lt;br /&gt;
+Szczegóły do tego zadania dostępne są dla HQ oraz na slajdach w sali odpraw.
+&lt;br /&gt;&lt;br /&gt;
+- Odbić i ewakuować wszystkich obywateli US znajdujących się w hotelach (Vallejo, Arcadia, Chantico).&lt;br /&gt;
+Szczegóły do tego zadania dostępne są dla HQ oraz na slajdach w sali odpraw.
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczyć bazy ogniowe rozsiane po wysepkach wokół wyspy.&lt;br /&gt;
+W bazach ogniowych przeciwnik może posiadać różne typy uzbrojenia, w tym AA. Bazy ogniowe to idealny cel dla naszych okrętów, lecz lotnictwo również może się nimi zająć - dla śmigłowców może być to ryzykowne.
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczyć 2 baterie wyrzutni S-750.&lt;br /&gt;
+Pierwsza bateria znajduje się na zachód od Hotelu Vallejo, druga na wzgórzach Monte Liberacion, za północny-wschód od Obregan. Baterię należy zniszczyć za pomocą F/A-181 w wersji Stealth. Jako, iż wersja stealth posiada 1/3 uzbrojenia normalnej wersji, idealne do realizacji tego zadania będą małe bomby kierowane GBU SDB których wersja stealth może zabrać 8, wciąż posiadając 6 rakiet AA.
+&lt;br /&gt;&lt;br /&gt;
+- Zdobyć i utrzymać pełną kontrolę nad przestrzenią powietrzną wyspy.
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczyć wszystkie lotniska (Paraiso, Pita, Antigua, Rahmadi).&lt;br /&gt;
+Zniszczenie wszystkich lotnisk całkowicie eliminuje zagrożenie ze strony wrogiego lotnictwa. Po ich zniszczeniu, wrogie samoloty przestaną pojawiać się w strefie operacji. Wyspa jest otoczona, nic z poza wyspy się nie zjawi.
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczyć wszystkie bazy i garnizony śmigłowców (Paraiso, Gulan, Antigua, Rahmadi).&lt;br /&gt;
+Zniszczenie wszystkich baz i garniznów śmigłowców całkowicie eliminuje ich obecność w strefie operacji. Wyspa jest otoczona, nic z poza wyspy się nie zjawi.
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczyć wszystkie duże bazy wojskowe wroga (Pesadas, Victoria).&lt;br /&gt;
+Są to 2 największe bazy wojskowe DRS - będą dobrze bronione.
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczyć flotę transportową wroga zaopatrującą okoliczne wyspy (okręty transportowe + eskorta).&lt;br /&gt;
+Wroga flota to idealny cel dla naszych niszczycieli, lecz nasze lotnictwo również może się nią zająć.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_ExtraTasks">
+      <Original>
+&lt;font size='16'&gt;
+Zadania dodatkowe
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczyć wszystkie garnizony wojsk wroga.&lt;br /&gt;
+- Zniszczyć wszystkie porty i magazyny wojskowe.&lt;br /&gt;
+&lt;/font&gt;
+      </Original>
+    </Key>
+  <Key ID="STR_Mission_Diary_Tech">
+    <Original>
+&lt;font size='16'&gt;
+Wszyscy zaczynają na płycie lotniskowca.
+&lt;br /&gt;&lt;br /&gt;
+Lotniskowiec posiada 3 działające rampy. Każda rampa działa niezależnie od pozostałych. Przy każdej z ramp znajduje się panel sterujący, otworzyć go można z menu ACE. Z każdej rampy można wzywać pojazdy z podpokładu lub je tam wysyłać. W menu rampy dostępne są:
+&lt;br /&gt;
+- F/A-181 Black Wasp II&lt;br /&gt;
+- F/A-181 Black Wasp II (Stealth)&lt;br /&gt;
+- AH-1Z Viper&lt;br /&gt;
+- UH-1Y Venom (FFAR): 9 miejsc&lt;br /&gt;
+- CH-53 Sea Stallion: 24 miejsca&lt;br /&gt;
+- UCAV Sentinel&lt;br /&gt;
+&lt;br /&gt;
+Do zniszczenia baterii S-750 powinny zostać użyte F/A-181 w wersji Stealth, wszystko inne zostanie zestrzelone zanim zdąży się zbliżyć na operacyjną odległość. Dodatkowo piloci maszyn Stealth powinni trzymać się na wysokości minimum 2-2.5km oraz nie zbliżać się do baterii na mniej niż 1.5KM. Do czasu zniszczenia baterii S-750 śmigłowce nie powinny być podrywane.
+&lt;br /&gt;&lt;br /&gt;
+Z uwagi na zagrożenie dla floty ze strony wrogiego lotnictwa, piloci powinni wysiadać z maszyn zaraz po lądowaniu i wsiadać do nich chwilę przed startem (na wypadek alarmu ogniowego).
+&lt;br /&gt;&lt;br /&gt;
+Wrogie ośrodki takie jak Lotniska, Bazy, Garnizony i Porty co jakiś czas (losowo) spawnią wrogie jednostki danego typu (samoloty na lotniskach, śmigłowce w bazach śmigłowców, czołgi/piechota/BMP w bazach/garnizonach, itp.). Jednostki będą tworzone do czasu wyeliminowania danego ośrodka. Wyeliminowany ośrodek symbolizować będzie wyszarzona ikona na mapie.
+&lt;br /&gt;&lt;br /&gt;
+Po zniszczeniu wszystkich lotnisk oraz baz śmigłowców broń przeciwlotnicza w samolotach nie będzie już potrzebna (wyspa jest otoczona, nic spoza wyspy wam nie wyskoczy) - warto mieć to na uwadzę przy priorytetyzowaniu celów do ataku.
+&lt;br /&gt;&lt;br /&gt;
+Poza zaznaczonymi ośrodkami również mogą znajdować się wrogie jednostki (w tym obrona AA), fragmenty wyspy nigdy nie powinny być traktowane jako w 100% zabezpieczone, śmigłowce powinny unikać latania nad lądem i trzymać się brzegów oraz nigdy nie latać bez osłony.
+&lt;br /&gt;&lt;br /&gt;
+Dowódca piechoty (VIKING) może operować bezpośrednio z piechotą na wyspie lub z lotniskowca - ostateczną decyzję w tej sprawie podejmuje on sam lub dowódca operacji.
+&lt;br /&gt;&lt;br /&gt;
+Haubice na okrętach statycznych (BARRY i LINCOLN) zapewniają wsparcie artyleryjskie na terenie całej mapy.
+&lt;br /&gt;&lt;br /&gt;
+Haubice oraz wyrzutnie VLS na okrętach statycznych (BARRY i LINCOLN) mogą być obsługiwane przez każdego operatora UAV (nie musi to być stricte obsługa lotniska) - decyzje w tej sprawie podejmuje dowódca floty (GUARDIAN).
+&lt;br /&gt;&lt;br /&gt;
+Jako, że mobilnym niszczycielom (NEWTON i TITAN) może brakować wizji na cele naziemne schowane za terenem, sensownym może być przydzielenie każdemu z okrętów jego własnego drona (UCAV) w celu spotu celów i lepszej orientacji. Decyzję w tej sprawie podejmuje dowódca floty (GUARDIAN).
+&lt;br /&gt;&lt;br /&gt;
+Obsługa lotniska ma uprawnienia zaawansowanego inżyniera, piloci zwykłego inżyniera, wszyscy operatorzy jednostek spec mają uprawnienia medyków oraz EOD.
+&lt;br /&gt;&lt;br /&gt;
+Aby holować pojazd quadem należy podjechać tyłem do przodu maszyny, akcja holowania będzie dostępna w menu interakcji quada.
+&lt;br /&gt;&lt;br /&gt;
+Do zmiany pylonów przez obsługę lotniskowca potrzebny jest toolkit, wózek z amunicją oraz quad (sam wózek nie wystarczy - bug ACE).
+&lt;br /&gt;&lt;br /&gt;
+Do systemu dźwieków lotniskowca posiada dostęp wyłącznie obsługa lotniskowca.
+&lt;br /&gt;&lt;br /&gt;
+Podczas przebywania na lotniskowcu w “self-menu” ACE dostępna jest opcja “odblokuj postać” której można użyć w razie problemu z poruszaniem się po lotniskowcu (wpadnięcie w model, wypadnięcie za burtę, lub po prostu #arma).
+&lt;img image='data\briefing\tech\unstuck.jpg' width='380' height='316' /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Ewakuowanych cywili należy przetransportować na lotniskowiec a następnie wysłać do kwater. Wejście do kwater znajduje się w pokoju na wyspie. Należy ustawić AIka obok drzwi a nastepnie wybrać na nim akcje "Wyślij do kwatery".
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img image='data\briefing\tech\civ1.jpg' width='380' height='219' /&gt;
+&lt;img image='data\briefing\tech\civ2.jpg' width='380' height='473' /&gt;
+&lt;img image='data\briefing\tech\civ3.jpg' width='380' height='237' /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Do poruszania się między poziomami lotniskowca należy użyć akcji znajdującej się na zamku obok drzwi.
+&lt;img image='data\briefing\tech\doors.jpg' width='380' height='315' /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Załogi statków aby dostać się na swój okręt powinny użyć drzwi aby zejść na dok (poziom -2), wsiąść do wolnej motorówki, podpłynąc do tyłu swojego okrętu, wysiąść, a następnie użyć akcji interakcji na okręcie (na tyle okrętu).
+&lt;img image='data\briefing\tech\ship.jpg' width='380' height='157' /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Załogi okrętów mogą ale nie muszą się przezbrajać w magazynie na lotniskowcu. Ich okręty również posiadają pokaźne zapasy (dostępne w inventory pojazdu) wszystkiego co się może przydać podczas operacji.
+&lt;br /&gt;&lt;br /&gt;
+W sali odpraw znajduje się komputer którym można sterować slajdami na ekranach. Na slajdach znajdują się szczegóły dot. zadań oraz, przydatne w planowaniu podejścia do celów, zdjęcia.
+&lt;img image='data\briefing\tech\slides1.jpg' width='380' height='296' /&gt;
+&lt;img image='data\briefing\tech\slides2.jpg' width='380' height='186' /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Skrzynka dla obsługi lotniskowca znajduje się na pięterku wyspy (wewnątrz wyspy, schodami do góry).
+&lt;/font&gt;
+    </Original>
+  </Key>
+  <Key ID="STR_Mission_Diary_GroudTargets">
+    <Original>
+Poniższe cele należy eliminować we wrogich lotniskach/bazach/garnizonach aby je wyeliminować.
+&lt;img image='data\briefing\ground_targets\ammo_mag_bar.jpg' width='380' height='207' /&gt;
+&lt;img image='data\briefing\ground_targets\bar_gar.jpg' width='380' height='184' /&gt;
+&lt;img image='data\briefing\ground_targets\fab_war_mag.jpg' width='380' height='198' /&gt;
+&lt;img image='data\briefing\ground_targets\fab_war_mag_gar.jpg' width='380' height='244' /&gt;
+&lt;img image='data\briefing\ground_targets\fuel_bar.jpg' width='380' height='198' /&gt;
+&lt;img image='data\briefing\ground_targets\hang.jpg' width='380' height='197' /&gt;
+&lt;img image='data\briefing\ground_targets\mags.jpg' width='380' height='144' /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Do wyeliminowania lotniska/bazy/garnizonu wystarczy zniszczyć w/w cele (te które są dostepne na terenie danego ośrodka), nie trzeba niszczyć absolutnie wszystkiego (tymbardziej cywilnów domów mieszkalnych).
+    </Original>
+  </Key>
+    <Key ID="STR_Mission_Diary_HQ_Brief">
+      <Original>
+&lt;font size='16'&gt;
+Briefing HQ&lt;br /&gt;
+&lt;br /&gt;
+Poniższe informacje dostępne są tylko dla HQ (reszta ich nie widzi) i powinny być przekazane jednostkom podczas briefingu W TRAKCIE gry w przygotowanej sali odpraw. Obsługa będzie potrzebowała chwile na ogarnięcie sprzętu, nie ma sensu przedłużać startu operacji. Brief na mapie nie jest potrzebny poza absolutnym minimum typu organizacja radii.
+&lt;br /&gt;&lt;br /&gt;
+Informacje dot. zadań:&lt;br /&gt;&lt;br /&gt;
+- Ambasador&lt;br /&gt;
+Ambasador jest przetrzymywany w studiu TV w Dolores.&lt;br /&gt;
+Pilnuje go straż Ruchu Wyzwolenia Sahrani (komunistyczni fanatycy).&lt;br /&gt;
+Poza nimi możemy również natrafić na oddziały specjalsów.&lt;br /&gt;
+&lt;br /&gt;
+- Hotel Vallejo&lt;br /&gt;
+Z najnowszych danych wynika, iż jest tam 9 obywateli USA.&lt;br /&gt;
+&lt;br /&gt;
+- Hotel Arcadia&lt;br /&gt;
+Z najnowszych danych wynika, iż jest tam 12 obywateli USA.&lt;br /&gt;
+&lt;br /&gt;
+- Hotel Chantico&lt;br /&gt;
+Z najnowszych danych wynika, iż jest tam 11 obywateli USA.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Dodatkowe info (niektóre warto przekazać pozostałym podczas briefu w sali odpraw):&lt;br /&gt;
+&lt;br /&gt;
+- Ataki lotnictwa wroga na flotę (w tym lotniskowiec) nie są groźne dla osób na lotniskowcu (jeśli nie są w pojazdach). Flota posiada autonomiczny system AA, nie należy panikować, jedynie zastosować się do zasad bezpieczeństwa przekazanych przez obsługę lotniskowca.
+&lt;br /&gt;&lt;br /&gt;
+- Naszym zadaniem jest ewakuacja naszego ambasadora, obywateli oraz odwet na celach miliranych za zamordowanie żony ambasadora. Za wszelką cenę należy unikać strat w ludności cywilnej wyspy (aka uważajcie co atakujecie).
+&lt;br /&gt;&lt;br /&gt;
+- Samoloty, Okręty oraz Śmigłowce powinny uważać z ogniem obok hoteli/studia TV
+&lt;br /&gt;&lt;br /&gt;
+- Zniszczenie lotnisk eliminuje bezpowrotnie wrogie lotnictwo. Po zniszczeniu baterii S-750, samoloty powinny atakować lotniska w pierwszej kolejności.
+&lt;br /&gt;&lt;br /&gt;
+- Wrogie okręty to idealny cel dla naszych niszczycieli. Jeśli jednak nie są one dostępne, lotnictwo również może się nimi zająć.
+&lt;br /&gt;&lt;br /&gt;
+- Nasze niszczyciele od początku będą łapać namiar na przeciwnika na wysepkach. Za Twoją zgodą załoga może otworzyć ogień zaraz po wejściu na okręt.
+&lt;br /&gt;&lt;br /&gt;
+- Po wypłynięciu, okręty powinny jednak uważać z atakowaniem celów na samej wyspie, powinni potwierdzać cele optycznie, dronem lub z pomocą lotnictwa aby uniknąć zagrożenia dla hoteli/studia TV/naszej piechoty.
+&lt;br /&gt;&lt;br /&gt;
+- Niszczyciele są również bardzo dobrą osłoną AA, w trakcie operacji mogą zapewniać wsparcie nie tylko na ziemi ale również zdejmować cele powietrzne z bardzo dużej odległości.
+&lt;br /&gt;&lt;br /&gt;
+- Posiadają one również rakiety kierowane laserowo które mogą łapać namiar celów piechoty - jeśli będzie to możliwe, sensownym może być trzymacie niszczyciela/li w sensownej odległości od strefy działań piechoty.
+&lt;br /&gt;&lt;br /&gt;
+- Niszczyciele mogą pływać osobno ale nic nie jest wyryte w kamieniu. Organizacja floty nie jest narzucona - mogą również pływać razem i wspierać się wzajemnie.
+&lt;br /&gt;&lt;br /&gt;
+- Przy organizacji niszczycieli warto wziąć pod uwagę, że ich prędkość max. to 64km/h - potrzebują chwilę aby gdzieś dotrzeć. Dobrze by było wysyłać ich z wyprzedzeniem tam gdzie będą potrzebni za jakiś czas.
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+Sugerowana organizacja startu:&lt;br /&gt;
+&lt;br /&gt;
+Na wstępie: nie wysyłać ludzi na przezbrojenie do magazynu przed briefingiem - trudno dobrać sprzęt do zadania którego szczegłów nie znają.
+&lt;br /&gt;&lt;br /&gt;
+Na starcie misji obsługa lotniskowca zrobi szybkie szkolenie z zasad bezpieczeństwa na lotniskowcu. Przeprowadzi też ćwiczenia alarmów, aby każdy wiedział co znaczą.
+&lt;br /&gt;&lt;br /&gt;
+Po szkoleniu załoga będzie potrzebowała chwile, żeby przygotować maszyny. W tym momencie piloci samolotów powinni czekać i się ze sobą dogadywać organizacyjnie, to samo piechota. Pierwsi na tapecie będą załoganci okrętów.
+&lt;br /&gt;&lt;br /&gt;
+Załogi okrętów nie potrzebują pełnego briefingu, dopłynięcie gdziekolwiek też zajmie im chwilę, można ich ogarnąć w pierwszej kolejności i wysłać na okręty.
+&lt;br /&gt;&lt;br /&gt;
+Następnie można przeprowadzić szybki briefing pilotów samolotów. Ich pierwszym celem będą wyrzutnie S-750, nie wymaga to wielu wyjaśnień. Muszą użyć maszyn stealth, powinni latać wysoko i unikać włączania radarów. Po zniszczeniu S-750 mogą wrócić na lotniskowiec po normalne wersje F/A-181 (2/3 więcej uzbrojenia vs. wersja stealth).
+&lt;br /&gt;&lt;br /&gt;
+Po szybkim briefingu pilotów samolotów można ich wysłać na przezbrojenie do magazynu, potem mogą startować jak tylko maszyny będą gotowe.
+&lt;br /&gt;&lt;br /&gt;
+W tym momencie można zaprosić piechotę oraz pilotów śmigieł do sali odpraw i zrobić im pełny briefing z użyciem slajdów, które zapewnią dodatkowe informacje i pomogą w planowaniu podejścia (każda z lokacji posiada 3 dedykowane slajdy).
+&lt;br /&gt;&lt;br /&gt;
+Śmigła i tak muszą czekać na zniszczenie S-750 przez samoloty więc nie ma pośpiechu w briefingu piechoty. Po briefingu piechoty można ich wysłać do magazynu na przezbrojenie.
+&lt;br /&gt;&lt;br /&gt;
+Po zniszczeniu S-750 śmigła mają zielone na ruszenie do studia TV.
+&lt;/font&gt;
+      </Original>
+    </Key>
+  </Package>
+</Project>

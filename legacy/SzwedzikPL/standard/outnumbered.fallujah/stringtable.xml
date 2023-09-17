@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3C">
+  <Package name="Mission">
+    <Key ID="STR_Mission_CfgDebriefing_MissonEnd">
+      <Polish>MISJA ZAKOŃCZONA</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndSuccess">
+      <Polish>Misja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndFailed">
+      <Polish>Misja zakończona niepowodzeniem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllTasksAccomplished">
+      <Polish>Wszystkie zadania zostały wykonane</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissionFailed">
+      <Polish>Misja nie powiodła się</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllUnitsDead">
+      <Polish>Wszystkie jednostki poległy</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgLeaflets_Example">
+      <Polish>Przykładowy tekst ulotki</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgUnitInsignia_111thID">
+      <Polish>111 Dywizja Piechoty</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_CreatingObjects">
+      <Polish>Tworzenie obiektów...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_DisablingLights">
+      <Polish>Wyłączanie prądu...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line1">
+      <Polish>75 regiment US Army Rangers</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line2">
+      <Polish>Fallujah, Takistan</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_ToEvacLeft">
+      <Polish>Do ewakuacji pozostało</Polish>
+    </Key>
+    <Key ID="STR_Mission_Tasks_TaskEvacDesc">
+      <Polish>
+&lt;font size='16'&gt;
+Ewakuować się z posterunku CHAPMAN.
+&lt;br/&gt;&lt;br/&gt;
+Jest to wasze główne zadanie. Wszystkie oddziały mają do pokonania niemal identyczny dystans. Na dotarcie do posterunku Chapman macie 2 godziny.
+&lt;br/&gt;&lt;br/&gt;
+O godzinie 20:45 odlatuje ostatni śmigłowiec ewakuacyjny i odleci on z wami lub bez was, więc lepiej się streszczać.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli jakaś drużyna dotrze do posterunku wcześniej, będzie musiała się na nim bronić do czasu przybycia śmigłowca. Posterunek jest broniony przez oddział rangersów z innej kompanii, więc perymetr posterunku powinien być względnie bezpieczny - sytuacja jest bardzo dynamiczna, więc nie możemy wam tego zagwarantować.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Tasks_TaskSearchTitle">
+      <Polish>Udzielić pomocy</Polish>
+    </Key>
+    <Key ID="STR_Mission_Tasks_TaskSearchDesc">
+      <Polish>
+&lt;font size='16'&gt;Udzielić pomocy sojusznikom w rejonie.
+&lt;br/&gt;&lt;br/&gt;
+Jest to zadanie opcjonalne. Po drodze do posterunku CHAPMAN możecie sprawdzać ostatnie znane pozycje sił sojuszniczych i, jeśli będzie taka możliwość, udzielić im pomocy.
+&lt;br/&gt;&lt;br/&gt;
+Wszystkie ostatnie nam znane pozycje sojuszników są oznaczone na mapie. Los tych jednostek jest aktualnie nieznany, ale każda z nich miała ze sobą jakieś zapasy które, jeśli odnalezione, mogą się wam przydać.
+&lt;br/&gt;&lt;br/&gt;
+Więcej informacji na ich temat znajdziecie w legendzie mapy (briefing).
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Briefing jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+73 regiment US Army Rangers, Fallujah.
+&lt;br/&gt;&lt;br/&gt;
+Panowie, sytuacja wygląda następująco. Wszystkie nasze patrole, tj. oddziały Alpha, Bravo, Charlie i Delta zostały zaskoczone przez zaistniałą sytuację. W ciągu minut od wybuchu powstania wszystkie znalazły się w ciężkim kontakcie. W wyniku walki stracili oni wszystkie swoje pojazdy i operują aktualnie na piechotę.
+&lt;br/&gt;&lt;br/&gt;
+W związku z zaistniałą sytuacją, główne dowództwo podjęło decyzję o natychmiastowej ewakuacji wszystkich naszych sił. Ewakuacja ma miejsce z terenu posterunku Chapman w centrum miasta. Udało nam się zmobilizować kilka śmigłowców US Marines które zajmą się ewakuacją. Ostatni śmigłowiec ewakuacyjny odleci z posterunku o godzinie 20:45.
+&lt;br/&gt;&lt;br/&gt;
+Do miasta ze wszystkich stron zbliżają się jednostki sił zbrojnych takistanu które przyłączyły się do powstania. Ewakuacja lądem nie wchodzi w grę.
+&lt;br/&gt;&lt;br/&gt;
+Zadanie dla wszystkich drużyn jest jedno i takie samo. Przebić się około 1800m przez miasto do posterunku Chapman i ewakuować się śmigłowcem z terenu działań. Nie miejcie wątpliwości - sytuacja jest dramatyczna, tracimy ludzi na lewo i prawo, śmigłowiec odleci z wami lub bez was, więc musicie się streszczać.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli jakaś drużyna dotrze do posterunku wcześniej, będzie musiała się na nim bronić do czasu przybycia śmigłowca. Posterunek jest broniony przez oddział rangersów z innej kompanii, więc perymetr posterunku powinien być względnie bezpieczny - sytuacja jest bardzo dynamiczna, więc nie możemy wam tego zagwarantować.
+&lt;br/&gt;&lt;br/&gt;
+Wszystkie nasze jednostki w kraju są aktualnie w kontakcie, wszelkie wsparcie ogniowe koncentruje się na osłanianiu działań ewakuacyjnych, więc musicie przebić się przez miasto na własną rękę. Jeśli któreś drużyny dadzą radę, mogą spotkać się po drodze, zwiększając swoją siłę ognia i szansę na przebicie. Jeśli któryś z dowódców drużyn uzna, że jest w stanie, może ruszyć innej z pomocą, gdy będzie taka potrzeba, lecz jest to jego autonomiczna decyzja.
+&lt;br/&gt;&lt;br/&gt;
+Powodzenia, Bóg z wami.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Title">
+      <Polish>Wstęp</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Wstęp jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Po niespełna 2 latach krwawej wojny domowej w Takistanie, która do tej pory pochłonęła niespełna 400 tysięcy istnień, ONZ wydaje rezolucję 3154. Na mocy rezolucji, sformowana została grupa bojowa OSCAR której zadaniem ma być stabilizacja sytuacji z kraju. W skład grupy bojowej OSCAR wschodzą siły 9 krajów, w tym 3 regimenty US Marines odpowiedzialne za mniej zaludnione rejony, oraz 73 regiment US Army Rangers, któremu przydzielono operowanie w jednym z bardziej niebezpiecznych miejsc, mieście Fallujah.
+&lt;br/&gt;&lt;br/&gt;
+10 grudnia 1992 roku siły grupy bojowej OSCAR wkraczają na teren Takistanu, rozpoczyna się operacja “Restore Peace”. Pomimo przeznaczenia sporych sił i środków na działania pokojowe, sytuacja w Takistanie stale się zaognia. Interwencja ONZ postrzegana jest przez ludność cywilną jaki kolejny dowód na to, że aktualny prezydent Takistanu to marionetka zachodu i domagają się jego rezygnacji.
+&lt;br/&gt;&lt;br/&gt;
+21 lutego, “Ruch Rewolucjonistów”, bojówka złożona z sił kilkudziesięciu nieprzychylnych prezydentowi plemion, która postawiła sobie za cel obalenie aktualnego prezydenta oraz wygnanie sił zachodnich z Takistanu, przeprowadza pierwszą większą ofensywę. Tymczasowo udaje im się zająć lotnisko w stolicy Takistanu, Takmyrze, oraz zniszczyć kilka samolotów sił zachodnich. W walce ginie 34 zachodnich żołnierzy.
+&lt;br/&gt;&lt;br/&gt;
+10 czerwca ma miejsce próba zamachu na życie prezydenta. W trakcie jednej z wizyt na zachodzie kraju, zaatakowany zostaje konwój którym jest on przewożony. Prezydenta udaje się ocalić i bezpiecznie ewakuować, lecz w kilkugodzinnej walce ginie 97 żołnierzy armi rządowej oraz 16 żołnierzy zachodnich. Ten atak uświadamia siłom ONZ że również zachodnia ludność Takistanu, postrzegana dotychczas jako pro rządowa, staje coraz szerzej przeciwko prezydentowi.
+&lt;br/&gt;&lt;br/&gt;
+Do sztabu grupy bojowej OSCAR z każdym dniem docierają coraz to gorsze wieści. Z meldunków wynika, iż ruch rewolucjonistów zyskuje poparcie na terenie całego kraju, w tym w samej stolicy. Sytuacja staje się coraz bardziej dramatyczna.
+&lt;br/&gt;&lt;br/&gt;
+24 lipca, ruch rewolucjonistów ogłasza ultimatum dla wszystkich zachodnich sił w Takistanie, dając im 48 godzin na opuszczenie kraju. Wszystkie siły zachodnie w kraju zostały postawione w stan najwyższej gotowości. 26 lipca o godzinie 02:00 mija termin ultimatum. O godzinie 12:00 sztab, uspokojony całkowitym brakiem reakcji ze strony rewolucjonistów, wydaje rozkaz o powrocie do rutynowych działań. Na terenie całego kraju wznowione zostają patrole oraz operacje wywiadowcze, wedle ich pierwotnych harmonogramów.
+&lt;br/&gt;&lt;br/&gt;
+O godzinie 18:00 rozpoczyna się ogromny skoordynowany atak na zachodnie placówki. W tym samym czasie, około 150 tysięcy bojowników ruchu rewolucjonistów atakuje posterunki i bazy na terenie całego kraju. Występuje kompletny chaos i paraliż systemu dowodzenia. Wielu zdezorientowanych dowódców wydaje rozkaz strzelania do ludności cywilnej, myląc ich z siłami rewolucjonistów. W większości miast w kraju wyłączone zostaje zasilanie.
+&lt;br/&gt;&lt;br/&gt;
+O godzinie 18:15 większość generałów oraz około 65% stanu osobowego sił zbrojnych takistanu wypowiada posłuszeństwo urzędującemu prezydentowi i ogłasza przyłączenie się do ruchu rewolucjonistów. Około 18:20 docierają pierwsze meldunki, iż setki tysięcy cywili, we wszystkich większych miastach również chwyciło za broń i przyłączyło się do walki.
+&lt;br/&gt;&lt;br/&gt;
+Wybucha jedno z największych w historii zbrojnych powstań przeciwko urzędującej władzy. Rozpętuje się piekło...
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Enemy_Text">
+      <Polish>
+&lt;font size='16'&gt;
+Mieszkańcy miasta Fallujah oraz członkowie ruchu rewolucjonistów. Mieszkańcy uzbrojeni głównie z broń lekką, karabiny Lee Enfield, AK-47/74. Członkowie ruchu rewolucjonistów są lepiej uzbrojeni i zorganizowani, mogą posiadać wszystko z post-sowieckiego arsenału, od kałasznikowów, przez karabiny maszynowe RPK i PKM, po granatniki 40mm oraz RPG.
+&lt;br/&gt;&lt;br/&gt;
+Do miasta ze wszystkich stron zbliżają się jednostki sił zbrojnych takistanu które przyłączyły się do powstania. Jest to regularna armia która ma na wyposażeniu sprzęt ciężki, w tym czołgi i transportery opancerzone. Nasze siły powietrzne spowalniają ich na tyle, że każda jednostka która dotrze do posterunku na czas nie powinna się z nimi zetknąć. Po 20:45, jednostki które pozostaną w mieście, najprawdopodobniej będą musiały się z nimi zmierzyć - lepiej zdążyć.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Gear_Title">
+      <Polish>Sprzęt</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Gear_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Każda jednostka ma swoje podstawowe wyposażenie na sobie.
+&lt;br/&gt;&lt;br/&gt;
+- Przezbrojenie początkowe dostępne jest w humvee które jednostki zabrały ze sobą na patrol. To wszystko co macie na tę chwilę, szanujcie sprzęt i amunicję.
+&lt;br/&gt;&lt;br/&gt;
+- W miejsach oznaczonych jako pozycje sojuszników można znaleźć większe ilości naszego rodzimego sprzętu (broń, ammo, medykamenty).
+&lt;br/&gt;&lt;br/&gt;
+- Lokalne szpitale i jednostki wojskowe zostały splądrowane przez ludność cywilną. Sprawdzajcie ciała zabitych przeciwników w poszukiwaniu amunicji i medykamentów.
+&lt;br/&gt;&lt;br/&gt;
+- W sytuacji kryzysowej, za zgodą dowódcy (!), zezwala się na zmianę broni.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tech_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Czas w misji leci normalnym tempem, misja rozpoczyna się o 18:30, śmigłowiec przyleci o 20:45 i odleci jak tylko wszystkie jednostki na terenie posterunku wsiądą na pokład. Nie będzie oczekiwał na osoby których nie ma na posterunku lub osoby nieprzytomne.
+&lt;br/&gt;&lt;br/&gt;
+- Jeśli jakaś drużyna dotrze na posterunek przed godziną 20:45, musi bronić się na jego terenie do czasu przybycia śmigłowca.
+&lt;br/&gt;&lt;br/&gt;
+- Jeśli któreś drużyny dadzą radę, mogą spotkać się po drodze, zwiększając swoją siłę ognia i szansę na przebicie.
+&lt;br/&gt;&lt;br/&gt;
+- Jeśli któryś z dowódców drużyn uzna, że jest w stanie, może ruszyć innej z pomocą, gdy będzie taka potrzeba, lecz jest to jego autonomiczna decyzja.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_MapLegend_Text">
+      <Polish>
+&lt;font size='16'&gt;
+ALPHA - Aktualna pozycja oddziału ALPHA.&lt;br/&gt;&lt;br/&gt;
+BRAVO - Aktualna pozycja oddziału BRAVO.&lt;br/&gt;&lt;br/&gt;
+CHARLIE - Aktualna pozycja oddziału CHARLIE.&lt;br/&gt;&lt;br/&gt;
+DELTA - Aktualna pozycja oddziału DELTA.&lt;br/&gt;&lt;br/&gt;
+HOTEL - Ostatnia znana pozycja patrolu oddziału HOTEL.&lt;br/&gt;&lt;br/&gt;
+LIMA - Ostatnia znana pozycja patrolu oddziału LIMA.&lt;br/&gt;&lt;br/&gt;
+OSCAR - Ostatnia znana pozycja patrolu oddziału OSCAR.&lt;br/&gt;&lt;br/&gt;
+SUPER-34 - Ostatnia znana pozycja zestrzelonego UH-80 Black Hawk SUPER-34 który w pierwszych momentach powstania leciał z misją MEDEVAC do jednego z zaatakowanych patroli.&lt;br/&gt;&lt;br/&gt;
+TROJAN-06 - Pozycja zestrzelonego samolotu C-130 TROJAN-06 który w momencie wybuchu powstania podchodził do lądowania na lotnisku wojskowym Fallujah z transportem zaopatrzenia.&lt;br/&gt;&lt;br/&gt;
+ROMEO-65 - Ostatnia znana pozycja kolumny która wyruszyła z pomocą zestrzelonemu C-130.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+  </Package>
+</Project>

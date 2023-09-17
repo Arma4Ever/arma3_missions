@@ -1,2 +1,2 @@
-# arma3_missions
-Arma4Ever missions repository
+# Arma4Ever community missions
+Repository of A4E community missions.

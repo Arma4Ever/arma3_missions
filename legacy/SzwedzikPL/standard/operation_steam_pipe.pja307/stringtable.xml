@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3C">
+  <Package name="Mission">
+    <Key ID="STR_Mission_CfgDebriefing_MissonEnd">
+      <Polish>MISJA ZAKOŃCZONA</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndSuccess">
+      <Polish>Misja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndFailed">
+      <Polish>Misja zakończona niepowodzeniem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllTasksAccomplished">
+      <Polish>Wszystkie zadania zostały wykonane</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissionFailed">
+      <Polish>Misja nie powiodła się</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllUnitsDead">
+      <Polish>Wszystkie jednostki poległy</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_CreatingObjects">
+      <Polish>Tworzenie obiektów...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line1">
+      <Polish>Baza wypadowa "VEGAS"</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line2">
+      <Polish>Rejon Dariyah, Zachodni Takistan</Polish>
+    </Key>
+    <Key ID="STR_Mission_KH_EndTraining">
+      <Polish>Zakończ szkolenie</Polish>
+    </Key>
+    <Key ID="STR_Mission_KH_TrainingNotStarted">
+      <Polish>Szkolenie nie zostało rozpoczęte.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_SwitchPower">
+      <Polish>Wyłącz agregat</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_SwitchPower_Progress">
+      <Polish>Wyłączanie...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service">
+      <Polish>Serwisuj śmigłowce</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service_HelipadEmpty">
+      <Polish>Brak śmigłowców wymagających serwisu na helipadzie</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service_Progress">
+      <Polish>Serwisowanie śmigłowców...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service_Done">
+      <Polish>Serwis śmigłowców zakończony</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceJet">
+      <Polish>Serwisuj samolot</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceJet_Progress">
+      <Polish>Serwisowanie samolotu...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceJet_Done">
+      <Polish>Serwis samolotu zakończony</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ConfirmID">
+      <Polish>Potwierdź tożsamość</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ConfirmID_Progress">
+      <Polish>Sprawdzanie tożsamości...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ConfirmID_Success">
+      <Polish>
+&lt;t size='1.8'&gt;JACKPOT&lt;/t&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;t size='1.5'&gt;Tożsamość potwierdzona, możesz zgłosić znalezienie Henrego Brooksa.&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ConfirmID_SuccessAlive">
+      <Polish>
+&lt;t size='1.8'&gt;JACKPOT !!!&lt;/t&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;t size='1.5'&gt;Tożsamość potwierdzona, możesz zgłosić znalezienie Henrego Brooksa.
+&lt;br/&gt;&lt;br/&gt;Saperzy powinni wykonać na nim akcję analizy ładunku aby ustalić jak rozbroić to ustrojstwo.&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ScanBomb">
+      <Polish>Przeanalizuj ładunek</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ScanBomb_Progress">
+      <Polish>Analizowanie ładunku...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ScanBomb_Success">
+      <Polish>
+&lt;t size='1.5'&gt;Ładunek przeanalizowany.
+&lt;br/&gt;&lt;br/&gt;Do briefingu dodano instrukcję rozbrojenia (tylko Ty).
+&lt;br/&gt;&lt;br/&gt;Do briefingu dodano również książeczkę z typami popularnych płytek sterujących używanych w IEDach (wszyscy).&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_VestDisarm">
+      <Polish>Rozbrój kamizelkę</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_VestDisarm_Progress">
+      <Polish>Rozbrajanie kamizelki...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_VestDisarm_Success">
+      <Polish>&lt;t size='1.5'&gt;Kamizelka rozbrojona. Można go bezpiecznie ewakuować.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PrepDefuse">
+      <Polish>Przygotuj do rozbrojenia</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PrepDefuse_Progress">
+      <Polish>Przygotowywanie ładunku do rozbrojenia...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PrepDefuse_Success">
+      <Polish>&lt;t size='1.5'&gt;Ładunek przygotowany, teraz możesz odsłonić płytkę sterującą.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PrepBoard">
+      <Polish>Odsłoń płytkę sterującą</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PrepBoard_Progress">
+      <Polish>Odsłananie płytki sterującej...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_PrepBoard_Success">
+      <Polish>&lt;t size='1.5'&gt;Płytka sterująca odsłonięta, teraz możesz ją rozbroić.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DisarmBoard">
+      <Polish>Rozbrój płytę sterującą</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DisarmBoard_Info">
+      <Polish>
+&lt;t size='1.5'&gt;UWAŻAJ W CO KLIKASZ!
+&lt;br/&gt;&lt;br/&gt;Każde kliknięcie na płytce traktowane będzie jako próba przecięcia kabla (pomyłka = detonacja).
+&lt;br/&gt;&lt;br/&gt;Podyktuj partnerowi identyfikator płytki nadrukowany na chipie. On powinien znaleźć ID w instrukcji i poprowadzić Cię do odpowiedniego kabelka.
+&lt;br/&gt;&lt;br/&gt;Kabel przetnij klikając DOKŁADNIE w niego.
+&lt;br/&gt;&lt;br/&gt;W każdej chwili możesz bezpiecznie wyjść z tego ekranu klikając ESC.
+&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DisarmBoard_Success">
+      <Polish>
+&lt;t size='1.5'&gt;Płytka sterująca została rozbrojona.
+&lt;br/&gt;&lt;br/&gt;Jeśli nic nie wybuchło, oznacza to, że rozbroiłeś płytkę w odpowiednim ładunku, możesz go teraz bezpiecznie rozbroić.
+&lt;br/&gt;&lt;br/&gt;Wyjdź z tego ekranu klikając ESC.
+&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DisarmSatchel">
+      <Polish>Rozbrój ładunek</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DisarmSatchel_Progress">
+      <Polish>Rozbrajanie ładunku...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DisarmSatchel_Success">
+      <Polish>&lt;t size='1.5'&gt;Ładunek rozbrojony.&lt;br/&gt;&lt;br/&gt;Jeśli nic nie wybuchło, oznacza to, że rozbroiłeś odpowiedni ładunek.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_BrooksWarning">
+      <Polish>
+&lt;t size='1.8'&gt;NIE DOTYKAĆ NICZEGO!&lt;/t&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;t size='1.5'&gt;Gość jest opleciony ładunkami. Nie próbujcie go przenosić!
+&lt;br/&gt;&lt;br/&gt;Wykonaj na nim akcję sprawdzenia tożsamości aby upewnić się, że to nasz gość.
+&lt;br/&gt;&lt;br/&gt;Jeśli jest ranny ogarnijcie go ASAP, upadające ciało pozrywa przewody.
+&lt;br/&gt;&lt;br/&gt;(tą informację mogłeś zobaczyć tylko Ty, przekaż dalej).&lt;/t&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BombManual_Title">
+      <Polish>Instrukcja rozbrojenia ładunku</Polish>
+    </Key>
+    <Key ID="STR_Mission_BombManual">
+      <Polish>
+&lt;font size='16'&gt;
+Poniższe informacje widzą tylko osoby które wykonały analizję ładunku.&lt;br/&gt;
+Jeśli jesteś pierwszy - przekaż pozostałym jak wygląda sytuacja.
+&lt;br/&gt;&lt;br/&gt;
+Wszystkie ładunki są ze sobą połączone w specyficzny sposób.&lt;br/&gt;
+Kamizelka zakładnika wpięta jest w cały układ, jeśli coś mu się stanie (zemdleje lub zginie), jego opadające ciało zerwie układ i wszystko wyleci w powietrze.&lt;br/&gt;
+Nie wolno go również ruszać czy przenosić (z tego samego powodu).
+&lt;br/&gt;&lt;br/&gt;
+Połączenie ładunków wymusza na nas rozbrajanie ich w określonej kolejności. Rozbrajamy JEDEN ładunek jednocześnie, przerwanie układu w ładunku w innej kolejności również wywoła detonację.
+&lt;br/&gt;&lt;br/&gt;
+Sugestia: Do rozbrajania powinna być przeznaczona 2-3 osobowa ekipa, cała reszta powinna zabezpieczać perymetr.&lt;br/&gt;
+&lt;br/&gt;
+Każdy ładunek rozbrajamy w 4 krokach (akcje na ładunkach):&lt;br/&gt;
+1 - Przygotowanie do rozbrojenia (wywleka bebechy tak aby można było przy nich mastrować).&lt;br/&gt;
+2 - Odsłonięcie płytki sterującej (tak aby można było ją rozbroić).&lt;br/&gt;
+3 - Rozbrojenie płyki. To jest najbardziej skomplikowany punkt. Po otworzeniu płytki, należy odczytać jej identyfikator nadrukowany na chipie.&lt;br/&gt;
+Najlepiej gdyby jedna osoba odczytała na głos a druga sprawdziła w instrukcji (zakładka "płytki sterujące" na mapie - dostępna dla wszystkich) jak rozbroić daną płytkę.&lt;br/&gt;
+4 - Po rozbrojeniu płytki sterującej ładunek jest gotowy do całkowitego rozbrojenia.&lt;br/&gt;
+&lt;br/&gt;
+Powtarzamy punkty 1-4 aż do ostatniego ładunku.&lt;br/&gt;
+Po rozbrojeniu wszystkich ładunków W ODPOWIEDNIEJ KOLEJNOŚCI przechodzimy do rozbrojenia kamizelki (akcja).&lt;br/&gt;
+Po rozbrojeniu kamizelki zakładnik będzie gotowy do ewakuacji.&lt;br/&gt;
+&lt;br/&gt;&lt;br/&gt;
+Przy potwierdzaniu koloru/typu beczki, użyjcie latarki lub flary, nokto nie oddaje poprawnie kolorów!
+&lt;br/&gt;&lt;br/&gt;
+Kolejność rozbrajania ładunków:&lt;br/&gt;
+1 - Czerwona plastikowa beczka z naklejką "HARMFUL".
+&lt;br/&gt;&lt;br/&gt;
+2 - Zielona plastikowa beczka z naklejką "HARMFUL".
+&lt;br/&gt;&lt;br/&gt;
+3 - Duża metalowa beczka w kolorze oliwkowym.
+&lt;br/&gt;&lt;br/&gt;
+4 - Duża metalowa beczka w kolorze białym.
+&lt;br/&gt;&lt;br/&gt;
+5 - Mała metalowa beczka w kolorze czarnym.
+&lt;br/&gt;&lt;br/&gt;
+6 - Mała metalowa beczka w kolorze czerwonym z białym paskiem pośrodku (bez napisów).
+&lt;br/&gt;&lt;br/&gt;
+7 - Duża metalowa beczka w kolorze niebieskim.
+&lt;br/&gt;&lt;br/&gt;
+8 - Mała metalowa beczka w kolorze niebieskim z białym paskiem pośrodku.
+&lt;br/&gt;&lt;br/&gt;
+9 - Mała metalowa beczka w barwach biało-fioletowych.
+&lt;br/&gt;&lt;br/&gt;
+10 - Duża metalowa beczka w kolorze żółtym.
+&lt;br/&gt;&lt;br/&gt;
+11 - Mała metalowa beczka w kolorze zielonym z białym paskiem pośrodku.
+&lt;br/&gt;&lt;br/&gt;
+12 - Niebieska plastikowa beczka z naklejką "HARMFUL".
+&lt;br/&gt;&lt;br/&gt;
+13 - Biała plastikowa beczka z naklejką "HARMFUL".
+&lt;br/&gt;&lt;br/&gt;
+14 - Duża metalowa beczka w kolorze czerwonym.
+&lt;br/&gt;&lt;br/&gt;
+15 - Mała metalowa beczka w kolorze niebieskim z żółtym paskiem pośrodku, biały napis "OIL".
+&lt;br/&gt;&lt;br/&gt;
+16 - Duża metalowa beczka w kolorze czerwonym z białym paskiem pośrodku i ostrzeżeniem o łatwopalnym płynie.
+&lt;br/&gt;&lt;br/&gt;
+17 - Kamizelka zakładnika.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;font size='24'&gt;Róbcie wszystko powoli i ostrożnie, zawsze potwierdzajcie wszystko przed zrobieniem czegokolwiek, wszelki błąd grozi detonacją.&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual">
+      <Polish>Płytki sterujące</Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_1">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L10|5L2II|2RT|GL&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Biały kabel łączący sockety A3 z A4.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Zielony kabel łączący sockety 48 z 49.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Żółty kabel łączący sockety 36 z 37.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Czerwony kabel łączący sockety 30 z 31.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Źółty kabel łączący sockety 28 z 29.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Czerwony kabel łączący sockety 44 z 45.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_2">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L10|5L2II|2RT|G7&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Zielony kabel łączący sockety DAC0 z DAC1.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Różowy kabel łączący sockety 44 z 45.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Niebieski kabel łączący sockety A4 z A5.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Zielony kabel łączący sockety 30 z 31.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Żółty kabel łączący sockety 28 z 29.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Czerwony kabel łączący sockety 50 z 51.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_3">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L10|5I2LI|1GB|GL&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Żółty kabel łączący sockety 28 z 29.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Zielony kabel łączący sockety 38 z 39.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Zielony kabel łączący sockety 22 z 23.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Niebieski kabel łączący sockety A4 z A5.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Biały kabel łączący sockety 44 z 45.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Zielony kabel łączący sockety DAC0 z DAC1.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_4">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L11|5I2LI|1GB|GL&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Fioletowy kabel łączący sockety 24 z 25.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Czerwony kabel łączący sockety 44 z 45.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Zielony kabel łączący sockety 34 z 35.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Biały kabel łączący sockety DAC0 z DAC1.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Zielony kabel łączący sockety 22 z 23.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Żółtys kabel łączący sockety A3 z A4.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_5">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L11|II2LI|1RB|LI&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Czerwony kabel łączący sockety A8 z A9.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Biały kabel łączący płytkę z baterią.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Zielony kabel łączący sockety 34 z 35.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Żółty kabel łączący sockety A3 z A4.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Niebieski kabel łączący sockety 38 z 39.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Czerwony kabel łączący sockety 50 z 51.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_6">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L11|II2LI|3gB|LI&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Szary kabel łączący sockety A8 z A9.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Zielony kabel łączący sockety 28 z 29.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Żółty kabel łączący sockety 38 z 39.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Szary kabel łączący sockety 42 z 43.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Biały kabel łączący sockety 24 z 25.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Zielony kabel łączący płytkę z baterią.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_7">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L1B|II2LI|2GB|LL&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Szary kabel łączący sockety 22 z 23.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Niebieski kabel łączący sockety A1 z A2.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Biały kabel łączący sockety 24 z 25.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Biały kabel łączący sockety 30 z 31.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Czarny kabel łączący płytkę z baterią.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Zielony kabel łączący sockety 50 z 51.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_8">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L1L|II2LL|3WB|I1&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Niebieski kabel łączący sockety 26 z 27.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Biały kabel łączący sockety 32 z 33.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Szary kabel łączący sockety 36 z 37.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Biały kabel łączący sockety A9 z A10.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Niebieski kabel łączący sockety 50 z 51.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Biały kabel łączący sockety DAC0 z DAC1.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_9">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L10|II2LL|3RT|I1&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Żółty kabel łączący sockety 38 z 39.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Niebieski kabel łączący sockety A2 z A3.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Różowy kabel łączący sockety 22 z 23.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Zielony kabel łączący sockety 40 z 41.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Czerwony kabel łączący sockety 48 z 49.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Zielony kabel łączący płytkę z baterią.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_BoardManual_10">
+      <Polish>
+&lt;font size='16'&gt;Potwierdź ID płytki&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='24'&gt;L10|I217|2BT|IL&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+1 - Szary kabel łączący sockety 48 z 49.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+2 - Żółty kabel łączący sockety 32 z 33.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+3 - Niebieski kabel łączący sockety A10 z A11.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+4 - Biały kabel łączący sockety 24 z 25.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+5 - Fioletowy kabel łączący sockety 38 z 39.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli nie ma kabla opisanego powyżej lub jest on w innym kolorze, przejdź do kolejnego punktu. Sprawdź 3 razy czy wszystko pasuje.
+&lt;br/&gt;&lt;br/&gt;
+6 - Niebieski kabel łączący sockety 50 z 51.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Henry_Title">
+      <Polish>Znaleźć i ewakuować Henrego Brooksa</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Henry_Desc">
+      <Polish>Naszym głównym i jedynym zadaniem jest znalezienie i bezpieczna ewakuacja porwanego dziennikarza AAN - Henrego Brooksa. Przed ewakuacją, konieczne jest potwierdzenie tożsamości.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Bodies_Title">
+      <Polish>Wszyscy wracają do domu</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Bodies_Desc">
+      <Polish>Ciała wszystkich poległych operatorów muszą być zabezpieczone i ewakuowane. Ostatnie czego nam trzeba to zdjęcia martwych sealsów w głównym wydaniu wiadomości.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_HenryBody_Title">
+      <Polish>Ewakuować ciało Henrego Brooksa</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_HenryBody_Desc">
+      <Polish>Ze względu na okoliczności, naszym głównym zadaniem od tej chwili jest ewakuacja ciała Henrego Brooksa, które, w przypadku przejęcia, może być wykorzystane przez powstańców w celach propagandowych.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Wrecks_Title">
+      <Polish>Zniszczyć wraki zestrzelonych maszyn</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Wrecks_Desc">
+      <Polish>W związku z utratą maszyn w trakcie operacji, naszym dodatkowym zadaniem jest zniszczenie wszystkich warków zestrzelonych śmigłowców, dronów oraz samolotów, tak aby zapobiec możliwości wykorzystania ich części przez naszych przeciwników.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Briefing jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Wedle informacji przekazanej przez agenta CIA, Henry Brooks jest przetrzymywany w miasteczku Ben Guerir, w pustynnym rejonie Dariyah, na zachodzie Takistanu. Jest to trudno dostępny, górzysty rejon w samym środku pustyni. W okolicy znajduje się wiele opuszczonych kopalń złota i srebra, z których niegdyś utrzymywała się cała prowincja.
+&lt;br/&gt;&lt;br/&gt;
+Analiza terenu pozwoliła nam na przygotowanie wstępnego planu wejścia w teren operacji. Dwa oddziały Navy Seals zostaną przetransportowane na pokładzie Black Hawka do LZ Fenix, pozostałe dwa do LZ Dexter. Oba LZ znajdują się w odległości 3.3km od miasteczka. Taka konfiguracja zapewnia nam bezpieczny desant oraz możliwość podejścia do miasta niewykrytym. Po desancie, oddziały mają zająć dogodne pozycje po dwóch stronach miasteczka. Na potrzeby zwiadu oraz ewentualnych eliminacji na większym dystansie, zostało wytypowanych kilka punktów obserwacyjnych (OP-X).
+&lt;br/&gt;&lt;br/&gt;
+LZ wejściowe oraz podejścia (dla śmigieł) do nich zostały oznaczone kolorem purpurowym. Po odnalezieniu Brooksa, niezwłocznie przystępujecie do ewakuacji. Proponowane LZ ewakuacyjne zostały oznaczone kolorem zielonym. Są to jedynie propozycje, sytuacja może być dynamiczna, możecie wyznaczyć sobie nowe LZ w razie potrzeby.
+&lt;br/&gt;&lt;br/&gt;
+Czerwonymi okręgami oznaczono większe skupiska ludności, w których zapewne są członkowie sił powstańczych. Należy unikać zbliżania się i przelotów w tych rejonach, aby uniknąć zbędnych oczu i ryzyka ostrzeżenia przeciwnika o naszej obecności. Zalecenie to zostaje zniesione w momencie wykrycia naszych sił przez przeciwnika. W takiej sytuacji siły powietrzne mogą wkroczyć w bezpośredni rejon miasteczka w celu zapewnienia wsparcia ogniowego.
+&lt;br/&gt;&lt;br/&gt;
+Operacja odbicia, dla bezpieczeństwa Brooksa oraz naszych sił, powinna być wykonana po cichu i bez zbędnego ściągania na siebie uwagi. Na południowym krańcu Ben Guerir znajduje się agregat zasilający całe miasteczko. Jego wyłączenie spowoduje wyłączenie oświetlenia co powinno wam pomóc zakraść się i przeszukać miasto (opcjonalne - decyzja dowódcy operacji).
+&lt;br/&gt;&lt;br/&gt;
+Szczegółowy briefing oraz plan operacji przedstawi oficer dowodzący operacją w hangarze na lotnisku (Codename VEGAS). Na odprawie dostępne będą ekrany wyświetlające najnowsze zdjęcia terenu operacji oraz inne szczegóły przygotowane przez wywiad.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Title">
+      <Polish>Wstęp</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Wstęp jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Nieco ponad miesiąc temu, 23 maja, miała miejsce operacja “Black Avalanche”, w której operatorom Navy Seals udało się zlikwidować jednego z najgroźniejszych dowódców takistańskich powstańców, Hakima “Wise Man” Haftira. W odpowiedzi na jego zabójstwo, powstańcy zorganizowali serię ataków na posterunki koalicji na terenie całego Takistanu, w wyniku których do tej pory zginęło 127 żołnierzy.
+&lt;br/&gt;&lt;br/&gt;
+W poniedziałek, 4 czerwca, elitarny oddział komandosów sił powstańczych wykonał rajd na Hotel “Cesar”, znajdujący się w samym centrum Takmyru - stolicy Takistanu. W wyniku rajdu pojmany został jeden z najbardziej znanych reporterów telewizji AAN, Henry Brooks.
+&lt;br/&gt;&lt;br/&gt;
+Dzień po porwaniu rusza akcja wywiadowcza, mająca na celu ustalenia dokładnych sprawców oraz miejsca przetrzymywania Brooksa. 18 czerwca, po dwóch tygodniach od uprowadzenia, jeden z reprezentantów sił powstańczych kontaktuje się z wywiadem koalicji, proponując wymianę Brooksa na kilku pojmanych przez koalicję dowódców sił powstańczych.
+&lt;br/&gt;&lt;br/&gt;
+Dowództwo koalicji reaguje bardzo niechętnie na propozycję wymiany mimo zerowych efektów operacji wywiadowczej, próbującej ustalić lokalizację Brooksa. O ofercie powstańców zostaje poinformowany prezydent USA. Prezydent Jordan, przerażony perspektywą zamordowania jednej z najbardziej znanych telewizyjnych twarzy, a także konsekwencjami militarnymi oraz politycznymi takiej sytuacji, wydaje zgodę na wymianę więźniów.
+&lt;br/&gt;&lt;br/&gt;
+W poniedziałek 18 czerwca, głęboko w górach północnego Takistanu ma miejsce wymiana. Co początkowo wyglądało na sprawną operacje, szybko okazuje się zasadzką. Sprawnie przeprowadzony atak z 3 kierunków,j całkowicie rozbija siły koalicji zabezpieczające wymianę. W walce ginie 16 żołnierzy koalicji, w tym 4 amerykańskich kontaktorów. Po zakończeniu ataku przez siły powstańcze, okazuje się również, iż wykorzystując chaos walki, powstańczym siłom specjalnym udało się odbić oraz sprawnie ukryć wszystkich przywiezionych na wymianę oficerów powstańców. Sytuacja wydaje się katastrofalna.
+&lt;br/&gt;&lt;br/&gt;
+Dzień po zasadzce, CIA udaje się ustalić, iż całe porwanie dziennikarza oraz późniejsza zasadzka jest operacją zaplanowaną i kierowaną przez jednego z synów zabitego przez operatorów Navy Seals Hakima “Wise Man” Hafitra - Mohameda Haftira. Ta informacja znacząco pogarsza perspektywę odnalezienia dziennikarza żywego, z uwagi na motyw zemsty oraz jak się okazuje, doskonałe przygotowanie Mohameda (zapewne przez swojego ojca) do prowadzenia działań przeciwko siłom koalicji.
+&lt;br/&gt;&lt;br/&gt;
+O poranku, w czwartek 28 czerwca, do CIA trafia informacja jednego ze świeżo zrekrutowanych agentów, o prawdopodobnym miejscu przetrzymywania Brooksa. Informacja natychmiast zostaje przekazana do dowództwa koalicji. Jeszcze przed południem, wiadomość oraz analiza CIA zostaje przekazana na ręce prezydenta. W analizie, jeden z pionów analitycznych zwraca uwagę na to, iż informacja przyszła od świeżego agenta, bez dłuższej historii współpracy, a także na fakt, że zaskakująco szybko po zasadzce udało im się tą informację pozyskać. Wedle analizy, szansa na to, że jest to kolejna zasadzka wynoszą około 70%.
+&lt;br/&gt;&lt;br/&gt;
+Przyparty do muru, prezydent Jordan podejmuje decyzje o przeprowadzeniu próby odbicia bazującej na zdobytej lokalizacji. Żąda jednocześnie wysłania “najlepszych z najlepszych” oraz zapewnieniu maksymalnego możliwego bezpieczeństwa, w razie kolejnej zasadzki.
+&lt;br/&gt;&lt;br/&gt;
+Do przeprowadzania operacji wysłani zostaną operatorzy Navy Seals, tego samego oddziału, który miesiąc wcześniej wyeliminował Hakima Haftira. Do zabezpieczenia operacji wydelegowany zostaje specjalna sekcja lotnicza tzw. “Night Riders”. Operacja otrzymuje kryptonim “Steam Pipe”.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tech_Text">
+      <Polish>
+&lt;font size='18'&gt;
+- Ważne! Po briefingu następuje przezbrojenie w zbrojowni. Gracze ubierają się za pomocą arsenału podpiętego do szafek w boxie z ubraniami (5 osób max jednocześnie). Arsenał pozwala na sprawdzenie statystyk dobieranego sprzętu. W arsenale dostepne są tylko części ubioru (hełm, goggle, kamizelka, plecak). Z uwagi na to jak działa arsenał (dodane są do niego tylko części ubioru), ważne jest aby każdy ubrał się PRZED doborem reszty sprzętu. Otwarcie arsenału po dobraniu sprzętu grozi jego utratą! Załoganci śmigłowców, piloci, kontroler lotów oraz dowódca operacji NIE muszą się ubierać (wszystko mają na sobie lub w stosownych skrzynkach - podpisane).
+&lt;br/&gt;&lt;br/&gt;
+- W każdej z drużyn powinien być przynajmniej jeden saper (wszyscy operatorzy mają uprawnienia EOD - wyznaczamy jednego do pełnienia roli).
+&lt;br/&gt;&lt;br/&gt;
+- Wioska znajduje się na granicy czytelnego kontaktu radiowego z bazą VEGAS. Każda z drużyn powinna zabrać ze sobą mobilną antenę która zwiększa zasięg radia. Antenę należy schować do inventory, rozłożyć poprzez self-menu, następnie wystarczy stanąć zaraz obok niej (1-5m), odczekać 2-3 sekundy i użyć radia normalnie. Anteny są zniszczalne, zaraz po użyciu powinny być składane.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+- Cała misja powinna zostać wykonana po cichu. Gdyby jednak wasza obecność została wykryta, śmigłowce oraz samolot mogą wlecieć w rejon operacji i zapewnić wsparcie ogniowe. Jedynym i absolutnym priorytetem jest jak najszybsze odnalezienie i ewakuowanie Brooksa żywego.
+&lt;br/&gt;&lt;br/&gt;
+- W przypadku śmierci Brooksa, wasze główne zadanie zakończy się niepowodzeniem. W takiej sytuacji, kolejnym głównym zadaniem będzie ewakuacja jego ciała, które może być wykorzystane przez powstańców w celach propagandowych.
+&lt;br/&gt;&lt;br/&gt;
+- Powyższa reguła dotyczy również poległych Sealsów, wszystkie ciała muszą być zabezpieczone i ewakuowane. Ostatnie czego nam trzeba to zdjęcia martwych komandosów w głównym wydaniu wiadomości. W celu optymalizacji ekwipunku operatorów, worki na ciała mogą być przewożone w śmigłowcach i dostarczone w razie potrzeby.
+&lt;br/&gt;&lt;br/&gt;
+- W misji mogą znajdować się customowe mechaniki, ich obsługa będzie wyjaśniona graczom przez misję (hinty & updaty briefu) w trakcie jej trwania.
+&lt;br/&gt;&lt;br/&gt;
+- Dowódca operacji oraz kontroler lotów mogą kierować działaniami z bazy (VEGAS) lub z pokładu któregoś ze śmigłowców.
+&lt;br/&gt;&lt;br/&gt;
+- Dowódca operacji ma zwierzchnictwo nad wszelkimi jednostkami biorącymi udział w operacji. Kontroler lotów dba organizację, współprace, synchronizację, komunikację i dobre zgranie sił powietrznych między sobą oraz z operatorami na ziemi.
+&lt;br/&gt;&lt;br/&gt;
+- Wszyscy operatorzy, jako członkowie sił specjalnych, mają podstawowe przeszkolenie medyczne oraz EOD.
+&lt;br/&gt;&lt;br/&gt;
+- Wszyscy piloci oraz strzelcy pokładowi są zaawansowanymi mechanikami.
+&lt;br/&gt;&lt;br/&gt;
+- Pilot A10, w konsultacji z dowódcą operacji i/lub kontrolerem lotów, może dowolnie zmieniać pylony w samolocie.
+&lt;br/&gt;&lt;br/&gt;
+- W misji przewidziane są sloty rezerwy, ale tylko dla pilotów. Brak rezerwy dla operatorów!
+&lt;br/&gt;&lt;br/&gt;
+- W tej misji Brooks jest w 100% śmiertelną postacią (bez owijania). Może zginąć lub zostać ranny. Nie znamy jego aktualnego stanu zdrowia ani w jakich warunkach był przetrzymywany. Gracze powinni być przygotowani na scenariusz w którym Brooks przed transportem może wymagać opieki medycznej.
+&lt;br/&gt;&lt;br/&gt;
+- W związku z powyższym, misja obsługuje 4 różne zakończenia:
+&lt;br/&gt;&lt;br/&gt;
+    - Brooksa nie udało się odnaleźć / nie ma go w miasteczku.&lt;br/&gt;
+    - Brooks został zabity (niezależnie przez kogo) i jego ciała nie udało się odzyskać.&lt;br/&gt;
+    - Brooks został zabity (niezależnie przez kogo) ale jego ciało zostało odzyskane.&lt;br/&gt;
+    - Brooks został odnaleziony i bezpiecznie ewakuowany.
+&lt;br/&gt;&lt;br/&gt;
+    Niezależnie od powyższej opcji, dochodzą jeszcze 3 właściwości (dla każdego z 4 powyższych zakończeń):&lt;br/&gt;
+    - Brak strat w śród operatorów.&lt;br/&gt;
+    - Wszystkie ciała poległych operatorów zostały ewakuowane.&lt;br/&gt;
+    - Nie wszystkie ciała poległych operatorów zostały ewakuowane.
+&lt;br/&gt;&lt;br/&gt;
+- Operacja do momentu odnalezienia Brooksa powinna być przeprowadzana po cichu, wykrycie naszych sił stwarza ryzyko zabicia Brooksa przez porywaczy.
+&lt;br/&gt;&lt;br/&gt;
+- Do momentu odnalezienia Brooksa siły powietrzne powinny trzymać się w bezpiecznej odległości od miasteczka (okrąg wokół miasteczka).
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_1">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Podziękowania dla Modzyna za udzielenie głosu jednej z postaci.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_2">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;23 maja miała miejsce operacja “Black Avalanche”, w której operatorom Navy Seals udało się zlikwidować jednego z najgroźniejszych dowódców takistańskich powstańców, Hakima “Wise Man” Haftira.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_3">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;W odpowiedzi na jego zabójstwo, powstańcy zorganizowali serię ataków na posterunki koalicji na terenie całego Takistanu, w wyniku których do tej pory zginęło 127 żołnierzy.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_4">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;4 czerwca, oddział komandosów sił powstańczych wykonał rajd na Hotel “Cesar” w stolicy Takistanu. W wyniku rajdu pojmany został jeden z najbardziej znanych reporterów telewizji AAN, Henry Brooks.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_5">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;W kilka godzin po porwaniu, rusza szeroko zakrojona akcja wywiadowcza mająca na celu ustalić lokalizację Brooksa.&lt;br/&gt;&lt;br/&gt;Wszelkie próby kończą się niepowodzeniem.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_6">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;18 czerwca, jeden z reprezentantów sił powstańczych kontaktuje się z wywiadem koalicji, proponując wymianę Brooksa na kilku pojmanych przez koalicję dowódców sił powstańczych.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_7">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Dowództwo koalicji reaguje bardzo niechętnie na propozycję wymiany.&lt;br/&gt;&lt;br/&gt;Prezydent Jordan, przerażony perspektywą zamordowania gwiazdy telewizji, wydaje zgodę na wymianę więźniów.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_8">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;18 czerwca ma miejsce wymiana. Co początkowo wyglądało na sprawną operację, szybko okazuje się zasadzką.&lt;br/&gt;&lt;br/&gt;Atak z 3 kierunków całkowicie rozbija siły koalicji zabezpieczające wymianę.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_9">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;W walce ginie 16 żołnierzy, w tym 4 amerykańskich kontaktorów, powstańcy odbijają również wszystkich przywiezionych na wymianę oficerów.&lt;br/&gt;&lt;br/&gt;Sytuacja wydaje się katastrofalna.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_10">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;W czwartek 28 czerwca, do CIA trafia raport o możliwym miejscu przetrzymywania Brooksa. Informacja natychmiast zostaje przekazana do dowództwa koalicji.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_11">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Według analizy CIA, z uwagi na niesprawdzone źródło oraz nietypowe okoliczności, prawdopodobieństwo kolejnej zasadzki wynosi około 70%.&lt;br/&gt;&lt;br/&gt;Możliwe opcje zostały przedstawione prezydentowi.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_12">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Przyparty do muru, prezydent Jordan podejmuje decyzję o przeprowadzeniu próby odbicia bazującej na zdobytej lokalizacji.&lt;br/&gt;&lt;br/&gt;Rusza pełna mobilizacja sił specjalnych.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_13">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Zaraz po podpisaniu rozkazu, rozpoczyna się posiedzenie gabientowe:&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_14">
+      <Polish>&lt;t size='2' font='RobotoCondensedLight'&gt;“Panowie, wierzę, że mamy tutaj kilka rachunków do wyrównania...”&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_15">
+      <Polish>&lt;t size='2' font='RobotoCondensedLight'&gt;“Tym razem zrobimy to inaczej.”&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_16">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Do operacji zostaje przydzielony oddział TIER 1 Navy Seals, ten sam który wykonał operację “Black Avalanche” miesiąc temu.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_17">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Siły powietrzne oddelegowały najlepsze dostępne jednostki, elitarny oddział śmigłowców oraz najcięższe samoloty jakie posiada kontyngent.&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_18">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;Wszyscy czują powagę sytuacji. Głównodowodzący TAKCOM na 30 minut przed wylotem sił do bazy “VEGAS” kończy odprawę słowami:&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_19">
+      <Polish>&lt;t size='2' font='RobotoCondensedLight'&gt;“Jedziemy zwrócić męża żonie, ojca rodzinie, bohatera narodowi...”&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_20">
+      <Polish>&lt;t size='2' font='RobotoCondensedLight'&gt;“i skąpiemy we krwi każdego skurwysyna który stanie nam na drodze.”&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Text_21">
+      <Polish>&lt;t size='2' font='RobotoCondensed'&gt;„Dwa najważniejsze dni Twojego życia to ten, w którym się urodziłeś oraz ten, w którym dowiedziałeś się, po co.”&lt;/t&gt;&lt;br/&gt;&lt;t size='1.5' font='RobotoCondensedLight'&gt;Mark Twain&lt;/t&gt;</Polish>
+    </Key>
+  </Package>
+</Project>

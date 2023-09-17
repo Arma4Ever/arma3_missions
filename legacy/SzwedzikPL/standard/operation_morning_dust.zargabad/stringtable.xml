@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Mission">
+  <Package name="OperationMorningDust">
+    <Key ID="STR_Mission_Intro_Quote">
+      <Original>&lt;t size='2' font='PuristaSemiBold'&gt;Tyl­ko mar­twi uj­rzeli ko­niec wojny.&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t size='1.4' font='PuristaMedium'&gt;Platon&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_TakeFlag">
+      <Original>Przejmij flagę</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_TakingFlag">
+      <Original>Przejmowanie flagi...</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_FlagTaken">
+      <Original>Flaga przejęta</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Location">
+      <Original>Zargabad, Środkowy Takistan</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_CreatingObjs">
+      <Original>Tworzenie obiektów mapy...</Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro">
+      <Original>Wstęp</Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Text">
+      <Original>
+&lt;font size='16'&gt;
+Od ponad 2 lat toczy się krwawa wojna domowa w Takistanie. Sprowokowani przez Amerykańską inwazję, Takistańczycy chcący niezależności swojego państwa od USA chwycili za broń. Pierwotnie siły powstańcze, z uwagi na efekt zaskoczenia oraz przewagę liczebną, odnosili spore sukcesy w walce z armią rządową. W dotychczasowym szczycie, prawie 2/3 kraju znajdowało się pod kontrolą powstańców.
+&lt;br/&gt;&lt;br/&gt;
+1 sierpnia 2014 roku armia rządowa, po miesiącach przygotowań, zakupów uzbrojenia i szkoleń rezerwistów, rusza do swojej pierwszej dużej ofensywy. Celem tej ofensywy jest odbicie z rąk powstańców centrum kraju, co ma pozwolić w przyszłości na rozbicie sił powstańczych na mniejsze grupy rozsiane po różnych jego rejonach a następnie łatwiejszą ich eliminację. Po ponad 3 tygodniach ciężkich walk, armii rządowej udaje się wykonać połowę założeń ofensywny.
+&lt;br/&gt;&lt;br/&gt;
+Wieczorem 18 sierpnia docierają w okolice Zargabadu, małego miasta w samym centrum Takistanu. Miasto to ma znaczenie strategiczne, z uwagi na swoje położenie, lotnisko oraz jedną z większych rafinerii ropy w rejonie. Chwilę po północy 19 sierpnia, zostaje wydany rozkaz do przygotowania się do szturmu na miasto, które ma się rozpocząć o poranku. Rozpoczyna się operacja "Morning Dust".
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief_Text">
+      <Original>
+&lt;font size='16'&gt;
+Celem operacji “Morning Dust” jest zabezpieczenie południowego dojazdu do miasta (najlepiej głównej drogi), przejęcie kluczowych punktów w samym mieście oraz utrzymanie centrum (meczetu) do czasu przybycia reszty dywizji. Powstańcy nie oddadzą tego miasta lekką ręką. Spodziewajcie się silnego oporu, prób organizowania zasadzek, pułapek oraz kontrataków.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tasks_Text">
+      <Original>
+&lt;font size='18'&gt;
+Zadania obowiązkowe
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+- Zająć wioskę Shahbaz.
+&lt;br/&gt;&lt;br/&gt;
+- Zająć garnizon Yarum.
+&lt;br/&gt;&lt;br/&gt;
+- Zająć wioskę Yarum.
+&lt;br/&gt;&lt;br/&gt;
+- Zabezpieczyć meczet.
+&lt;br/&gt;&lt;br/&gt;
+- Zabezpieczyć lotnisko Zargabad.
+&lt;br/&gt;&lt;br/&gt;
+- Zabezpieczyć garnizon Zargabad.
+&lt;br/&gt;&lt;br/&gt;
+- Zabezpieczyć plac budowy.
+&lt;br/&gt;&lt;br/&gt;
+- Utrzymać meczet do czasu przybycia reszty dywizji.
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='18'&gt;
+Zadania opcjonalne
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+- Przejąć wszystkie flagi znajdujące się pomiędzy FOBem a granicą działań ofensywnych.
+&lt;br/&gt;&lt;br/&gt;
+- Przeszukać wszystkie zdobyte lokacje/budynki/umocnienia, przejąć bądź zniszczyć znalezione składy broni (to co można wykorzystać należy zabrać, resztę zniszczyć).
+&lt;br/&gt;&lt;br/&gt;
+- Znaleźć i wyeliminować wrogie baterie moździerzy.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tech_Text">
+      <Original>
+&lt;font size='16'&gt;
+- Wszyscy zaczynają w F.O.B. Eufrat.
+&lt;br/&gt;&lt;br/&gt;
+- Zadania nie są zaliczane automatycznie - decyduje HQ.
+&lt;br/&gt;&lt;br/&gt;
+- Kolejność wykonywania zadań jest dowolna (poza ostatnim, duh).
+&lt;br/&gt;&lt;br/&gt;
+- Flaga oraz niebieska strzałka na wschód od F.O.B. określa kierunek z którego przybędzie reszta dywizji (ostatnie zadanie).
+&lt;br/&gt;&lt;br/&gt;
+- Z uwagi na nasze dotychczasowe doświadczenia operacyjne (wiele zasadzek, ataków z użyciem IEDów itp.), wszyscy nasi żołnierze są przeszkoleni w rozbrajaniu ładunków wybuchowych (mają uprawnienia EOD).
+&lt;br/&gt;&lt;br/&gt;
+- Wszyscy członkowie załóg pojazdów oraz artylerzyści są mechanikami.
+&lt;br/&gt;&lt;br/&gt;
+- Pojazdy BMP-2 są przeznaczone do transportu piechoty, lecz HQ może ich używać jak uzna za stosowne (są dostępne również ciężarówki transportowe oraz inne pojazdy które może obsadzić piechota).
+&lt;br/&gt;&lt;br/&gt;
+- Wszystkie pojazdy mają powiększone cargo, mogą zabrać więcej skrzynek/broni statycznych itp.
+&lt;br/&gt;&lt;br/&gt;
+- Za zgodą HQ, załogi pojazdów mogą zmieniać swoje pojazdy (np. załoga BMP może się przesiąść do czołgu i odwrotnie).
+&lt;br/&gt;&lt;br/&gt;
+- Podczas operacji możecie napotkać zbudowane przez powstańców barykady. W razie potrzeby piechota może je wysadzić za pomocą ładunków wybuchowych (jest to jedyny sposób na ich niszczenie).
+&lt;br/&gt;&lt;br/&gt;
+- Po wejściu do miasta, piechota powinna się spodziewać ciężkiego CQB. Sprawę utrudniać będą gruzy, zgliszcza, uszkodzone/zniszczone budynki, wraki pojazdów, barykady, umocnienia, a także zastawione miejscami pułapki. Podczas walk w mieście należy zachować najwyższą możliwą ostrożność, poruszać się powoli i z głową.
+&lt;br/&gt;&lt;br/&gt;
+- Powstańcy często korzystają z różnego rodzaju min - uważajcie pod nogi. Pojazdy powinny uważać na IED oraz duże miny przeciwczołgowe - proście piechotę o sprawdzenie tras (celem operacji jest m.in. udrożenienie dojazdu do miasta).
+&lt;br/&gt;&lt;br/&gt;
+- Wrogi ostrzał artyleryjski (głównie moździeżowy) prowadzony jest przez baterie znajdujące się w strefie działań (nie ma artylerii "z poza mapy"). Wszystkie takie baterie możecie niszczyć aby odciąć przeciwnika od wsparcia ogniowego.
+&lt;br/&gt;&lt;br/&gt;
+- Misja nie ma ogromnych zasięgów generowania. Należy unikać wypuszczania zwiadu zbyt daleko przed pozostałe siły - mogą niczego nie wyspotować (brak wygenerowanego przeciwnika).
+&lt;br/&gt;&lt;br/&gt;
+- Przeciwnik zdaje sobie sprawę z naszej przewagi ogniowej. Niektóre (nieliczne) budynki zostały wzmocnione, uniemożliwając ich zniszczenie artylerią/ostrzałem.
+&lt;br/&gt;&lt;br/&gt;
+- Starajcie się eliminować przeciwnika z jak największego dystansu. Możecie używać do tego pojazdów, artylerii, broni statycznych itp. Wraz z malejącym dystansem, maleje również nasza przewaga.
+&lt;br/&gt;&lt;br/&gt;
+- Powstańcy również zdają sobie sprawę z naszej przewagi jeśli chodzi o walkę na dystans. Mogą stosować różnego rodzaju taktyki aby zwabić was jak najbliżej (np. chować się w umocnieniach i czekać aż się zbliżycie - to, że ich nie widać ze spotu nie znaczy, że ich nie ma.).
+&lt;br/&gt;&lt;br/&gt;
+- Przy wyjeździe z FOBu znajdują się skrzynki transportowe wyładowane amunicją i medykamentami. Można je także uzupełniać samemu w razie gdyby czegoś było mało/czegoś brakowało.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Flags_Text">
+      <Original>
+&lt;font size='16'&gt;
+Konflikt prowadzony jest na bardzo niskim poziomie technologicznym. Z tego powodu, obie strony używają prostych masztów z flagami do oznaczenia własnych pozycji. Po całej mapie rozsiane są flagi powstańców, zwykle oznaczają one checkpointy lub umocione pozycje. Flagi te można przejmować za pomocą menu interakcji (ace).
+&lt;br/&gt;&lt;br/&gt;
+Co daje przejęcie flagi:
+&lt;br/&gt;&lt;br/&gt;
+- Przejęta flaga deaktywuje możliwość spawnu wrogich jednostek w jej rejonie. Jest to najlepsza metoda na zabezpieczanie obszarów (z tą uwagą, że powstańcy wciąż mogą poruszać się po tym obszarze jeśli przyjdą z innego miejsca - oczy szeroko otwarte).
+&lt;br/&gt;&lt;br/&gt;
+- Zwykle są to w jakiś sposób umocione pozycje (umocnienia działają w dwie strony - możemy je wykorzystać), często można tam ten znaleźć jakieś zasoby.
+&lt;br/&gt;&lt;br/&gt;
+- W momencie przejęcia flagi na mapie pojawi się marker oznaczający przejętą flagę. Te markery mogą znacznie poprawić orientację na polu bitwy, określenie "linii frontu" oraz bezpiecznych stref.
+&lt;br/&gt;&lt;br/&gt;
+Wrogie flagi znajdują się też poza granicami naszych dzisiejszych działań, tych dziś przejmować nie będziemy (natomiast należy je obserwować z uwagi na spawn jednostek z tych obszarów, np. kontrataki).
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Barricades_Text">
+      <Original>
+&lt;font size='16'&gt;
+Powstańcy umacniają swoje pozycje w mieście oraz okolicach już od jakiegoś czasu. Lekkie umocnienia, takie jak druty kolczaste, jeże oraz proste barykady mogą być wysadzane (to jedyny sposób na ich usunięcie) w celu np. ułatwienia podejścia dla pojazdów.
+&lt;br/&gt;&lt;br/&gt;
+Umocnienia które można wysadzać:
+&lt;br/&gt;
+&lt;img image='data\brief\barricade_1.jpg' width='380' height='214'/&gt;
+&lt;br/&gt;
+&lt;img image='data\brief\barricade_2.jpg' width='380' height='214'/&gt;
+&lt;br/&gt;
+&lt;img image='data\brief\barricade_3.jpg' width='380' height='214'/&gt;
+&lt;br/&gt;&lt;br/&gt;
+Na pozostałe umocnienia (szczególnie na duże umocnione ściany z worków) nie należy tracić czasu i sprzętu z wysadzaniem. Wysadzanie umocnień działa tylko w przypadku ładunków M112 (bloki) lub M183 (duż torba).
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Vehicles_Text">
+      <Original>
+&lt;font size='16'&gt;
+- 1x T-72B.
+&lt;br/&gt;&lt;br/&gt;
+- 2x T-55A.
+&lt;br/&gt;&lt;br/&gt;
+- 6x BMP-2K.
+&lt;br/&gt;&lt;br/&gt;
+- 2x BRDM-2 Konkurs.
+&lt;br/&gt;&lt;br/&gt;
+- 3x Hilux (transport).
+&lt;br/&gt;&lt;br/&gt;
+- 2x Hilux (ZU23).
+&lt;br/&gt;&lt;br/&gt;
+- 2x Hilux (SPG-9).
+&lt;br/&gt;&lt;br/&gt;
+- 1x URAL 4320 (ZU-23).
+&lt;br/&gt;&lt;br/&gt;
+- 2x Praga V3S (transport).
+&lt;br/&gt;&lt;br/&gt;
+- 2x BTR-40 (DshKM).
+&lt;br/&gt;&lt;br/&gt;
+- 2x Quad (dla zwiadu).
+&lt;br/&gt;&lt;br/&gt;
+- 2x pełny zestaw ciężarówek serwisowych.
+&lt;/font&gt;
+      </Original>
+    </Key>
+  </Package>
+</Project>

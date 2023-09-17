@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3C">
+  <Package name="Mission">
+    <Key ID="STR_Mission_CfgDebriefing_MissonEnd">
+      <Polish>MISJA ZAKOŃCZONA</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndSuccess">
+      <Polish>Misja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndFailed">
+      <Polish>Misja zakończona niepowodzeniem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllTasksAccomplished">
+      <Polish>Wszystkie zadania zostały wykonane</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissionFailed">
+      <Polish>Misja nie powiodła się</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllUnitsDead">
+      <Polish>Wszystkie jednostki poległy</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgLeaflets_Example">
+      <Polish>Przykładowy tekst ulotki</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgUnitInsignia_111thID">
+      <Polish>111 Dywizja Piechoty</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_CreatingObjects">
+      <Polish>Tworzenie obiektów...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Date">
+      <Polish>22 maja 1967 roku,</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line1">
+      <Polish>Kompania E, 5 batalionu, 1 dywizji kawalerii powietrznej</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line2">
+      <Polish>Baza Pleiku, Południowy Wietnam</Polish>
+    </Key>
+    <Key ID="STR_Mission_Motto_Line1">
+      <Polish>"Garry Owen" kawalerzyści!</Polish>
+    </Key>
+    <Key ID="STR_Mission_Motto_Line2">
+      <Polish>Bóg z wami.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Notification_BriefingUpdated">
+      <Polish>Briefing oraz mapa zostały zaktualizowane</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Briefing jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+W zdobytym przez jednego z naszych oficerów notatniku znaleźliśmy opis spotkania, które ma się odbyć około 7km na północny zachód od LZ Leslie, gdzie jedna z kompanii 1 brygady 4 dywizji piechoty została prawie rozbita. W którejś z wiosek w rejonie zwanym przez lokalsów “Plain of Jars” ma odbyć się spotkanie lokalnych dowódców vietcongu z oficerem armii północnego wietnamu. Może być to niepowtarzalna okazja, aby zdobyć kluczowe informacje o współpracy vietcongu z reżimem północy, ich drogami zaopatrzenia lub rozmieszczeniu sił w rejonie. Te informacje mogą nam bardzo pomóc, a kto wie, może nawet być początkiem końca tej krwawej wojny. Okazja jest zbyt dobra, aby ją przepuścić.
+&lt;br/&gt;&lt;br/&gt;
+W ciągu ostatnich miesięcy obserwujemy wzmożoną aktywność partyzantów w całym południowym wietnamie. Z uwagi na ten fakt, wszystkie doświadczone jednostki są już związane walką i nie zdołamy tego zmienić tak szybko, aby zdążyć przed terminem spotkania. Biorąc pod uwagę ten fakt, podjęta została decyzja aby to nowo sformowana kompania E 5 batalionu 1 dywizji kawalerii powietrznej podjęła się tego zadania. Jako, że będzie to pierwsza misja tej jednostki, operacja została okraszona nazwą “Operation Green Run”.
+&lt;br/&gt;&lt;br/&gt;
+Operacja podzielona została na dwa etapy:
+&lt;br/&gt;&lt;br/&gt;
+Etap 1
+&lt;br/&gt;&lt;br/&gt;
+Desantujecie się ze śmigłowców w LZ X-Ray. LZ znajduje się w samym centrum równiny. Jest to celowy manewr gdyż zależy nam na efekcie zaskoczenia oraz szybkości działania. Musimy znaleźć i pojmać oficera PAVN zanim zdążą się zorientować co się dzieje i uciec - przygotujcie się na desant pod ostrzałem.
+&lt;br/&gt;&lt;br/&gt;
+Po desancie natychmiast przechodzicie do sprawdzania zabudowań w perymetrze. Oficera musimy pojmać żywego, więc do czasu jego znalezienia zabrania się używania wsparcia ogniowego oraz strzelania bez potwierdzenia celu (szczególnie do budynków). Po znalezieniu oficera, musicie go pojmać (zakuć), załadować do śmigłowca a następnie przewieźć do LZ Phu Quoc. W Phu Quoc przejmą go żandarmi ARVN, który operuje tam więzieniem dla jeńców wojennych, gdzie oficer zostanie przesłuchany.
+&lt;br/&gt;&lt;br/&gt;
+Po załadowaniu oficera do śmigłowca przechodzicie do zabezpieczenia całego perymetru równiny (obszar oznaczony na mapie okręgiem). Jak tylko zabezpieczycie cały perymetr, możecie przejść do realizacji etapu 2.
+&lt;br/&gt;&lt;br/&gt;
+Etap 2
+&lt;br/&gt;&lt;br/&gt;
+Po zabezpieczeniu perymetru równiny, dzielicie się na 3 grupy - 2 duże o zdolnościach ofensywnych i jedną mniejszą, czysto defensywną. Jedna z grup ofensywnych ma zostać wysłana na północ w celu wykonania zwiadu we wsi Com Ngon. W tym samym czasie druga grupa ofensywna rusza na południowych wschód w celu sprawdzenia wsi Binh Yen.
+&lt;br/&gt;&lt;br/&gt;
+Celem takiego manewru jest znalezienie i wyeliminowanie jednostek wroga, które zabezpieczają flanki rejonu spotkania. Będą to te same jednostki, które starły się z naszą kompanią piechoty w LZ Leslie kilka dni temu, więc spodziewajcie się dobrze uzbrojonych i zorganizowanych przeciwników.
+&lt;br/&gt;&lt;br/&gt;
+Równolegle do działań grup ofensywnych, najmniejsza z grup powinna zabezpieczać rejon LZ X-Ray tak, aby śmigłowce mogły tam swobodnie lądować i dostarczać amunicję oraz rezerwistów. Nie spodziewamy się kłopotów w rejonie LZ, ale nie możemy zostawić śmigłowców samych przy lądowaniu, więc ktoś powinien tam być przez cały czas trwania operacji i przyjmować śmigłowce.
+&lt;br/&gt;&lt;br/&gt;
+W razie potrzeby i nieprzewidzianych problemów, możecie skorzystać z innych LZ wyznaczonych jako zapasowe lub stworzyć nowe zależnie od sytuacji. Po wyeliminowaniu jednostek wroga w rejonie, wracamy na LZ X-Ray (lub innego aktualnie używanego LZ) i ewakuujemy się do naszej bazy w Pleiku.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Title">
+      <Polish>Wstęp</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Wstęp jest taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+18 maja 1967 roku, w ramach operacji Francis Marion, jedna z kompanii 1 brygady 4 dywizji piechoty w sile 4 plutonów desantuje się w LZ Leslie w celu wykonania patrolu na wzgórze 148 znajdujące się nieopodal. Kilkanaście minut po zajęciu wzgórza dochodzi do pierwszego kontaktu z przeciwnikiem. Co począwszy wydawało się spotkaniem z małym patrolem vietcongu, szybko okazuje się dużo większym zgrupowaniem wroga w sile około 300 żołnierzy.
+&lt;br/&gt;&lt;br/&gt;
+Pomimo lepszej pozycji, miażdżącego wsparcia ogniowego oraz wyeliminowania co najmniej 100 wrogich żołnierzy, kompania traci w walce cały jeden pluton i większość kolejnego. Pozostałe dwa plutony oraz resztki trzeciego zostają zmuszone do odwrotu. Jeden z plutonów dostaje rozkaz utorowania przejścia do LZ Leslie. Po kolejnej godzinie walki, plutonowi na szpicy udaje się przebić do LZ, tracąc w międzyczasie połowę ludzi. Z niespełna 90 żołnierzy którzy wylądowali w LZ Leslie, tylko 37 udało się do niego powrócić. Żołnierze tworzą perymetr obronny wokół LZ, desperacko czekając na ewakuację.
+&lt;br/&gt;&lt;br/&gt;
+LZ bardzo szybko zostaje w pełni otoczone przez przeciwnika. W trakcie walki jeden z oficerów, w akcie, który później opisano jako “przejaw niewyobrażalnej waleczności i odwagi” gołymi rękami powala i zabija jednego z dowódców vietcongu. Podczas szybkiego przeszukania ciała udaje mu się odzyskać notatnik. Nie znając języka, wciąż w ogniu walki, oficer kompanii chowa notatnik do plecaka i dołącza z powrotem do swoich kolegów. Chwilę później nad LZ pojawiają się pierwsze śmigłowce.
+&lt;br/&gt;&lt;br/&gt;
+Niestety, przy próbie podejścia pierwszego ze śmigłowców okazuje się, iż wróg miał wystarczająco dużo czasu aby przygotować obronę przeciwlotniczą wokół LZ. Dwa śmigłowce zostają zestrzelone. Piloci szybko zauważają, iż przeciwnik używa cięższej broni niż można byłoby się spodziewać, do zestrzelenia śmigłówców.
+&lt;br/&gt;&lt;br/&gt;
+Kiedy już wydaje się, że resztki kompanii zostaną rozbite, kilku pilotów śmigłowców decyduje się na desperacki przelot ocierający poszyciem o korony drzew. Tylko dzięki bohaterstwu tych pilotów, 3 śmigłowcom udaje się przebić przez ogień przeciwlotniczy wroga i ewakuować ocalałych kolegów. Z 37 żołnierzy którym udało się powrócić na LZ, 32 wróciło tego dnia do bazy.
+&lt;br/&gt;&lt;br/&gt;
+Chwilę po powrocie, zdobyty przez jednego z naszych oficerów notatnik zostaje przekazany do sztabu. Po jego przetłumaczeniu, szybko okazuje się, że jego zawartość będzie podstawą do kolejnej operacji w rejonie...
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Rules_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- W momencie gdy wszystkie jednostki są gotowe, HQ rozpoczyna operację hasłem "Garry Owen" - nickname naszego regimentu. Po usłyszeniu hasła, helki oraz samolot mają zielone na uruchomienie silników a piechota może rozpocząć wchodzenie na pokład.
+&lt;br/&gt;&lt;br/&gt;
+- Będzie to wielodniowa operacja. Czas podczas misji jest przyspieszony - pełna doba w grze trwa godzinę. Przygotujcie się do operowania zarówno w dzień jak i w nocy.
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) Zachowanie przeciwnika będzie zauważalnie inne w dzień i w nocy. Pora dnia powinna być brana pod uwagę przy planowaniu wszelkich działań.
+&lt;br/&gt;&lt;br/&gt;
+- Przewidziane są sloty rezerwy dla uzupełniania ewentualnych strat. Rezerwistów (po dostarczeniu na LZ) do drużyn przydziela dowódca operacji.
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) Misja nastawiona jest na klimat operacji daleko od bazy z ciągłym dostarczaniem zapasów i uzupełnień przez śmigłowce - zachęcam do korzystania ze slotów rezerwy w przypadku śmierci, zaleca się też, aby HQ przydzielał rezerwistów do innych drużyn niż grali pierwotnie dla utrzymania klimatu uzupełnień. Rezerwiści po przezbrojeniu powinni oczekiwać na śmigłowiec na helipadzie.
+&lt;br/&gt;&lt;br/&gt;
+- Okrąg wokół równiny oznacza perymetr równiny którego dotyczyć będą zadania i opisy.
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) Śmierć oficera PAVN kończy misję niepowodzeniem. Obowiązuje zakaz używania wszelkiego wsparcia ogniowego do czasu ewakuacji oficera z perymetru równiny. Do tego czasu zabrania się również strzelania po budynkach i używania w nich granatów odłamkowych.
+&lt;br/&gt;&lt;br/&gt;
+- Oficer PAVN po pewnym czasie może zorientować się w sytuacji i zacząć uciekać - czas gra tutaj rolę, chociaż nie oznacza to, że musimy biegać bezmyślnie z językiem na brodzie - "slow is smooth, smooth is fast".
+&lt;br/&gt;&lt;br/&gt;
+- W trakcie misji mogą pojawić się dodatkowe informacje i/lub zadania.
+&lt;br/&gt;&lt;br/&gt;
+- Posiadanie przez kogoś krótkiego radia jest błędem misji, takie radia należy wyrzucać.
+&lt;br/&gt;&lt;br/&gt;
+- Piloci w przypadku zestrzelenia powinni zostać ewakuowani i odstawieni do bazy. Zapasowe maszyny mogą być pobierane z magazynów - magazyn śmigłowców lub magazyn samolotów.
+&lt;br/&gt;&lt;br/&gt;
+- Z uwagi na ilość skrzynek z zapasami jaka zapewne będzie dostarczona podczas operacji, skrzynki już wykorzystane i/lub puste można zniszczyć za pomocą menu interakcji (poprawia wydajność).
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) Piloci śmigieł na prośbę piechoty mogą również (poza skrzynkami transportowymi) przywozić konkretne rzeczy ze zbrojowni piechoty (np. dodatkowe apteczki, konkretną amunicję, zestawy do szycia, itp.) - konsultujcie się na bieżąco.
+&lt;br/&gt;&lt;br/&gt;
+- Jak w przypadku każdej operacji tego typu, w przypadku poważnego ryzyka rozbicia całej kompanii, HQ może podjąć decyzję o przerwaniu operacji i ewakuacji.
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) Obowiązuje całkowity zakaz zrzucania skrzynek ze spadochronem ze śmigłowców. Takie skrzynki będą usuwane przez zeusa. Brak możliwości wylądowania = brak zaopatrzenia.
+&lt;br/&gt;&lt;br/&gt;
+- Wszystkie oznaczone na mapie LZ to sugestie. HQ w razie potrzeby może zmienić używane LZ na inne niż X-RAY, a także wyznaczać i tworzyć nowe LZ (np. wycięte w lesie).
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Hospital_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Szpital polowy może być używany do szybkiego leczenia dużych grup żołnierzy lub trudnych przypadków.
+&lt;br/&gt;&lt;br/&gt;
+- Po wylądowaniu na helipadzie, należy wysiąść (ranni powinni zostać wyładowani). Wszyscy gracze poza pojazdem zostaną wyleczeni automatycznie.
+&lt;br/&gt;&lt;br/&gt;
+- W szpitalu polowym znajduje się też skrzynka z zapasami medykamentów (nie można jej załadować do helki - uzupełniamy na miejscu).
+&lt;br/&gt;&lt;br/&gt;
+- W namiotach w szpitalu polowym można również pozostawiać worki z ciałami poległych (patrz obowiązek ewakuacji poległych).
+&lt;br/&gt;&lt;br/&gt;
+- Szpital polowy najlepiej sprawdza się w przypadku gdy mamy w polu rannego lub rannych którzy wymagają sporych ilości medykamentów.
+&lt;br/&gt;&lt;br/&gt;
+- Lot z LZ X-Ray do szpitala to około 2.5 minuty (8km).
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_HeliPilots_Title">
+      <Polish>Dla pilotów śmigłowców</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_HeliPilots_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Wszyscy piloci są zaawansowanymi mechanikami.
+&lt;br/&gt;&lt;br/&gt;
+- Po pierwszym zrzucie piechoty piloci w konsultacji z HQ mogą zmienić śmigłowce z transportowych na bojowe.
+&lt;br/&gt;&lt;br/&gt;
+- Śmigłowce pobieramy w magazynie śmigłowców za pomocą akcji na formularzu magazynowym.
+&lt;br/&gt;&lt;br/&gt;
+- Aby wykonać serwis śmigłowca należy wylądować nim w dowolnym miejscu w obrębie helipadu a następie wykonać akcję na skrzynce z narzędziami w serwisie. Wszystkie śmigłowce wymagające serwisowania obecne w helipadzie zostaną wtedy zatakowane, naprawione oraz przezbrojone.
+&lt;br/&gt;&lt;br/&gt;
+- Fioletowa trasa to sugerowane podejście dla śmigłowców pod LZ X-Ray. Śmigłowce powinny powinny wykonać przelot jak najniżej się tylko da tak, aby uniknąć wykrycia i niepotrzebnego ostrzału. Trasa jest wytyczona między wzgórzami co zapewnia śmigłowcom osłonę przy podejściu. Ostateczna decyzja o podejściu pozostaje jednak decyzją pilota.
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) W tej operacji bardzo istotną rolę odgrywa logistyka. Skrzynki oraz moździerze pobieramy akcją na formularzu w magazynie transportowym. Na bieżąco konsultujcie z HQ/JTACiem potrzeby zaopatrzeniowe i dobierajcie skrzynki z głową.
+&lt;br/&gt;&lt;br/&gt;
+- Każdy śmigłowiec zabiera ze sobą dwie skrzynki. Dostępne są: ammo dla piechoty, medykamenty, ammo dla moździerza lub (pusty) moździerz 82mm.
+&lt;br/&gt;&lt;br/&gt;
+- 2 kursujące śmigła to 4 skrzynki, więc po 1 każdego rodzaju + 1 ekstra - pytajcie piechoty czego potrzebują w tym momencie więcej. Starjcie się unikać pustych przebiegów. Weździe pod uwagę czas przelotu (~5 minut w 1 stronę).
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) Zakaz zrzucania skrzynek ze spadochronem ze śmigłowców. Takie skrzynki będą usuwane przez zeusa. Brak możliwości wylądowania = brak zaopatrzenia.
+&lt;br/&gt;&lt;br/&gt;
+- (!!!) Piloci śmigieł na prośbę piechoty mogą również przywozić konkretne rzeczy ze zbrojowni piechoty (np. dodatkowe apteczki, konkretną amunicję, zestawy do szycia, itp.) - konsultujcie sie na bieżąco.
+&lt;br/&gt;&lt;br/&gt;
+- Wszystkie oznaczone na mapie LZ to sugestie. HQ w razie potrzeby może wyznaczać i tworzyć nowe LZ.
+&lt;br/&gt;&lt;br/&gt;
+- Piloci śmigłowców powinni pamiętać, że obowiązuje zakaz używania wsparcia ogniowego do czasu ewakuacji oficera PAVN z terenu operacji.
+&lt;br/&gt;&lt;br/&gt;
+- W misji mogą pojawić się dodatkowe zadania przezonaczone dla pilotów śmigieł/samolotu. Wykonawcę tych zadań ustala HQ.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_JetsPilots_Title">
+      <Polish>Dla pilota samolotu</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_JetsPilots_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Wszyscy piloci są zaawansowanymi mechanikami.
+&lt;br/&gt;&lt;br/&gt;
+- Pilot samolotu w konsultacji z HQ może dowolnie dobierać pylony.
+&lt;br/&gt;&lt;br/&gt;
+- Pylony w samolocie można zmienić za pomocą ciężarówki amunicyjnej w hangarze. Podjeżdżamy ciężarówką pod samolot a następnie wybieramy na samolocie akcje zmiany pylonów (trzeba posiadać toolkit w inventory).
+&lt;br/&gt;&lt;br/&gt;
+- Aby wykonać serwis samolotu kołujemy nim do punktu serwisowego, stajemy w oznaczonym miejscu, następnie (nie wysiadając) wybieramy z menu interakcji z samolotem opcję serwisu. Obsługa naziemna wykona pełny serwis samolotu. Po zakończeniu serwisu samolot będzie gotowy do startu.
+&lt;br/&gt;&lt;br/&gt;
+- Pilot samolotu powinien pamiętać, że obowiązuje zakaz używania wsparcia ogniowego do czasu ewakuacji oficera PAVN z terenu operacji.
+&lt;br/&gt;&lt;br/&gt;
+- W rejonie operowania naszej piechoty samolot powinien wykonywać misje ogniowe tylko i wyłącznie pod kierownictwem FACa (forward air controller). Teren jest trudny, nie trudno o FF.
+&lt;br/&gt;&lt;br/&gt;
+- Poza rejonem operowania piechoty samolot może wykonywać misje ogniowe po zezwoleniu ze strony FACa/HQ.
+&lt;br/&gt;&lt;br/&gt;
+- Samolot "w wolnym czasie" powinien patrolować okolice obszaru operacji. Ruch i zgrupowania przeciwnika mogą być często widoczne z powietrza.
+&lt;br/&gt;&lt;br/&gt;
+- W misji mogą pojawić się dodatkowe zadania przezonaczone dla pilotów śmigieł/samolotu. Wykonawcę tych zadań ustala HQ.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_MortarTeam_Title">
+      <Polish>Dla obsługi moździerzy</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_MortarTeam_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Puste moździerze można pobrać z magazynu transportowego.
+&lt;br/&gt;&lt;br/&gt;
+- Na każdego artylerzystę powinien przypadać jeden moździerz.
+&lt;br/&gt;&lt;br/&gt;
+- Amunicja do moździerzy będzie dostarczana w skrzynkach (pobierana z magazynu transportowego). Jeden pocisk moździerzowy ze skrzynki reprezentuje magazynek moździerza (8 pocisków). Magazynek wyjmujemy ze skrzynki, a następnie mając go w inventory ładujemy przez menu interakcji na moździerzu. Moździerze mają do dyspozycji pociski odłamkowe oraz flary.
+&lt;br/&gt;&lt;br/&gt;
+- Artlerzyści powinni pamiętać, że obowiązuje zakaz używania wsparcia ogniowego do czasu ewakuacji oficera PAVN z terenu operacji.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Division_Title">
+      <Polish>Profil wywiadowczy 304 dywizji PAVN</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Division_Text">
+      <Polish>
+&lt;font size='20'&gt;Historia&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Powstała w styczniu 1950 w ramach sił zbrojnych Viet Minh, zwana wśród wietnamczyków jako "Vinh Quang" - "wspaniała".
+Złożona w dużej mieże z weteranów wojny przeciwko francuzom.
+W 1953 starła się z francuzami w Annam (środowy Laos), eliminując kilka odizolowanych placówek.
+W 1954 brała udział w zwycięzkiej bitwie pod Dien Bien Phu, doprowadzając do ostatecznej porażki francuzów, a w konsekwencji podpisania porozumień genewskich i podziału wietnamu na północny i południowy.
+Dwa lata temu (1965) jednen z regimentów wchodzących w skład tej dywizji starł się z nami podczas bitwy w dolinie Ia Drang.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='20'&gt;Wyposażenie&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Wedle naszych informacji, dywizja uznawana jest za ciężką, jedna z najlepiej wyposażonych.
+W rejonie operowania jednostek tej dywizji, spodziewać się można cięższego sprzętu, w tym obrony przeciwlotniczej (12.7mm, 14.5mm).
+Posiada przydzieloną co najmniej jedną brygadę ciężkiej artylerii oraz moździerzy różnego kalibru.
+Dane z ostatnich miesięcy wskazują także, iż została wyposażona w chińskie lekkie czołgi "Type 63" w sile co najmniej kompanii.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='20'&gt;Zalecenia&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Uważać na obronę przeciwlotniczą w rejonie działań dywizji.
+Wyposażyć sojuszniczą piechotę w wyrzutnie przeciwpancerne.
+W razie konieczności obrony zadbać o umocnienie/okopanie pozwalające przetrwać ogień moździerzy oraz haubic 85mm.
+W przypadku posiadania samolotu dyżurnego, zadbać o zwiad rejonu operacji z powietrza. Ruchy ciężkiego sprzętu powinny być widoczne z większej odległości.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_UI_DayCount_Day">
+      <Polish>Dzień %1</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service">
+      <Polish>Serwisuj śmigłowce</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service_HelipadEmpty">
+      <Polish>Brak śmigłowców wymagających serwisu na helipadzie</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service_Progress">
+      <Polish>Serwisowanie śmigłowców...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Service_Done">
+      <Polish>Serwis śmigłowców zakończony</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceJet">
+      <Polish>Serwisuj samolot</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceJet_Progress">
+      <Polish>Serwisowanie samolotu...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceJet_Done">
+      <Polish>Serwis samolotu zakończony</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_GetHelicopter">
+      <Polish>Pobierz śmigłowiec</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_GetCargoBox">
+      <Polish>Pobierz skrzynkę</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Mortar">
+      <Polish>Moździerz 82mm</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_Mortar_Done">
+      <Polish>Pobrano moździerz 82mm z magazynu</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_MortarAmmo">
+      <Polish>Amunicja moździerzy</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_MortarAmmo_Done">
+      <Polish>Pobrano amunicję moździerzy z magazynu</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_LoadHEMag">
+      <Polish>Załaduj magazynek HE</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_LoadHEMag_Progress">
+      <Polish>Ładuję magazynek HE...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_LoadHEMag_Done">
+      <Polish>Załadowano magazynek HE</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_LoadFlareMag">
+      <Polish>Załaduj magazynek ILLUM</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_LoadFlareMag_Progress">
+      <Polish>Ładuję magazynek ILLUM...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_LoadFlareMag_Done">
+      <Polish>Załadowano magazynek ILLUM</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DestroyBox">
+      <Polish>Zniszcz skrzynkę</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_DestroyBox_Confirm">
+      <Polish>Zniszczyć skrzynkę?</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_01_Title">
+      <Polish>Znaleźć i pojmać oficera PAVN</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_01_Desc">
+      <Polish>Pierwszym i najważniejszym zadaniem będzie zdesantowanie się na LZ X-Ray, przeszukanie zabudowań w perymetrze równiny (znaki zapytania) i znalezienie oficera armii północnego wietnamu. Teren jest zamieszkały przez ludność cywilną, uważajcie do kogo strzelacie. Zadanie zostanie zaliczone w momencie pojmania oficera (skucia).</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_02_Title">
+      <Polish>Odeskortować oficera do Phu Quoc</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_02_Desc">
+      <Polish>Przetransportujcie skutego oficera śmigłowcem na LZ Phu Quoc. Po wylądowaniu, wyładujcie go ze śmigłowca i odstawcie przy samochodzie żandarmów, którzy już na niego czekają.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Sup_Title">
+      <Polish>Zniszczyć zapasy</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Sup_Desc">
+      <Polish>Zniszczcie znalezione zapasy. Możecie to zrobić w dowolny sposób, preferowana metoda to ładunek wybuchowy podłożony pomiędzy bronią statyczą a skrzynkami. W razie konieczności możecie też użyć moździerza lub nalotu.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Art_Title">
+      <Polish>Wroga artyleria</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Art_Desc">
+      <Polish>Jeden z naszych samolotów zauważył aktywną baterię moździerzy lub haubic gdzieś w tym rejonie. Wyślijcie samolot lub śmigłowiec aby znalazł i zniszczył wrogą artylerię.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_03_Title">
+      <Polish>Zabezpieczyć perymetr równiny</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_03_Desc">
+      <Polish>Sprawdźcie i zabezpiecznie cały petrymetr równiny. Wszystkie zabudowania powinny być sprawdzone a perymetr wolny od przeciwnika.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_04_Title">
+      <Polish>Sprawdzić Com Ngon</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_04_Desc">
+      <Polish>Wyślijcie jeden z oddziałów na patrol w kierunku wsi Com Ngon. Po dotarciu na miejsce, należy sprawdzić wszystkie zabudowania w obrębie wioski. Wchodzicie w niebezpieczny teren, oczy dookoła głowy.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_05_Title">
+      <Polish>Sprawdzić Binh Yen</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_05_Desc">
+      <Polish>Wyślijcie jeden z oddziałów na patrol w kierunku wsi Binh Yen. Po dotarciu na miejsce, należy sprawdzić wszystkie zabudowania w obrębie wioski. Wchodzicie w niebezpieczny teren, oczy dookoła głowy.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_06_Title">
+      <Polish>Utrzymać równinę</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_06_Desc">
+      <Polish>Postarajcie się utrzymać jak największą część równiny. Zbudujcie umocnienia w taki sposób aby móc w szybki i sprawny sposób bronić jej z każdego kierunku - będziecie praktycznie otoczeni. Jest was za mało aby bronić skutecznie wszystkich kierunków jednocześnie, dlatego mobilność i reagowanie na działania przeciwnika będzie tutaj kluczem do obrony. Dowódcy drużyn powinni przygotować się do częstego przemieszczania, dostosujcie strukturę pododdziałów tak aby móc się również szybko podzielić w razie potrzeby.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_07_Title">
+      <Polish>Priorytet: Body count</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_07_Desc">
+      <Polish>Od teraz naszym głównym zadaniem jest eliminowanie żołnierzy przeciwnika. Jest to absolutny priorytet, metoda nie ma znaczenia. Dowódctwo obchodzi jedynie ilość martwych ciał komunistów oraz stosunek ich liczby do naszych strat (K/D). Dbajcie o swoich ludzi i prowadźcie wszelkie działnia z głową, w żadnym razie nie lekceważcie przeciwnika.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_08_Title">
+      <Polish>Odwrót</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_08_Desc">
+      <Polish>Wygląda na to, że zrobiliśmy wszystko co w naszej mocy - pora wracać do bazy. Ewakuujcie wszystkich żywych i martwych do bazy. Po powrocie, zbierzcie się przy stole przy baraku dowódców (punkt "HQ") gdzie odbędzie się odprawa.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Bodies_Title">
+      <Polish>Wszyscy wracają do domu</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_Bodies_Desc">
+      <Polish>W przypadku gdy jest to realnie możliwe, macie obowiązek pakować poległych do worków i ewakuować z pola walki. Worki z ciałami powinny być przetransportowane i wyładowane w bazie lub szpitalu polowym (dowolnie - dostosować do aktualnego planu lotu). Każdy przypadek gdy zapakowanie i ewakuacja ciała nie było możliwe powinien być odnotowany i wyjaśniony w raporcie po operacji.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P1">
+      <Polish>Green Run, Green Run...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P2">
+      <Polish>Mówi Gerał Norton, dowódca 5 batalionu 1 dywizji kawalerii powietrznej.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P3">
+      <Polish>Natychmiast, powtarzam, &lt;t color='#fffb7a'&gt;natychmiast wstrzymajcie wszelkie operacje&lt;/t&gt;, mam dla was bardzo złe wieści...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P4">
+      <Polish>Oficer którego pojmaliście wyjawił podczas przesłuchania, że w górach na &lt;t color='#fffb7a'&gt;północny wschód&lt;/t&gt; od was</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P5">
+      <Polish>znajduje się punkt zborny całej &lt;t size='1.5' color='#fffb7a'&gt;304 dywizji&lt;/t&gt; armii północnego wietnamu.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P6">
+      <Polish>Wysyłamy wam najnowszy profil wywiadowczy tej dywizji.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P7">
+      <Polish>Ich flanek zabezpieczają oddziały vietcongu w sile co najmniej &lt;t color='#fffb7a'&gt;dwóch batalionów&lt;/t&gt;.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P8">
+      <Polish>Nasze szacunki liczebności wroga w rejonie zostały zwiększone z 300 do około &lt;t size='1.5' color='#fffb7a'&gt;5 tysięcy&lt;/t&gt;.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P9">
+      <Polish>Wiemy, że nie jesteście przygotowani do starcia z taką siłą</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P10">
+      <Polish>ale dowództwo uznało, że nie możemy pozwolić przeciwnikowi w takiej sile pałętać się tuż pod naszymi nosami.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P11">
+      <Polish>Zbierzcie wszystkie swoje siły w perymetrze równiny.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P12">
+      <Polish>Zbudujcie kilka linii obronnych i umocnionych punktów tak aby w razie potrzeby móc cofać się z linii do linii.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P13">
+      <Polish>Weźcie pod uwagę topografię terenu.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P14">
+      <Polish>Postarajcie się utrzymać jak największą część tej równiny.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P15">
+      <Polish>Waszym głównym zadaniem od tej pory jest zadać przeciwnikowi jak największe starty w ludziach</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P16">
+      <Polish>&lt;t size='1.5' color='#fffb7a'&gt;"Body count"&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P17">
+      <Polish>Wszystkie wolne jednostki wsparcia ogniowego rozpoczną za chwilę ostrzał punktów zbornych opisanych przez pojmanego oficera.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P18">
+      <Polish>To powinno ich spowolnić i kupić wam trochę czasu na zorganizowanie obrony ale na tę chwilę to wszystko co możemy dla was zrobić.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P19">
+      <Polish>Korzystajcie z wszelkiego dostępnego wsparcia ogniowego.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P20">
+      <Polish>Cały teren wokół równiny został oznaczony jako &lt;t size='1.5' color='#fffb7a'&gt;"Strefa Wolnego Ognia"&lt;/t&gt;, eliminujcie wszystko co się rusza.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P21">
+      <Polish>Pamiętajcie o naszych braciach poległych na LZ Leslie.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P22">
+      <Polish>Miejcie w głowach ich twarze gdy będziecie strzelać do tych czerwonych skurczybyków.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Sub_NortonMsg_P23">
+      <Polish>Bóg z wami Panowie. Generał Norton, bez odbioru.</Polish>
+    </Key>
+  </Package>
+</Project>

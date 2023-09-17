@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3C">
+  <Package name="Mission">
+    <Key ID="STR_Mission_CfgDebriefing_MissonEnd">
+      <Polish>MISJA ZAKOŃCZONA</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndSuccess">
+      <Polish>Misja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndFailed">
+      <Polish>Misja zakończona niepowodzeniem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllTasksAccomplished">
+      <Polish>Wszystkie zadania zostały wykonane</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissionFailed">
+      <Polish>Misja nie powiodła się</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllUnitsDead">
+      <Polish>Wszystkie jednostki poległy</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgLeaflets_Example">
+      <Polish>Przykładowy tekst ulotki</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgUnitInsignia_111thID">
+      <Polish>111 Dywizja Piechoty</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_CreatingObjects">
+      <Polish>Tworzenie obiektów...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line1">
+      <Polish>Grupa bojowa "Anakonda"</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line2">
+      <Polish>Berezino, Wschodnia Czarnoruś</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_TakeBerezino_Desc">
+      <Polish>Naszym głównym i najważniejszym zadaniem jest odbicie z rąk ultranacjonalistów miasta Berezino. Miasto można uznać za zajęte w momencie w którym wszystkie punkty strategiczne zostały zajęte (flagi) oraz wszystkie budynki oraz posiadłości zostały wyczyszczone z przeciwnika (oba warunki muszą zostać spełnione - wtedy zadanie samo się zaliczy). Ultranacjonaliści są dobrze zorganizowani i doskonale dowodzeni. Spodziewajcie się bardzo silnego oporu i walkę o każdy budynek.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Task_DefendBerezino_Desc">
+      <Polish>Utrzymać Berezino do czasu, aż ultranacjonaliści nie odpuszczą próby jego odbicia.</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Briefing taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Po 3 dniach ciężkich walk, udało nam się zabezpieczyć około 50% miasta. Zlikwidowano 1140 obrońców, około 30 pojazdów oraz 6 śmigłowców. Nasze straty szacujemy na około 30 ludzi oraz kilka pojazdów. Dowództwo póki co jest zadowolone z postępów, aczkolwiek zażartość stawianego oporu oraz tempo ofensywny pozostaje martwiące.
+&lt;br/&gt;&lt;br/&gt;
+Z naszych szacunków wynika, iż w południowej części miasta wciąż pozostało około 1500 dobrze okopanych obrońców. Trudno jednak oszacować ilu ludzi oraz sprzętu udało im się przemieścić w rejon miasta w ciągu tej kilkugodzinnej przerwy w ataku. Przez ten czas zaobserwowaliśmy również mobilizację sił ultranacjonalistów na południe od tartaku, prawdopodobnie szykują się do kontrataku.
+&lt;br/&gt;&lt;br/&gt;
+Z dobrych wiadomości, Siły Obrony Czarnorusi przesunęły jedną z kompanii na południe, z rejon wioski Khelm, która została przez was ostrzelana 3 dni temu. To powinno zabezpieczyć nas przed jej przejęciem oraz ewentualnym atakiem z tamtego kierunku.
+&lt;br/&gt;&lt;br/&gt;
+Rozkazy są proste, po kilkugodzinnym odpoczynku, o północy, nasi ludzie powinni obsadzić linię obrony na wysokości tartaku, odeprzeć ewentualny kontratak, a następnie przystąpić do odbicia pozostałej części miasta.
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro">
+      <Polish>Wstęp</Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Text">
+      <Polish>
+&lt;font size='14'&gt;
+Wstęp taki sam jak w sitrepie na forum. Jeśli przeczytałeś go już na forum, tutaj nie musisz.
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+Pod wpływem ingerencji zachodnich mocarstw oraz ciągłych sporów politycznych dot. przyszłości Republiki Czarnorusi, w marcu 2020 roku, na wschodzie kraju wybucha powstanie. Ultranacjonaliści wschodniej czarnorusi domagają się odłączenia wschodu kraju od repubiliki oraz ogłoszenia niepodległości. Siły Obrony Czarnorusi niezwłocznie ogłaszają powstanie ultranacjonalistów aktem terroryzmu i rozpoczynają operację "anty-terrorystytczną" mającą na celu stłumienie wszelkich zapędów niedpoległościowych.
+&lt;br/&gt;&lt;br/&gt;
+Pomimo ogromnych środków i sił wysłanych do wschodniej czarnorusi przez rząd republiki, od marca do końca maja, ultranacjonalistom udało się zabezpieczyć spore terytoria oraz większość dużych miast na wschodzie czarnorusi. Na początku czerwca, rząd Republiki Czarnorusi zwraca się z prośbą o wsparcie militarne do swojego największego sąsiada, Federacji Rosyjskiej. Prezydent Federacji Rosyjskiej, widząc ryzyko powstania na wschodzie czarnorusi prozachodniej powstańczej republiki, przychyla się do prośby rządu Republiki Czarnorusi. Od tego momentu, w regularnych transzach, do jednostek Sił Obrony Czarnorusi wysyłane zostają dziesiątki śmigłowców, setki czołgów i wozów bojowych a także tysiące karabinów i granatników przeciwpancernych.
+&lt;br/&gt;&lt;br/&gt;
+Sytuacja na froncie lekko się poprawia a Siły Obrony Czarnorusi zaczęły odzyskiwać kontrolę nad częsciami zajętego terytorium. Mimo ostatnich sukcesów, do końca czerwca staje się jasne, iż nawet z przewagą w sprzęcie i liczebności, Siły Obrony Czarnorusi nie zdołają same sprostać ultranacjonalistom, którzy zdają się być bardzo dobrze wyszkoleni oraz doskonale dowodzeni. Pod koniec czerwca ujawniony zostaje fakt, iż za pomocą prywatnych łodzi oraz samolotów (organizowanych naprawodpodobniej przez zachodnie mocarstwa) do rejonów okupowanych przez ultranacjonalistów przerzucany jest sprzęt oraz najemnicy pochodzący z różnych rejonów świata.
+&lt;br/&gt;&lt;br/&gt;
+Widząc niekorzystyny obrót spraw, Prezydent Federacji Rosyjskiej podejmuje decyzje o sformowaniu specjalnej grupy bojowej, mającej na celu wsparcie Sił Obrony Czarnorusi w bezpośredniej walce. Grupa bojowa "Anakonda" (анаконда) zostaje złożona z byłych członków rożnych sił specjalnych, sił pancernych oraz zmechanizowanych, a także fragmentów floty zielonomorskiej Federacji Rosyskiej. Grupa bojowa od razu zostaje włączona do programu Ratnik, otrzymując tym samym najnowocześniejszy dostępny sprzęt.
+&lt;br/&gt;&lt;br/&gt;
+Na początku sierpnia, formowanie Grupy bojowej "Anakonda" zostaje zakończone. W połowie sierpnia, wszystkie najważniejsze elementy grupy bojowej są już rozlokowane we wschodniej Czarnorusi i oczekują na swoje pierwsze rozkazy...
+&lt;br/&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;br/&gt;
+Misja rozpoczyna się o północy, 4 dnia operacji, po 7 godzinnej przerwie w ataku (25 sierpnia 17:00 -> 26 sierpnia 00:00).
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tech_Text">
+      <Polish>
+&lt;font size='18'&gt;
+- W misji dla piechoty nie będzie wymian ognia na dystansie większym niż 500m-600m. W razie problemów z FPS, można bezpiecznie zejść do zasięgu widzenia 500-600m. Załogi pojazdów powinny dostosować zasięg widzenia wedle uznania.
+&lt;br/&gt;&lt;br/&gt;
+BEZWZGLĘDNIE zaleca się żołnierzom piechoty ustawienie zasięgu widzenia 500-600m!
+&lt;/font&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;font size='16'&gt;
+- Jest to wielodniowa operacja. Upływ czasu w misji został przyspieszony tak aby symulować wielodniową bitwę. Doba trwa około 60 minut (~35 minut dnia i ~25 minut nocy). Przygotujcie się na walkę w zmiennych warunkach.
+&lt;br/&gt;&lt;br/&gt;
+- Przewidziane są sloty rezerwy dla uzupełniania ewentualnych strat. Sloty rezerwy posiadają niższe stopnie, brak wyposażenia (wymaga pełnego przezbrojenia co zabiera czas), nie mają również narzuconej grupy. O przydzielaniu rezerwistów do drużyn decyduje dowódca operacji. Nie traktujcie rezerwy jako pewnik, nie dla każdego może starczyć slotów - to nie jest respawn, należy grać ostrożnie i rozważnie, rambo będą szybko karani.
+&lt;br/&gt;&lt;br/&gt;
+- Wszystkie zadania zaliczają się automatycznie.
+&lt;br/&gt;&lt;br/&gt;
+- Wszystkie jednostki, jako członkowie jednostki specjalnej, mają podstawowe przeszkolenie medyczne oraz EOD (miny, ied).
+&lt;br/&gt;&lt;br/&gt;
+- Wszyscy członkowie załóg pojazdów (w tym samolotu, fregaty oraz HQ) są zaawansowanymi mechanikami.
+&lt;br/&gt;&lt;br/&gt;
+- Zapasowe pojazdy lądowe można pobrać z magazynku pojazdów znajdującego się w załadowni.
+&lt;br/&gt;&lt;br/&gt;
+- Pojazdy HQ (BMP-2K) są również pojazdami serwisowymi.
+&lt;br/&gt;&lt;br/&gt;
+- Na terenie miasta Berezino można znaleźć stacjonarne punkty serwisowe używane przez ultranacjonalistów. Punkty serwisowe znajdujące się na przejętym terytorium są oznaczone na mapie.
+&lt;br/&gt;&lt;br/&gt;
+- Pilot może zmieniać uzbrojenie samolotów za pomocą punktu serwisowego na lotnisku.
+&lt;br/&gt;&lt;br/&gt;
+- Dowódca fregaty może za pomocą akcji interakcji sprawdzić sprawność (uszkodzenia) okrętu.
+&lt;br/&gt;&lt;br/&gt;
+- Oznaczona na mapie jednostka morska to poduszkowiec serwisowy. Po podpłynięciu do niego fregatą, pojawi się akcja interakcji pozwalająca na pełny serwis okrętu.
+&lt;br/&gt;&lt;br/&gt;
+- Z przyczyn technicznych oraz balansu, niektóre budynki są wzmocnione (niezniszczalne).
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_Diary_Interaction_Text">
+      <Polish>
+&lt;font size='16'&gt;
+- Flagi przejmujemy akcją na wyciągarce (trzeba podejść blisko).
+&lt;br/&gt;&lt;br/&gt;
+- Po podpłynięciu okrętem do poduszkowca serwisowego, na okręcie pojawi się akcja przezbrojenia i naprawy.
+&lt;br/&gt;&lt;br/&gt;
+- Punkty serwisowe, magazyn skrzynek transportowych oraz magazn pojazdów mają akcje na modelu skrzynek (jasna zielona kropka na skrzynkach).
+&lt;/font&gt;
+      </Polish>
+    </Key>
+    <Key ID="STR_Mission_UI_DayCount_Day">
+      <Polish>Dzień %1</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_CheckShip">
+      <Polish>Sprawdź uszkodzenia okrętu</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ShipDamage">
+      <Polish>Uszkodzenia okrętu</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceShip">
+      <Polish>Przezbrój i napraw okręt</Polish>
+    </Key>
+    <Key ID="STR_Mission_Action_ServiceShipSuccess">
+      <Polish>Okręt przezbrojony i naprawiony</Polish>
+    </Key>
+  </Package>
+</Project>

@@ -1,0 +1,36 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.2
+ ***************************************
+ ****************************************/
+
+#include "ustawienia_zakonczen.hpp"
+
+class Extended_PreInit_EventHandlers {
+    class A3C_mission_preInit {
+        init = "call compile preprocessFileLineNumbers 'XEH_preInit.sqf'";
+    };
+};
+
+class Extended_PostInit_EventHandlers {
+    class A3C_mission_postInit {
+        init = "call compile preprocessFileLineNumbers 'XEH_postInit.sqf'";
+    };
+};
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+
+#include "include.hpp"
+#include "titles.hpp"
+#include "dialogs.hpp"
+
+class CfgSounds {
+	sounds[] = {};
+	class avalanche_mission_intro {
+		name = "avalanche_mission_intro";
+		sound[] = {"data\intro.ogg", 3.5, 1};
+		titles[] = {};
+	};
+};

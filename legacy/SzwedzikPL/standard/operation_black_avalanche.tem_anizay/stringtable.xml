@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Mission">
+  <Package name="OperationBlackAvalanche">
+    <Key ID="STR_Mission_Diary_Intro">
+      <Original>Wstęp</Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Intro_Text">
+      <Original>
+&lt;font size='16'&gt;
+Minęło już prawie 6 lat od inwazji USA na Takistan (1 czerwca 2012). Rząd powstały z ramienia USA nieustannie toczy wojnę z Powstańcami Takistanu o kontrolę nad krajem. Ciężkie walki toczą się na terenie praktycznie całego kraju, od zamachów bombowych, po walki regularnych oddziałów w bitwach trwających od kilku godzin do nawet kilku dni.
+&lt;br/&gt;&lt;br/&gt;
+Około rok temu, Hakim Haftir, znany jako “Wise Man”, objął dowodzenie nad siłami powstańców w obrębie 3 południowo-zachodnich prowincji Takistanu, którego centrum jest rejon Anizay. Od tamtego czasu, w strefie dowodzonej przez Haftira, wojska koalicji, w tym siły US, zaczęły ponosić coraz to większe straty, zarówno w sprzęcie jak i w ludziach.
+&lt;br/&gt;&lt;br/&gt;
+Haftir okazał się doskonałym strategiem, potrafiącym zaplanować i wykonać skomplikowane manewry wojskowe, od zasadzek na patrole, po ataki na FOBy. Tylko w kwietniu 2018 roku, w samym rejonie Anizay, siły US straciły 272 marines w atakach dowodzonych przez Haftira. Z naszych ostatnich informacji wynika również, iż jego skuteczność została dostrzeżona przez wodza ruchu powstańców i został on mianowany jego prawą ręką.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Brief_Text">
+      <Original>
+&lt;font size='16'&gt;
+W wyniku bardzo trudnej operacji CIA, w której niestety śmierć poniósł jeden z agentów, udało nam się dowiedzieć gdzie Haftir ma spotkać się ze swoimi dowódcami. Spotkanie ma się odbyć 23 maja, o godzinie 01:00, w jednej z kryjówek powstańców, 400m na południowy zachód od miejscowości Rangrezan, niedaleko granicy terytorium kontrolowanego przez powstańców. Na spotkaniu mają być omówione plany kolejnych ataków na siły koalicji.
+&lt;br/&gt;&lt;br/&gt;
+Naszym zadaniem będzie wykonanie rajdu na kompleks w którym ma mieć miejsce spotkanie, a następnie pojmanie, lub gdy będzie to niemożliwe, zabicie Haftira wraz z jego dowódcami. W oczach dowódcy wojsk USA w Takistanie, ta operacja ma aktualnie najwyższy priorytet.
+&lt;br/&gt;&lt;br/&gt;
+Od 2 dni bacznie obserwujemy kompleks z powietrza. Udało nam się stworzyć dokładne mapy całej struktury oraz określić potrzebny sprzęt. Jak widać na zdjęciach, kompleks przypomina fortecę, zbudowany ewidentnie z myślą o prywatności osób wewnątrz oraz zdolności do obrony w razie ataku. To nie będzie łatwa operacja.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tasks_Text">
+      <Original>
+&lt;font size='16'&gt;
+- Pojmać lub zlikwidować Hakima Haftira. W przypadku konieczności likwidacji celu, potrzebne będzie zdjęcie (screenshot) w celu identyfikacji i potwierdzenia eliminacji (wkleić do raportu).
+&lt;br/&gt;&lt;br/&gt;
+- Wrócić do bazy Landay.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Vehicles_Text">
+      <Original>
+&lt;font size='16'&gt;
+- 3x UH-80 Ghost Hawk (stealth)
+&lt;br/&gt;&lt;br/&gt;
+- 2x CH-47l Chinook (stealth)
+&lt;br/&gt;&lt;br/&gt;
+- 2x V-44 X Blackfish (uzbrojony)
+&lt;br/&gt;&lt;br/&gt;
+- 2x A-10D Thunerbolt II
+&lt;br/&gt;&lt;br/&gt;
+- 4x MZRZ-4 (do poruszania się na terenie bazy)
+&lt;br/&gt;&lt;br/&gt;
+W przypadku problemów z dostępnością pilotów, można użyć samolotów A10D do zapewnienia wsparcia. Dodatkowo dowództwo bazy (zeus) może na życzenie dowódcy operacji wygospodarować nieuzbrojonego drona który będzie krążył nad obszarem operacji.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_AirLimits_Text">
+      <Original>
+&lt;font size='16'&gt;
+1. Śmigłowce
+&lt;br/&gt;&lt;br/&gt;
+W operacji użyjemy tajnych prototypów nowych śmigłowców typu stealth. Z uwagi na ten fakt, utrata śmigłowca nie wchodzi w rachubę. Dowództwo nałożyło bezwzględny zakaz lądowania śmigłowców na terenie niezabezpieczonym/pod ogniem.
+&lt;br/&gt;&lt;br/&gt;
+Jeśli wyznaczone LZ mają być użyte do ewakuacji, muszą być w 100% bezpieczne. Jeśli zabezpieczenie LZ nie będzie możliwe z powodu dużej aktywności wroga, należy skorzystać z lądowiska w FOB Nauzad - jest to jedyne bezpieczne lądowisko w rejonie.
+&lt;br/&gt;&lt;br/&gt;
+Przed wejściem do kompleksu, śmigłowce mają absolutny ZAKAZ zbliżania się do niego na mniej niż 1200m (czarny okrąg).
+&lt;br/&gt;&lt;br/&gt;
+Śmigłowce po wejściu w obszar kontrolowany przez powstańców (czerwona strefa) powinny latać ostrożnie, wolno i nisko, aby zmaksymalizować działanie technologii stealth.
+&lt;br/&gt;&lt;br/&gt;
+Do przelotów śmigłowców na wyznaczone LZ należy używać oznaczonych korytarzy powietrznych.
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+2. Wsparcie ogniowe
+&lt;br/&gt;&lt;br/&gt;
+Operacja będzie przeprowadzona w gęsto zaludnionym terenie. Wsparcie ogniowe musi być prowadzone precyzyjnie, minimalizując wszelkie zniszczenia i ofiary wśród ludności cywilnej.
+&lt;br/&gt;&lt;br/&gt;
+W raporcie będziecie rozliczeni z ofiar wśród ludności cywilnej.
+&lt;br/&gt;&lt;br/&gt;
+Do momentu wejścia do kompleksu, wszelkie wsparcie ogniowe powinno utrzymywać się na wysokości co najmniej 1500m.
+&lt;br/&gt;&lt;br/&gt;
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_Tech_Text">
+      <Original>
+&lt;font size='16'&gt;
+- Wszystkie jednostki spec-ops (wszyscy poza pilotami) są medykami i saperami.
+&lt;br/&gt;&lt;br/&gt;
+- Wszyscy piloci są inżynierami.
+&lt;br/&gt;&lt;br/&gt;
+- We wszystkich maszynach bojowych wyłączona jest termowizja (balans).
+&lt;br/&gt;&lt;br/&gt;
+- Briefing przed rozpoczęciem rozgrywki powinien zostać ograniczony do absolutnego minimum (np. rozpisanie radii). Pełny briefing przeprowadzi dowódca operacji już w trakcie rozgrywki za pomocą slajdów w sali odpraw.
+&lt;br/&gt;&lt;br/&gt;
+- W misji przetestowana zostanie eksperymentalna metoda spawnu obiektów w trakcie gry. Z tego powodu, załadowanie intra poprzedzone będzie ~25 sekundowym ekranem wczytywania. Jest to tymczasowe rozwiązanie mające zapewnić płynność wykonania.
+&lt;br/&gt;&lt;br/&gt;
+- Intro do misji odgrywa rolę wprowadzenia do "świata misji" - trwa 2 minuty. Po zakończeniu intra gracze mogą od razu przejść do rozgrywki - hasło "GO" nie jest potrzebne (wczytywanie + intro zapewnia wystarczająco dużo czasu dla HC/Serwera).
+&lt;br/&gt;&lt;br/&gt;
+- Dla bdałości o synchro i detale, uprzejmię proszę o nie pauzowanie/minimalizowanie gry podczas trwania intra (nie dotyczy ekraniu wczytywania - pierwsze 25 sekund). Osoby nagrywające/streamujące rozgrywkę mają ~25 sekund ekranu wczytywania na odpalenie wszystkiego i powrót do gry.
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Diary_BriefHQ_Text">
+      <Original>
+&lt;font size='16'&gt;
+Poniższe informacje są dostępne (widoczne) tylko dla dowódcy operacji. Należy je przekazać podwładnym podczas briefingu W TRAKCIE gry z pomocą slajdów dostępnych w sali odpraw.
+&lt;br/&gt;&lt;br/&gt;
+Na wstępie - zachęcić wszystkich do robienia notatek z briefu. Jeśli ktoś czegoś zapomni, cała operacja może być zagrożona. Dziś nie ma marginesu błędu.
+&lt;br/&gt;&lt;br/&gt;
+Hakim Haftir (slajdy 1, 2, 3)
+&lt;br/&gt;&lt;br/&gt;
+Urodzony 29 stycznia 1934 roku (84 l.) w Nasadrze, zachodni Takistan.
+&lt;br/&gt;&lt;br/&gt;
+W 1954 przenosi się wraz z ojcem do USA.
+&lt;br/&gt;
+W 1965 ukończył Inżynierię 3 stopnia na MIT.
+&lt;br/&gt;
+W 1967 roku wrócił do Takistanu, pracował przy wydobyciu ropy.
+&lt;br/&gt;
+W 2014 dołącza do ruchu powstańców Takistanu.
+&lt;br/&gt;
+W 2016 roku obejmuje dowództwo nad operacjami powstańców w rejonie Chalang.
+&lt;br/&gt;
+Szybko doceniony jako sprawny dowódca i genialny taktyk.
+&lt;br/&gt;
+W 2017 roku awansowany na generała, obejmuje dowództwo nad wszystkimi siłami powstańców zgromadzonych na południowym zachodzie Takistanu.
+&lt;br/&gt;
+&lt;br/&gt;&lt;br/&gt;
+- Haftir to prawdziwy mózgowiec, genialny taktyk i szanowany przez swoich podwładnych dowódca. W jego atakach zginęło bardzo wielu naszych kolegów z Marines.
+&lt;br/&gt;
+- W kompleksie Haftir ma się spotkać ze swoimi dowódcami w sprawie planów kolejnych ataków na wojska koalicji. Poza Haftirem, w kompleksie możemy spodziewać się co najmniej kilku wysokiej-rangi oficerów powstańców.
+&lt;br/&gt;
+- Jeden agent CIA stracił życie zdobywając te informacje, uhonorujmy jego śmierć dopadając skurczybyka.
+&lt;br/&gt;
+- W pierwszej kolejności należy spróbować pojmania Haftira żywego. Jeśli nie będzie to możliwe (naraża życie naszych operatorów), należy go zlikwidować oraz potwierdzić eliminację zdjęciem (screenshot do raportu).
+&lt;br/&gt;
+&lt;br/&gt;&lt;br/&gt;
+Kompleks (slajdy 4, 5, 6)
+&lt;br/&gt;&lt;br/&gt;
+- Kompleks to prawdziwa forteca. Zbudowany z myślą o maksymalnej prywatności i bezpieczeństwie osób wewnątrz.
+&lt;br/&gt;
+- Powstańcy w celu utrudnienia obserwacji z powietrza, sadzą na dachach budynków wszelaką roślinność - proste i skuteczne rozwiązanie.
+&lt;br/&gt;
+- W kompleksie znajduje się 5 dużych metalowych bram które trzeba będzie wyważyć ładunkami (breaching charge). Ładunki mogą być też potrzebne do otwierania budynków.
+&lt;br/&gt;
+- Kompleksu będzie bronić elitarna grupa strażników powstania. Są to weterani, ręcznie selekcjonowani. Nie mamy informacji ilu strażników będzie obecnych w kompleksie, wedle szacunków CIA może być ich tam nawet setka.
+&lt;br/&gt;
+- Obok kompleksu znajduje się strażnica z wartownikami pilnującymi głównej bramy. Zaleca się wyczyszczenie strażnicy przed uderzeniem na kompleks.
+&lt;br/&gt;&lt;br/&gt;
+- Na podstawie zdjęć kompleksu nasi inżynierowie zbudowali makietę całego kompleksu w skali 1:1. Zalecane jest aby przećwiczyć sobie operację przejęcia kompleksu co najmniej 2-3 razy. W ćwiczeniach powinny być użyte granaty błyskowe aby sprawdzić skuteczność i pokrycie. Do symulowania przeciwników przygotowano 20 sztucznych celów które można przenieść w pożądaną pozycję. Obok makiety znajduje się też schemat kompleksu i zapas granatów błyskowych do ćwiczeń.
+&lt;br/&gt;&lt;br/&gt;
+Punkty obserwacyjne (slajdy 7, 8, 9)
+&lt;br/&gt;&lt;br/&gt;
+- Na podstawie analizy terenu wybraliśmy dwa punkty obserwacyjne, OP1 i OP2.
+&lt;br/&gt;
+- Te punkty mogą zostać użyte jako pozycje dla strzelców wyborowych z których mogą oni wspierać ogniowo drużyny wchodzące do kompleksu (eliminować kontakty na dachach, w oknach itp.).
+&lt;br/&gt;
+- Odradzamy wysyłanie wszystkich drużyn do szturmu kompleksu. Co najmniej kilka par oczu powinno obserwować teren wokoło i informować o wszelkich zmianach w sytuacji - punkty obserwacyjne nadają się do tego najlepiej, bazując na zdjęciach które posiadamy. Dowódca podczas operacji może wyznaczać nowe pozycje wedle uznania i sytuacji.
+&lt;br/&gt;
+- OP1 znajduje się w odległości 140m od kompleksu, OP2 w odległości 160m. Dystans nie jest duży, wyborowi nie powinni mieć problemu z eliminacją.
+&lt;br/&gt;
+- W przypadku wyborowych, zaleca się użycie lunet noktowizyjnych - wersja z nakładką AN/PVS-27.
+&lt;br/&gt;&lt;br/&gt;
+Miejsca szczególne (slajdy 10, 11, 12)
+&lt;br/&gt;&lt;br/&gt;
+- Garnizon to miejsce regularnych spotkań członków i sympatyków ruchu powstańczego. Możemy się tam spodziewać większej obecności nieprzyjaciela.
+&lt;br/&gt;
+- Plac budowy to miejsce pracy dla wielu ludzi w rejonie. Na papierze inwestycja nie ma nic wspólnego z ruchem powstańców, ale wiemy, iż bojownicy z jakiegoś powodu osobiście pilnują tych prac. Warto mieć to miejsce na uwadze.
+&lt;br/&gt;
+- Transformator obsługuje zasilanie sieci w rejonie. Wyłączenie go spowoduje odcięcie prądu wszystkich latarni i domów w obrębie 1300m od transformatora (kompleks i okolice).
+&lt;br/&gt;&lt;br/&gt;
+Obszar operacji (slajdy 13, 14, 15, 16)
+&lt;br/&gt;&lt;br/&gt;
+- W obrębie 5km od placówki mieszka około 4000 ludzi, zdecydowana większość to sympatycy ruchu powstańczego.
+&lt;br/&gt;
+- Operacja musi być przeprowadzona w maksymalnej ciszy. Ten rejon to gniazdo os, jeśli pobudzimy ludzi może zrobić się bardzo nieprzyjemnie.
+&lt;br/&gt;
+- Siatka ruchu powstańczego w tym rejonie jest wyjątkowo rozbudowana. Mamy potwierdzone przypadki policjantów, a nawet żołnierzy armii Takistanu, współpracujących z powstańcami - nikomu nie można ufać.
+&lt;br/&gt;
+- Zasady ogniowe: Jeśli osoba jest nieoznakowana (np. cywilne ciuchy), możemy otworzyć ogień jeśli jest uzbrojona. W przypadku oznakowanych jednostek (Policja, Wojsko), otwieramy ogień tylko w odpowiedzi.
+&lt;br/&gt;
+- Spotkanie z udziałem kogoś takiego jak Haftir na pewno jest traktowane bardzo poważnie przez powstańców - możemy spodziewać wzmocnionej straży i wielu patroli w okolicy kompleksu.
+&lt;br/&gt;
+- Powinniśmy maksymalizować naszą przewagę technologiczną. Wskazane jest eliminowanie wszelkich źródeł światła co pozwoli nam pozostać niewykrytym dla przeciwnika. Ponadto zaleca się korzystanie z pocisków HuntIR oraz lotnictwa w celu zapewnienia jak najlepszej świadomości sytuacyjnej. Do poprawy widoczności można używać flar IR (widoczne tylko w nokto), a do oznaczania pozycji granatów/chemlightów IR lub wskaźników laserowych.
+&lt;br/&gt;&lt;br/&gt;
+- Zaleca się wyeliminowanie jak największej ilości patroli i skupisk wroga przed wejściem do kompleksu. Odcina to przeciwnikowi możliwość szybkiego wsparcia. Wszelkie eliminacje jednak MUSZĄ być przeprowadzone w absolutnej ciszy. W przypadku kilku kontaktów obok siebie, powinny być eliminowane jednocześnie (np. na sygnał dowódcy). Odstąpić od likwidacji kontaktów powinno się tylko wtedy, gdy cicha eliminacja nie jest możliwa.
+&lt;br/&gt;&lt;br/&gt;
+LZ (slajdy 17, 18, 19)
+&lt;br/&gt;&lt;br/&gt;
+- Wszystkie LZ znajdują się w odległości około 1200m od kompleksu.
+&lt;br/&gt;
+- Nasi agenci na ziemi zadbali o to aby teren wokół LZ był pusty. Nie mniej konieczne jest zachowanie maksymalnej ostrożności. Możliwe jest również lądowanie w pewnej odległości do LZ jeśli pilot/dowódca uzna to za stosowne (obowiązuje ograniczenie czarnego okręgu).
+&lt;br/&gt;&lt;br/&gt;
+FOB (slajd 20)
+&lt;br/&gt;&lt;br/&gt;
+- Z FOBu należy skorzystać jeśli wyznaczone LZ nie są i nie mogą być zabezpieczone - w przypadku narobienia hałasu i ściągnięcia na siebie uwagi ludności cywilnej.
+&lt;br/&gt;
+- W przypadku konieczności skorzystania z FOBu, jedyną opcją jest przejście tam na piechotę, trasę powinien wybrać dowódca bazując na sytuacji. Podczas przejścia do FOBu zaleca się ubezpieczanie przejścia z powietrza.
+&lt;br/&gt;
+- W FOBie stacjonują jednostki Marines, które mogą nas wesprzeć w przypadku pościgu przeciwnika.
+&lt;br/&gt;
+- W FOBie znajdują się też podstawowe zapasy (ammo, medykamenty).
+&lt;/font&gt;
+      </Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Screen1">
+      <Original>&lt;t font='PuristaMedium' size='1.5'&gt;Misja by&lt;/t&gt;&lt;br/&gt;&lt;t font='PuristaSemiBold' size='2.2'&gt;SzwedzikPL&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t font='PuristaMedium' size='1.3'&gt;Aktorzy głosowi&lt;/t&gt;&lt;br/&gt;&lt;t font='PuristaSemiBold' size='1.6'&gt;Diamentowy, Modzyn&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Screen2">
+      <Original>&lt;t font='PuristaSemiBold' size='1.6'&gt;2 dni później&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Location">
+      <Original>Południowo-Zachodni Takistan</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub1">
+      <Original>Majorze, mamy kolejny duży atak na Bravo... To już siódmy w tym miesiącu.</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub2">
+      <Original>Mój Boże...</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub3">
+      <Original>Wejść!</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub4">
+      <Original>CIA ustaliło operatora, mamy ID.</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub5">
+      <Original>Niech zgadnę... nasza nowa gwiazda?</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub6">
+      <Original>TIER 1 zajmuje się już tą sprawą, wysyłają Sealsów.</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub7">
+      <Original>Kiedy wyruszają?</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_Sub8">
+      <Original>Są już w drodzę... lądują za 40 minut.</Original>
+    </Key>
+    <Key ID="STR_Mission_openBriefingSlidesPanel_Action">
+      <Original>Otwórz panel slajdów</Original>
+    </Key>
+    <Key ID="STR_Mission_Slides_AreaN">
+      <Original>13. Obszar - Północ</Original>
+    </Key>
+    <Key ID="STR_Mission_Slides_AreaE">
+      <Original>14. Obszar - Wschód</Original>
+    </Key>
+    <Key ID="STR_Mission_Slides_AreaS">
+      <Original>15. Obszar - Południe</Original>
+    </Key>
+    <Key ID="STR_Mission_Slides_AreaW">
+      <Original>16. Obszar - Zachód</Original>
+    </Key>
+    <Key ID="STR_Mission_Hint_FailedBreach">
+      <Original>Failed breach - musimy znaleźć inną drogę...</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_TurnOffPower">
+      <Original>Wyłącz zasilanie</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_TurnOffPower_Progress">
+      <Original>Wyłączanie zasilania...</Original>
+    </Key>
+    <Key ID="STR_Mission_Action_TurnOffPower_Hint">
+      <Original>Wyłącznik spowodował zwarcie. Odsuń się. To może potrwać kilkanaście sekund.</Original>
+    </Key>
+    <Key ID="STR_Mission_disablePortLamp_Action">
+      <Original>Wyłącz</Original>
+    </Key>
+  </Package>
+</Project>

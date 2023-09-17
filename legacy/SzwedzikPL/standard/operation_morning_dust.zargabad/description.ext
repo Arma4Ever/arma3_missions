@@ -1,0 +1,23 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.2
+ ***************************************
+ ****************************************/
+
+#include "ustawienia_zakonczen.hpp"
+
+class Extended_PreInit_EventHandlers {
+    class A3C_mission_preInit {
+        init = "call compile preprocessFileLineNumbers 'XEH_preInit.sqf'";
+    };
+};
+
+class Extended_PostInit_EventHandlers {
+    class A3C_mission_postInit {
+        init = "call compile preprocessFileLineNumbers 'XEH_postInit.sqf'";
+    };
+};
+
+/***************************************
+          Twoje ustawienia
+****************************************/
