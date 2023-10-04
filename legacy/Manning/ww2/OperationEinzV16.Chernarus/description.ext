@@ -1,0 +1,130 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+
+class CfgMusic
+{
+	tracks[]={whispers,chorus};
+
+	class whispers
+	{
+		name = "whispers";
+		sound[] = {"muzyka\whispers.ogg", db+10, 1.0};
+	};
+	
+	class chorus
+	{
+		name = "chorus";
+		sound[] = {"muzyka\chorus.ogg", db+10, 1.0};
+	};
+	
+	class fallschirmjagerSong
+	{
+		name = "fallschirmjagerSong";
+		sound[] = {"muzyka\fallschirmjagerSong.ogg", db+10, 1.0};
+	};
+	
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	
+	class alienHorn
+	{
+		name = "alienHorn";
+		sound[] = {"dzwieki\alienHorn.ogg", 25, 1, 1000};
+		titles[] = {};
+	};
+	
+	class pulsator
+	{
+		name = "pulsator";
+		sound[] = {"dzwieki\pulsator.ogg", 10, 1, 300};
+		titles[] = {};
+	};
+	
+	class lightbulb
+	{
+		name = "lightbulb";
+		sound[] = {"dzwieki\lightbulb.ogg", 25, 1, 50};
+		titles[] = {};
+	};
+	
+	class hyperspaceJumpIn
+	{
+		name = "hyperspaceJumpIn";
+		sound[] = {"dzwieki\hyperspaceJumpIn.ogg", 25, 1, 100};
+		titles[] = {};
+	};
+	
+	class bargateCreepySound
+	{
+		name = "bargateCreepySound";
+		sound[] = {"dzwieki\bargateCreepySound.ogg", 15, 1, 100};
+		titles[] = {};
+	};
+	
+	class metalizingSound
+	{
+		name = "metalizingSound";
+		sound[] = {"dzwieki\metalizingSound.ogg", 15, 1, 100};
+		titles[] = {};
+	};
+	
+	class generator
+	{
+		name = "generator";
+		sound[] = {"dzwieki\generator.ogg", 15, 1, 50};
+		titles[] = {};
+	};
+	
+	class cry1long
+	{
+		name = "cry1long";
+		sound[] = {"dzwieki\cry1long.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry2long
+	{
+		name = "cry2long";
+		sound[] = {"dzwieki\cry2long.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry3long
+	{
+		name = "cry3long";
+		sound[] = {"dzwieki\cry3long.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry4short
+	{
+		name = "cry4short";
+		sound[] = {"dzwieki\cry4short.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry5short
+	{
+		name = "cry5short";
+		sound[] = {"dzwieki\cry5short.ogg", 15, 1,50};
+		titles[] = {};
+	};
+};
+
+class RscTitles
+{	
+	#include "ManningFullScreen.hpp" 	 	
+};

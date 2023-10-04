@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Mission">
+  <Package name="Krzyc">
+    <Key ID="STR_Mission_Intro_2">
+    <Original>&lt;t font='RobotoCondensedLight' size='2'&gt;Republika Środkowoafrykańska&lt;br/&gt;&lt;br/&gt; 26 Lipca 2021, godzina 5:40.&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_3">
+      <Original>&lt;t font='RobotoCondensedLight' size='2'&gt;Działania kontyngentu Sił Specjalnych Portugalii&lt;br/&gt;&lt;br/&gt;"Operation New Hope".&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_4">
+      <Original>Prowincja Kujari</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_5">
+      <Original>26 Lipca, 5:40</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_6">
+      <Original>2 Commando Regiment "Boinas Vermelhas"</Original>
+    </Key>
+  </Package>
+</Project>

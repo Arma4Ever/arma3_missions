@@ -1,0 +1,64 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+
+class CfgMusic
+{
+	tracks[]={ introSCEisenhower};
+
+	class introSCEisenhower
+	{
+		name = "introSCEisenhower";
+		sound[] = {"\muzyka\introSCEisenhower.ogg", db+10, 1.0};
+	};
+	
+	class bloodOnTheRises
+	{
+		name = "bloodOnTheRises";
+		sound[] = {"\muzyka\bloodOnTheRises.ogg", db+5, 1.0};
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	
+	class radioChatter1st
+	{
+		name = "radioChatter1st";
+		sound[] = {"dzwieki\radioChatter1st.ogg", 30, 1, 30};
+		titles[] = {};
+	};
+	
+	class unbuckling
+	{
+		name = "unbuckling";
+		sound[] = {"dzwieki\unbuckling.ogg", 10, 1, 25};
+		titles[] = {};
+	};
+	
+	class cricket
+	{
+		name = "cricket";
+		sound[] = {"dzwieki\cricket.ogg", 35, 1, 50};
+		titles[] = {};
+	};
+	
+	class cricket2
+	{
+		name = "cricket2";
+		sound[] = {"dzwieki\cricket2.ogg", 35, 1, 50};
+		titles[] = {};
+	};
+
+};
+

@@ -1,0 +1,59 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+class CfgMusic
+{
+	tracks[]={edelweiss};
+
+	class edelweiss
+	{
+		name = "edelweiss";
+		sound[] = {"\muzyka\edelweiss.ogg", db+20, 1.0};
+	};
+	
+	class outroMusic
+	{
+		name = "outroMusic";
+		sound[] = {"\muzyka\outroMusic.ogg", db+20, 1.0};
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	
+	class stuka
+	{
+		name = "stuka";
+		sound[] = {"dzwieki\stuka.ogg", 5, 1, 2500};
+		titles[] = {};
+	};
+	
+	class klikProjektor
+	{
+		name = "klikProjektor";
+		sound[] = {"dzwieki\klikProjektor.ogg", 10, 1, 50};
+		titles[] = {};
+	};
+	
+	class zap
+	{
+		name = "zap";
+		sound[] = {"dzwieki\zap.ogg", 5, 1, 50};
+		titles[] = {};
+	};
+};
+
+class RscTitles
+{	
+	#include "introOutro\ManningFullScreen.hpp" 	 	
+};

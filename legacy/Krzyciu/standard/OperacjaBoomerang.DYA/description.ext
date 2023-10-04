@@ -1,0 +1,15 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+ 
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+//Put these lines in your description.ext file
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+

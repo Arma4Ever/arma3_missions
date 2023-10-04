@@ -1,0 +1,28 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+
+//Put these lines in your description.ext file
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+
+class RscTitles
+{
+    #include "titles.hpp"
+};
+class CfgFunctions {
+ createShortcuts = 1;
+  #include "skrypty\funcs.hpp"
+};
+class Extended_DisplayLoad_EventHandlers {
+    class RscDisplayLoading {
+        Mission_customLoadingScreen = "_this call compile preprocessFileLineNumbers 'initLoadingScreen.sqf'";
+    };};

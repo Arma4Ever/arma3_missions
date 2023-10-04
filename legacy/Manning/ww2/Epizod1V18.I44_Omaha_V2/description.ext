@@ -1,0 +1,183 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+class CfgMusic
+{
+	tracks[]={ introPatton};
+
+	class introPatton
+	{
+		name = "introPatton";
+		sound[] = {"\muzyka\pattonIntro.ogg", db+20, 1.0};
+	};
+	
+	class taps
+	{
+		name = "taps";
+		sound[] = {"\muzyka\taps.ogg", db+20, 1.0};
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	
+	class yell1short
+	{
+		name = "yell1short";
+		sound[] = {"dzwieki\yell1short.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell2short
+	{
+		name = "yell2short";
+		sound[] = {"dzwieki\yell2short.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell3long
+	{
+		name = "yell3long";
+		sound[] = {"dzwieki\yell3long.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell4long
+	{
+		name = "yell4long";
+		sound[] = {"dzwieki\yell4long.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell5long
+	{
+		name = "yell5long";
+		sound[] = {"dzwieki\yell5long.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell6long
+	{
+		name = "yell6long";
+		sound[] = {"dzwieki\yell6long.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell7long
+	{
+		name = "yell7long";
+		sound[] = {"dzwieki\yell7long.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell8short
+	{
+		name = "yell8short";
+		sound[] = {"dzwieki\yell8short.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell9short
+	{
+		name = "yell9short";
+		sound[] = {"dzwieki\yell9short.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell10short
+	{
+		name = "yell10short";
+		sound[] = {"dzwieki\yell10short.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	class yell11short
+	{
+		name = "yell11short";
+		sound[] = {"dzwieki\yell11short.ogg", 25, 1,50};
+		titles[] = {};
+	};
+	
+	
+	
+	class cry1long
+	{
+		name = "cry1long";
+		sound[] = {"dzwieki\cry1long.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry2long
+	{
+		name = "cry2long";
+		sound[] = {"dzwieki\cry2long.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry3long
+	{
+		name = "cry3long";
+		sound[] = {"dzwieki\cry3long.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry4short
+	{
+		name = "cry4short";
+		sound[] = {"dzwieki\cry4short.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class cry5short
+	{
+		name = "cry5short";
+		sound[] = {"dzwieki\cry5short.ogg", 15, 1,50};
+		titles[] = {};
+	};
+	
+	class whistle
+	{
+		name = "whistle";
+		sound[] = {"dzwieki\whistle.ogg", 25, 1,100};
+		titles[] = {};
+	};
+	
+	class b_17
+	{
+		name = "b_17";
+		sound[] = {"dzwieki\b_17.ogg", 20, 1, 3000}; 
+		titles[] = {};
+	};
+	
+	class morse
+	{
+		name = "morse";
+		sound[] = {"dzwieki\morse.ogg", 15, 1, 1000}; 
+		titles[] = {};
+	};
+	
+	class morseKontynuuj
+	{
+		name = "morseKontynuuj";
+		sound[] = {"dzwieki\morseKontynuuj.ogg", 15, 1, 1000}; 
+		titles[] = {};
+	};
+	
+	class morseZakoncz
+	{
+		name = "morseZakoncz";
+		sound[] = {"dzwieki\morseZakoncz.ogg", 15, 1, 1000}; 
+		titles[] = {};
+	};
+	
+};

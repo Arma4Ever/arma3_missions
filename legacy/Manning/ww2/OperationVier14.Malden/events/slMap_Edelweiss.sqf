@@ -1,0 +1,17 @@
+"marker_oEdelweiss_1" setMarkerAlpha 1;
+"marker_oEdelweiss_2" setMarkerAlpha 1;
+"marker_oEdelweiss_3" setMarkerAlpha 1;
+"marker_oEdelweiss_4" setMarkerAlpha 1;
+"marker_oEdelweiss_5" setMarkerAlpha 1;
+"marker_oEdelweiss_6" setMarkerAlpha 1;
+"marker_oEdelweiss_7" setMarkerAlpha 1;
+"marker_oEdelweiss_8" setMarkerAlpha 1;
+"marker_oEdelweiss_9" setMarkerAlpha 1;
+"marker_oEdelweiss_10" setMarkerAlpha 1;
+"marker_oEdelweiss_11" setMarkerAlpha 1;
+"marker_oEdelweiss_12" setMarkerAlpha 1;
+"marker_oEdelweiss_13" setMarkerAlpha 1;
+"marker_oEdelweiss_14" setMarkerAlpha 1;
+"marker_oEdelweiss_15" setMarkerAlpha 1;
+"marker_oEdelweiss_16" setMarkerAlpha 1;
+"marker_oEdelweiss_17" setMarkerAlpha 1;

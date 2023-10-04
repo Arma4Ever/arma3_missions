@@ -1,0 +1,96 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+
+//Put these lines in your description.ext file
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+class CfgMusic
+{
+	    	
+
+	tracks[] = {};
+class geiger
+	{
+		
+		name = "geiger";
+		sound[] = {"sounds\geiger.ogg",db + 0, 1.0};
+
+	};
+class geiger0
+	{
+		
+		name = "geiger0";
+		sound[] = {"sounds\geiger0.ogg",db + 0, 1.0};
+
+	};
+class geiger1
+	{
+		
+		name = "geiger1";
+		sound[] = {"sounds\geiger1.ogg",db + 0, 1.0};
+
+	};
+
+class geiger2
+	{
+		
+		name = "geiger2";
+		sound[] = {"sounds\geiger2.ogg",db + 0, 1.0};
+
+	};
+
+};
+class RscTitles 
+{
+    #include "titles.hpp"
+};
+class CfgSounds
+{
+
+sounds[] = {enginebang,ring,engineFailure,warning,warning2,pullUp};
+class enginebang
+{
+name = "enginebang";
+sound[] = {"sounds\enginebang.ogg", 1, 1.0};
+titles[] = {0, ""};
+};
+class ring
+{
+name = "ring";
+sound[] = {"sounds\ring.ogg", 1.6, 1.0};
+titles[] = {0, ""};
+};
+class engineFailure
+{
+name = "engineFailure"; 
+sound[] = {"sounds\engineFailure.ogg", 1.6, 1.0};
+titles[] = {0, ""};
+};
+class warning
+{
+name = "warning"; 
+sound[] = {"sounds\warning.ogg", 0.5, 1.0};
+titles[] = {0, ""};
+};
+class warning2
+{
+name = "warning2"; 
+sound[] = {"sounds\warning2.ogg", 0.5, 1.0};
+titles[] = {0, ""};
+};
+class pullUp
+{
+name = "pullUp"; 
+sound[] = {"sounds\pullUp.ogg", 0.8, 1.0};
+titles[] = {0, ""};
+};
+};

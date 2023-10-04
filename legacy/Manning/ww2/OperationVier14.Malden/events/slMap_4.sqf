@@ -1,0 +1,1 @@
+"marker_depot" setMarkerAlpha 1;

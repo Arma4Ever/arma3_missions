@@ -1,0 +1,19 @@
+﻿/***************************************
+ ***************************************
+        Szablon misji A3C - 2.0
+ ***************************************
+ ****************************************/
+
+ class RscTitles 
+{
+    #include "titles.hpp"
+};
+#include "ustawienia_podstawowe.hpp"
+#include "ustawienia_zakonczen.hpp"
+#include "HVR\HvrFunctions.hpp"
+//Put these lines in your description.ext file
+
+/***************************************
+          Twoje ustawienia
+****************************************/
+

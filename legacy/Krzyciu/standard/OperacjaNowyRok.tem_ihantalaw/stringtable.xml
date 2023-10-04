@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Mission">
+  <Package name="Krzyc">
+    <Key ID="STR_Mission_Intro_1">
+      <Original>&lt;t font='RobotoCondensedLight' size='2'&gt;Wschodnie Chiny, Dystrykt Jinzhou&lt;br/&gt;&lt;br/&gt; 27 Lutego 2026 roku, godzina 4:40.&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_2">
+      <Original>&lt;t font='RobotoCondensedLight' size='2'&gt;Po przewrocie wspieranym przez Rosjan, w okolicach miasta Dalian zgromadziły się główne siły buntowników.&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_3">
+      <Original>&lt;t font='RobotoCondensedLight' size='2'&gt;W celu przyśpieszenia końca walk podjęto decyzję o desancie morskim w okolicach miasta Dalian.&lt;br/&gt;&lt;br/&gt;Rozpoczyna się "Operacja Nowy Rok".&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_4">
+      <Original>Dystrykt Jinzhou</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_5">
+      <Original>1 Stycznia, 4:40</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_6">
+      <Original>2 Brygada Piechoty Morskiej</Original>
+    </Key>
+  </Package>
+</Project>

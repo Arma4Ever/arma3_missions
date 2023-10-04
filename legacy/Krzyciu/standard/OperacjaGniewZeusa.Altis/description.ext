@@ -1,0 +1,53 @@
+#include "ustawienia_zakonczen.hpp"
+
+//Krzysiowe rzeczy
+//
+
+class RscTitles
+{
+    #include "titles.hpp"
+};
+#include "defines.hpp"
+
+class CfgSounds {
+    sounds[] = {};
+  class nvgON
+	{
+		name = "nvgON";
+		sound[] = {"data\nvgON.ogg", db+30, 1};
+		titles[] = {0,""};
+	};
+  class nvgOFF
+  {
+    name = "nvgOFF";
+    sound[] = {"data\nvgOFF.ogg", db+30, 1};
+    titles[] = {0, ""};
+  };
+  class warning
+  {
+    name = "warning";
+    sound[] = {"data\warning.ogg", db+30, 1};
+    titles[] = {0, ""};
+  };
+};
+
+//Customowy LoadingScreen//
+class Extended_DisplayLoad_EventHandlers {
+    class RscDisplayLoading {
+        Mission_customLoadingScreen = "_this call compile preprocessFileLineNumbers 'initLoadingScreen.sqf'";
+    };
+};
+
+class Extended_PreInit_EventHandlers {
+    class Krzyc_preInit {
+        init = "call compile preprocessFileLineNumbers 'XEH_preInit.sqf'";
+    };
+};
+
+class Extended_PostInit_EventHandlers
+{
+  class Krzyc_postInit
+    {
+      init = "call compile preprocessFileLineNumbers 'XEH_postInit.sqf'";
+    };
+};

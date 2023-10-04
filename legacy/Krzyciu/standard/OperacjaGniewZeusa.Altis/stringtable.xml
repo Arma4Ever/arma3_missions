@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Mission">
+  <Package name="Krzyc">
+    <Key ID="STR_Mission_Intro_CreatingObjs">
+      <Original>Tworzenie obiektów mapy...</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_2">
+    <Original>&lt;t font='RobotoCondensedLight' size='2'&gt;Altis, Morze Śródziemne.&lt;br/&gt;&lt;br/&gt;Narodowa Armia Altis&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_3">
+      <Original>&lt;t font='RobotoCondensedLight' size='2'&gt;Ofensywa na siły wroga w rejonie Kavali&lt;br/&gt;&lt;br/&gt;"Operacja Gniew Zeusa".&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_4">
+      <Original>Orino, 8 kilometrów od Kavali</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_5">
+      <Original>8 Czerwca 2008, godzina 2:20</Original>
+    </Key>
+    <Key ID="STR_Mission_Intro_6">
+      <Original>Królewski Korpus Zmechanizowany "Utrinque paratus"</Original>
+    </Key>
+  </Package>
+</Project>
