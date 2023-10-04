@@ -21,8 +21,6 @@
    </strong></sup>
 </p>
 
-**The project is entirely created by A4E Mission Makers** 
-
 **[ENG]**
 
 To download mission folder it is suggested to use <a href="https://download-directory.github.io/">Github Download Directory</a>.
@@ -36,3 +34,25 @@ W celu pobrania plików najlepiej użyć <a href="https://download-directory.git
 Wklej adres URL folderu z misją który chcesz pobrać i naciśnij ↵ Enter. Pobierze się plik ZIP z folderem zawierającym misję. Będziesz mógł otworzyć folder klikając dwukrotnie na nim. Domyślnie pobrane pliki znajdują się w folderze "Pobrane".
 
 Misje są dostarczane "tak jak są" - misje legacy mogą nie działać, konieczne jest zastąpienie tagu A3CS tagiem A4ES w mission.sqm. Misje w dużym stopniu bazują na modułach A4ES, otwieranie ich bez uruchomionego A4ES będzie skutkować niepełną/pustą/niedziałającą misją.
+
+## The project is entirely created by A4E Mission Makers
+
+- <a href="https://download-directory.github.io/">Bleed</a>
+- <a href="https://download-directory.github.io/">Bohun</a>
+- <a href="https://download-directory.github.io/">Cichy</a>
+- <a href="https://download-directory.github.io/">Fokus</a>
+- <a href="https://download-directory.github.io/">Husarius</a>
+- <a href="https://download-directory.github.io/">Kestrel</a>
+- <a href="https://download-directory.github.io/">Konsi</a>
+- <a href="https://download-directory.github.io/">Krzyciu</a>
+- <a href="https://download-directory.github.io/">Manning</a>
+- <a href="https://download-directory.github.io/">McChicken</a>
+- <a href="https://download-directory.github.io/">Modzyn</a>
+- <a href="https://download-directory.github.io/">Oscar</a>
+- <a href="https://download-directory.github.io/">Paladyni</a>
+- <a href="https://download-directory.github.io/">Panuh</a>
+- <a href="https://download-directory.github.io/">Parchin</a>
+- <a href="https://download-directory.github.io/">Piciek</a>
+- <a href="https://download-directory.github.io/">Symbiotyk</a>
+- <a href="https://download-directory.github.io/">SzwedzikPL</a>
+- <a href="https://download-directory.github.io/">Wasyl</a>
