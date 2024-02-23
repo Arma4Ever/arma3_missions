@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A4ES">
+  </Package>
+  <Package name="Krzyc">
+    <Key ID="STR_Krzyc_CfgDebriefing_MissonEnd">
+      <Polish>Misja Zakończona</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_CfgDebriefing_MissonEndSuccess">
+      <Polish>Misja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_CfgDebriefing_MissonEndFailed">
+      <Polish>Misja zakończona niepowodzeniem</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_CfgDebriefing_AllTasksAccomplished">
+      <Polish>Wszystkie zadania zostały wykonane</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_CfgDebriefing_KrzycFailed">
+      <Polish>Misja nie powiodła się</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_CfgDebriefing_AllUnitsDead">
+      <Polish>Wszystkie jednostki poległy</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_CfgLeaflets_Example">
+      <Polish>Przykładowy tekst ulotki</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_CfgUnitInsignia_111thID">
+      <Polish>111 Dywizja Piechoty</Polish>
+    </Key>
+    <Key ID="STR_Krzyc_Intro_CreatingObjs">
+      <Original>Tworzenie obiektów mapy...</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Intro_2">
+    <Original>&lt;t font='RobotoCondensedLight' size='2' color='#ffffff'&gt;Walczymy osamotnieni. Drogi odwrotu nie ma. &lt;br/&gt;&lt;br/&gt;Jeżeli wsparcie nie nadejdzie - umrzemy, zabierajac przy tym ze sobą tylu orków ilu tylko się da.&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Intro_3">
+      <Original>&lt;t font='RobotoCondensedLight' size='2' color='#ffffff'&gt;Tak jak nasi przodkowie lata temu, jeszcze raz odeprzemy rosyjską agresję.&lt;br/&gt;&lt;br/&gt;Głowy nisko. Nadlatują pociski...&lt;/t&gt;</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Intro_4">
+      <Original>Operation Anvil</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Intro_5">
+      <Original>12 Czerwca 2009</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Intro_6">
+      <Original>107 Brygada Powietrznodesantowa</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Action_LoadHEMag">
+      <Original>Załaduj odłamkowy</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Action_LoadSmokeMag">
+      <Original>Załaduj dymny</Original>
+    </Key>
+    <Key ID="STR_Krzyc_Action_Action_LoadMagDone">
+      <Original>Magazynek załadowany</Original>
+    </Key>
+  </Package>
+</Project>

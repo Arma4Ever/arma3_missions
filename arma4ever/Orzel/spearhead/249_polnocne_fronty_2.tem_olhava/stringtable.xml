@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A4E">
+  <Package name="Mission">
+    <Key ID="STR_Mission_CfgDebriefing_MissonEnd">
+      <Polish>MISJA ZAKOŃCZONA</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndSuccess">
+      <Polish>Misja zakończona sukcesem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissonEndFailed">
+      <Polish>Misja zakończona niepowodzeniem</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllTasksAccomplished">
+      <Polish>Wszystkie zadania zostały wykonane</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_MissionFailed">
+      <Polish>Misja nie powiodła się</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgDebriefing_AllUnitsDead">
+      <Polish>Wszystkie jednostki poległy</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgLeaflets_Example">
+      <Polish>Przykładowy tekst ulotki</Polish>
+    </Key>
+    <Key ID="STR_Mission_CfgUnitInsignia_111thID">
+      <Polish>111 Dywizja Piechoty</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_CreatingObjects">
+      <Polish>Tworzenie obiektów...</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line1">
+      <Polish>1944</Polish>
+    </Key>
+    <Key ID="STR_Mission_Intro_Line2">
+      <Polish>Terytorium Związku Radzieckiego</Polish>
+    </Key>
+    <Key ID="STR_Mission_Briefing">
+      <Polish>
+&lt;font size='20'&gt;Briefing &lt;font color='#0066FF'&gt;misji&lt;/font&gt;&lt;/font&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;font size='16'&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+anim id est laborum.&lt;/font&gt;
+      </Polish>
+    </Key>
+  </Package>
+</Project>

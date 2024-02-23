@@ -1,0 +1,1 @@
+["arma4ever_mission_assets\easter_bunny\intro.ogv"] call BIS_fnc_playVideo;
