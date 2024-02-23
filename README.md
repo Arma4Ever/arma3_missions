@@ -37,9 +37,11 @@ Misje są dostarczane "tak jak są" - misje legacy mogą nie działać, konieczn
 
 ## The project is entirely created by A4E Mission Makers
 
+- <a href="https://steamcommunity.com/profiles/76561198036241528">Adex</a>
 - <a href="https://steamcommunity.com/profiles/76561198202728390">Bleed</a>
 - <a href="https://steamcommunity.com/profiles/76561198001065845">Bohun</a>
 - <a href="https://steamcommunity.com/profiles/76561198043356095">Cichy</a>
+- <a href="https://steamcommunity.com/profiles/76561198090975186">Diamentowy</a>
 - <a href="https://steamcommunity.com/id/bar4tek1/">Fokus</a>
 - <a href="https://steamcommunity.com/id/98798643564/">Husarius</a>
 - <a href="https://steamcommunity.com/id/KestrelCross/">Kestrel</a>
@@ -48,11 +50,14 @@ Misje są dostarczane "tak jak są" - misje legacy mogą nie działać, konieczn
 - <a href="https://steamcommunity.com/profiles/76561198065973523">Manning</a>
 - <a href="https://steamcommunity.com/profiles/76561198286942055">McChicken</a>
 - <a href="https://steamcommunity.com/id/Modzyn/">Modzyn</a>
+- <a href="https://steamcommunity.com/id/76561198064353656/">Narol</a>
+- <a href="https://steamcommunity.com/id/76561198005845393/">Nejtan</a>
 - <a href="https://steamcommunity.com/id/OscarKozak/">Oscar</a>
-- <a href="">Paladyni</a>
+- <a href="https://steamcommunity.com/id/76561198105443762">Paladyni</a>
 - <a href="https://steamcommunity.com/profiles/76561198025557349">Panuh</a>
 - <a href="https://steamcommunity.com/id/parchinifity/">Parchin</a>
 - <a href="https://steamcommunity.com/id/piciek/">Piciek</a>
 - <a href="https://steamcommunity.com/id/SymbiotyK/">Symbiotyk</a>
+- <a href="https://steamcommunity.com/id/76561198030410516">Szpachla</a>
 - <a href="https://steamcommunity.com/id/szwedzikpl/">SzwedzikPL</a>
 - <a href="https://steamcommunity.com/profiles/76561198046275691">Wasyl</a>
